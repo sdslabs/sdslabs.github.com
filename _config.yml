@@ -1,0 +1,7 @@
+pygments: true
+auto: true
+server: true
+markdown: rdiscount
+permalink: /:title
+content_delimeter: "<!-- -**-END-**- -->" 
+# Default is <!-- -**-END-**- -->

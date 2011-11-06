@@ -1,0 +1,80 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>{{page.title}}</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link type="text/css" href="http://sdslabs.co.in/comet/cometchatcss.php" rel="stylesheet" charset="utf-8" />
+	<script type="text/javascript" src="http://sdslabs.co.in/comet/cometchatjs.php" charset="utf-8"></script>
+<body>
+	<div id="topbar">
+		<div class="topbar-wrap">
+		<ul class="left">
+		<li>SDSLabs</li>
+		<li>Muzi</li>
+		<li>Echo</li>
+		<li>Codebot</li>
+	
+		</ul>
+		<ul class="right">
+		<li>Hello Guest</li>
+		<li>Search</li>
+		<li>Login</li>
+		</ul>
+		</div>
+	</div>
+	<div id="wrapper">
+		<div id="header">
+			<span class="title"></span>
+			<ul class="nav">
+				<li><a href="http://sdslabs.co.in/blog" target="_blank">Blog</a></li>
+				<li>About</li>
+				<li><span class="authenticate">Login</span></li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+		<div id="contentwrap">
+			<div id="panel">
+				<h1>{{page.title]}}</h1>
+				{{content}}
+			</div>	
+			<div id="display">
+				<div id="search">
+					<input type="text" size="30" value="Search" id="searchbox">
+					<input type="button" id="searchbutton"> 
+				</div>
+				<div id="description">
+					<ul>
+					  {% for post in site.posts %}
+					  <li>
+						<a href="{{ post.url }}" title="{{ post.title }}">
+						  <span class="date">
+							<span class="day">{{ post.date | date: '%d' }}</span>
+							<span class="month"><abbr>{{ post.date | date: '%b' }}</abbr></span>
+							<span class="year">{{ post.date | date: '%Y' }}</span>
+						  </span>
+						  <span class="title">{{ post.title }}</span>
+						</a>
+					  </li>
+					  {% endfor %}
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+    <script src="./index_files/api.js" type="text/javascript"></script>
+    <script src="./index_files/home.js" type="text/javascript"></script>
+    <!-- Piwik --> 
+	<script type="text/javascript">
+	var pkBaseURL = (("https:" == document.location.protocol) ? "https://stat.sdslabs.co.in/" : "http://stat.sdslabs.co.in/");
+	document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+	</script><script src="./index_files/piwik.js" type="text/javascript"></script><script type="text/javascript">
+	try {
+	var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+	piwikTracker.trackPageView();
+	piwikTracker.enableLinkTracking();
+	} catch( err ) {}
+	</script><noscript>&lt;p&gt;&lt;img src="http://stat.sdslabs.co.in/piwik.php?idsite=1" style="border:0" alt="" /&gt;&lt;/p&gt;</noscript>
+	<!-- End Piwik Tracking Code -->
+</body>
+</html>
