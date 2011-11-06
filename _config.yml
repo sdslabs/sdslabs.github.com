@@ -1,7 +1,4 @@
 pygments: true
-auto: true
-server: true
-markdown: rdiscount
-permalink: /:title
+permalink: /:year/:month/:date/:title
 content_delimeter: "<!-- -**-END-**- -->" 
 # Default is <!-- -**-END-**- -->
