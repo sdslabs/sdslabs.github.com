@@ -1,4 +1,2 @@
 pygments: true
-permalink: /:year/:month/:date/:title
-content_delimeter: "<!-- -**-END-**- -->" 
-# Default is <!-- -**-END-**- -->
+permalink: /:year/:month/:title

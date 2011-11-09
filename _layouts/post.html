@@ -1,70 +1,106 @@
-<html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<title>{{page.title}}</title>
-	<link rel="stylesheet" href="/css/style.css">
-	<link type="text/css" href="http://sdslabs.co.in/comet/cometchatcss.php" rel="stylesheet" charset="utf-8" />
-	<script type="text/javascript" src="http://sdslabs.co.in/comet/cometchatjs.php" charset="utf-8"></script>
-<body>
-	<div id="topbar">
-		<div class="topbar-wrap">
-		<ul class="left">
-		<li>SDSLabs</li>
-		<li>Muzi</li>
-		<li>Echo</li>
-		<li>Codebot</li>
-	
-		</ul>
-		<ul class="right">
-		<li>Hello Guest</li>
-		<li>Search</li>
-		<li>Login</li>
-		</ul>
-		</div>
-	</div>
-	<div id="wrapper">
-		<div id="header">
-			<span class="title"></span>
-			<ul class="nav">
-				<li><a href="http://sdslabs.co.in/blog" target="_blank">Blog</a></li>
-				<li>About</li>
-				<li><span class="authenticate">Login</span></li>
-			</ul>
-			<div class="clear"></div>
-		</div>
-		<div id="contentwrap">
-			<div id="panel">
-				<h1>{{page.title]}}</h1>
-				{{content}}
-			</div>	
-			<div id="display">
-				<div id="search">
-					<input type="text" size="30" value="Search" id="searchbox">
-					<input type="button" id="searchbutton"> 
-				</div>
-				<div id="description">
-					<ul>
-					  {% for post in site.posts %}
-					  <li>
-						<a href="{{ post.url }}" title="{{ post.title }}">
-						  <span class="date">
-							<span class="day">{{ post.date | date: '%d' }}</span>
-							<span class="month"><abbr>{{ post.date | date: '%b' }}</abbr></span>
-							<span class="year">{{ post.date | date: '%Y' }}</span>
-						  </span>
-						  <span class="title">{{ post.title }}</span>
-						</a>
-					  </li>
-					  {% endfor %}
-					</ul>
-				</div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script type='text/javascript' src='http://cdn.sdslabs.co.in/cdnjs/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
+    <link rel="stylesheet" href="http://cdn.sdslabs.co.in/css/css/bootstrap/1.4.0/bootstrap.min.css">
+    <title>{{page.title}} | SDSLabs Blog</title>
+    <meta name="author" content="Team SDSLabs">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+	<!--<link rel='stylesheet' href='http://sdslabs.co.in/accounts/style.css'>-->
+	<title>SDSLabs Accounts</title>
+	<link rel="stylesheet" href="http://sdslabs.co.in/lollipop/topbar.css">
+	<!--<link rel="stylesheet" href="http://sdslabs.co.in/lollipop/topbarwide.css">-->
+	<script src="http://sdslabs.co.in/pipeline/api/v4/api.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript">
+        $(document).ready(function(){
+            topbar.showTopbar();
+        });
+    </script>
+    <style type="text/css">
+      /* Override some defaults */
+      html, body {
+		font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+        background: #F2F2FF !important;
+      }
+      body {
+        padding-top: 30px; /* 40px to make the container go all the way to the bottom of the topbar */
+      }
+
+      /* The white background content wrapper */
+      .content {
+        background-color: #fff;
+         -webkit-box-shadow: 0 5px 10px rgba(0,0,0, 0.3);
+		   -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+				box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+        border-left: 1px solid #D2D2D2;
+		border-right: 1px solid #D2D2D2;
+		border-bottom: 1px solid #D2D2D2;
+      }
+
+      /* Page header tweaks */
+      .page-header {
+        background-color: #f5f5f5;
+        padding: 20px 20px 10px;
+    }
+    #content{
+		padding: 0px 5px 10px 10px;
+	}
+	$sidebar{
+		padding:0px 5px 10px 0px;
+	}
+	.page-footer{
+		border-top: 1px solid #D2D2D2;
+		background-color: #f5f5f5;
+		
+		padding: 20px 20px 10px;
+	}
+	h2 a,h2 a:hover,h1 a,h1 a:hover{
+		text-decoration:none;
+		color:#404040;
+	}
+    </style>
+    <!-- Le fav and touch icons -->
+    <!--<link rel="shortcut icon" href="images/favicon.ico">-->
+  </head>
+  <body>
+    <div class="content container">
+        <div class="page-header">
+          <h1><a id="home_link" href="{{page.url}}">{{page.title]}}</a></h1>
+        </div>
+        <div class="row">
+          <div class="span10" id="content">
+			  {{content}}
+           </div>
+			<div class="span4" id="sidebar">
+				<h2><a href="/">SDSLabs Blog</a></h2>
+				<ul>
+				  {% for post in site.posts %}
+				  <li>
+					<a href="{{ post.url }}" title="{{ post.title }}">
+					  <span class="title">{{ post.title }}</span>
+					</a>
+				  </li>
+				  {% endfor %}
+				</ul>
 			</div>
-		</div>
-		<div class="clear"></div>
-	</div>
-    <script src="./index_files/api.js" type="text/javascript"></script>
-    <script src="./index_files/home.js" type="text/javascript"></script>
-    <!-- Piwik --> 
+        </div>
+        <div class="page-footer">
+          <p>Copyright Team SDSLabs</p>
+        </div>
+    </div> <!-- /container -->
+	<script>
+	$(document).ready(function(){
+		topbar.showTopbar();
+	});
+	</script>
+	<!-- Piwik --> 
 	<script type="text/javascript">
 	var pkBaseURL = (("https:" == document.location.protocol) ? "https://stat.sdslabs.co.in/" : "http://stat.sdslabs.co.in/");
 	document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
@@ -76,5 +112,5 @@
 	} catch( err ) {}
 	</script><noscript>&lt;p&gt;&lt;img src="http://stat.sdslabs.co.in/piwik.php?idsite=1" style="border:0" alt="" /&gt;&lt;/p&gt;</noscript>
 	<!-- End Piwik Tracking Code -->
-</body>
+	</body>
 </html>

@@ -1,17 +1,17 @@
 ---
-layout: home
+layout: post
 title: SDSLabs Blog
 ---
-<div id="posts">
+
+<h2>Our last 5 blog posts</h2>
+
 {% for post in site.posts limit: 5 %}
-	<div class="post">
-		<div class="post_info">
-			<a href="{{ post.url }}">{{ post.title }}</a>
-			<span>({{ post.date | date:"%Y-%m-%d" }})</span>
-		</div>
-		<div class="post_snippet">
-		{{post.preview_content}}
-		</div>
-    </div>
-  {% endfor %}
+<div id="post">
+<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+<p>{{ post.excerpt }}</p>
+<blockquote>Posted on {{ post.date | date:"%Y-%m-%d" }}</blockquote>
 </div>
+{% endfor %}
+
+
+
