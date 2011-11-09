@@ -1,0 +1,8 @@
+---
+---
+[
+{% for item in site.categories.blog limit:200 %}
+  {% include post.json %},
+{% endfor %}
+false
+]
