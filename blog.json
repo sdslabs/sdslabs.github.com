@@ -1,11 +1,15 @@
 ---
 ---
 {
-    url_root:"http://blog.sdslabs.co.in/",
+    url_root:"http://blog.sdslabs.co.in",
     posts:[
     {% for post in site.posts limit:20 %}
-      {{post|json}},
+    {
+      "title":"{{post.title}}"
+      "excerpt":"{{post.excerpt}}",
+      "date":"{{post.date|date:"%d-%m-%Y"}}"
+      "url":"{{post.url}}"
+    },
     {% endfor %}
-    false
-]
+    ]
 }
