@@ -1,8 +1,8 @@
 ---
 ---
 {
-    url_root:"http://blog.sdslabs.co.in",
-    posts:[
+    "url_root":"http://blog.sdslabs.co.in",
+    "posts":[
     {% for post in site.posts limit:20 %}
     {
       "title":"{{post.title}}",
@@ -11,5 +11,6 @@
       "url":"{{post.url}}"
     },
     {% endfor %}
+    false
     ]
 }
