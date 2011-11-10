@@ -1,8 +1,11 @@
 ---
 ---
-[
-{% for item in site.categories.blog limit:200 %}
-  {% include post.json %},
-{% endfor %}
-false
+{
+    url_root:"http://blog.sdslabs.co.in/",
+    posts:[
+    {% for post in site.posts limit:20 %}
+      {{post|json}},
+    {% endfor %}
+    false
 ]
+}
