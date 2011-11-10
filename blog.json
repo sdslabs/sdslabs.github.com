@@ -5,9 +5,9 @@
     posts:[
     {% for post in site.posts limit:20 %}
     {
-      "title":"{{post.title}}"
+      "title":"{{post.title}}",
       "excerpt":"{{post.excerpt}}",
-      "date":"{{post.date|date:"%d-%m-%Y"}}"
+      "date":"{{post.date|date:"%d-%m-%Y"}}",
       "url":"{{post.url}}"
     },
     {% endfor %}
