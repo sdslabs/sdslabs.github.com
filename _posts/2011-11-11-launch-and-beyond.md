@@ -1,12 +1,11 @@
 ---
 layout: post
-title: To Launch and Beyond!
-excerpt: "The only constant is change, continuing change, inevitable change, that is the dominant factor in society today" and staying true to the words, now, IIT Roorkee is about to witness a defining and epic change with the introduction of the SDSLabs portal."
-
+title: To Launch and Beyond
+excerpt: The only constant is change, continuing change, inevitable change, that is the dominant factor in society today" and staying true to the words, now, IIT Roorkee is about to witness a defining and epic change with the introduction of the SDSLabs portal.
 ---
 
 Hello everyone! Change is the only constant in this world. To quote Issac Asimov, "The only constant is change, continuing change, inevitable change, that is the dominant factor in society today" and staying true to the words, now, IIT Roorkee is about to witness a defining and epic change with the introduction of the SDSLabs portal. To those who are not yet familiar with SDSLabs, we are a small group under Hobbies Club with an aim to improve the technical level of institute multifold.
-
+<!-- -**-END-**- -->
 It has been more than a year since the formation of SDSLabs and the journey since then has been nothing short of incredible. Last year in  October we started our journey with tiny but steady steps. And since then, we have organized countless lectures and workshops which have constantly witnessed anywhere between 25 to 50 students each and every time, a clear sign of the zeal of learning in the students of IIT-R.
 
 Last November, we launched Filepanda sans much fanfare. In March this year, we displayed India's World Cup final matches live on the very big screen and rejoiced with all of you in the victory of Indian cricket team. And now, this time, we bring to you our next and biggest offering to date, a plethora of intranet applications. We have worked hard and worked fast, incessantly striving to produce awesome results, as you are going to witness now.
