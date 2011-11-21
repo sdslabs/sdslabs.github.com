@@ -1,7 +1,7 @@
 ---
 layout: post
 title: To Launch and Beyond
-excerpt: The only constant is change, continuing change, inevitable change, that is the dominant factor in society today" and staying true to the words, now, IIT Roorkee is about to witness a defining and epic change with the introduction of the SDSLabs portal.
+excerpt: Our blog post detailing our launch, and the services we offer.
 ---
 
 Hello everyone! Change is the only constant in this world. To quote Issac Asimov, "The only constant is change, continuing change, inevitable change, that is the dominant factor in society today" and staying true to the words, now, IIT Roorkee is about to witness a defining and epic change with the introduction of the SDSLabs portal. To those who are not yet familiar with SDSLabs, we are a small group under Hobbies Club with an aim to improve the technical level of institute multifold.
