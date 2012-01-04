@@ -60,11 +60,12 @@ A few fun facts about Muzi :
 
 1. Major keyboard controls from VLC work in Muzi as well :
 
- a. Ctrl+Up/Down to increase/descrease Volume. Works even without the control key.
+    a. Ctrl+Up/Down to increase/descrease Volume. Works even without the control key.
 
- b. Left/Right changes the current track.
+    b. Left/Right changes the current track.
 
- c. Shift+Left/Right skips the current playing track 
+    c. Shift+Left/Right skips the current playing track 
+
 2. Two Developers worked on this application primarily with everyone else open to contributions.
 
 3. Muzi uses latest web technologies, including HTML5 and CSS3, leading to its inability to work in older browsers. For that, we apologize to users with a smile and ask them to get a better browser.
