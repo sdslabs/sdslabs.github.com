@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Happy New Year
-excerpt: SDSLabs wishes everyone a happy new year.
+title: Muzi Development Blog Post
+excerpt: We detail the process of development of Muzi, our online music player application. Please remember to check the application at sdslabs.co.in/muzi.
 ---
 [Muzi](http://sdslabs.co.in/muzi/) is an online music player application developed by Team SDSLabs. This blog post will go into the development of the application.
 
