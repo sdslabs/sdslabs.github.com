@@ -33,12 +33,12 @@ A few mockups from early January :
 ![Another Default View](https://sdslabs.co.in/muzi/mockup/muzi2.png)
 
 The design was iterated several times, leading to the design that you see today.
-
-![Quite similar Designs](http://i.minus.com/ibt7dM.png)
+<!-- Moved the images to the blog itself from minus.com as it was getting blocked for hotlinking-->
+![Quite similar Designs](/images/ibt7dM.png)
 
 Several other iterations were discussed, such as this one, which was ultimately ruled out as being too complicated :
 
-![Difficult to use play/pause](http://i.minus.com/jb2QU8.png)
+![Difficult to use play/pause](/images/jb2QU8.png)
 
 A current pic of the application is given below as reference.
 
