@@ -34,11 +34,11 @@ A few mockups from early January :
 
 The design was iterated several times, leading to the design that you see today.
 <!-- Moved the images to the blog itself from minus.com as it was getting blocked for hotlinking-->
-![Quite similar Designs](/images/ibt7dM.png)
+![Quite similar Designs](/images/dbt7dM.png)
 
 Several other iterations were discussed, such as this one, which was ultimately ruled out as being too complicated :
 
-![Difficult to use play/pause](/images/jb2QU8.png)
+![Difficult to use play/pause](/images/db2QU8.png)
 
 A current pic of the application is given below as reference.
 
