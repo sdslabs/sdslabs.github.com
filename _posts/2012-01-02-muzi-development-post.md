@@ -3,6 +3,16 @@ layout: post
 title: Muzi Development Blog Post
 excerpt: We detail the process of development of Muzi, our online music player application. Please remember to check the application at sdslabs.co.in/muzi.
 ---
+<div>
+<style>
+/**
+  This is for making large images in this post come within the white area.
+**/
+img{
+    max-width:800px;
+}
+</style>
+</div>
 [Muzi](http://sdslabs.co.in/muzi/) is an online music player application developed by Team SDSLabs. This blog post will go into the development of the application.
 
 The first ray of light that the application's development saw was in January 2011, with a few mails being exchanged in our Google Group regarding the lack of an online music player that could offer the same experience as a Desktop Player. A few core features were identified, including :
