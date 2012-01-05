@@ -5,11 +5,11 @@ excerpt: About work at the SDS.
 ---
 The SDSLabs homepage carries a nice  “Goes Recruiting” ribbon near the top bar this week. Clicking the overlaid image shows you the detailed recruitment poster. As the first years ready themselves for the recruitment process, I thought it fit to write about the work, culture and work-culture of our lab, located on the right wing (no pun intended) of the hobbies club.
 
-From the small, clumsy room that once was, near the Cogni office, Hobbies Club, SDSLabs, with Shobhit Sir to guide, has come a long way, in an admirably short span of one year. 
+From the small, clumsy room that once was near the Cogni office, Hobbies Club, SDSLabs, with Shobhit Sir to guide, has come a long way, in an admirably short span of one year. 
 
 ###The Work
 
-The best part, doubtless, is that you get to work on anything that captures your fancy. As newbies, we were first introduced to each of the projects that were then underway and that you now can see, on the homepage and asked to choose. Nothing is appreciated better having your own project ideas, in which case everyone in the team devotes their time for them(the ideas) to achieve fruition.
+The best part, doubtless, is that you get to work on anything that captures your fancy. As newbies, we were first introduced to each of the projects that were then underway and that you now can see, on the homepage and asked to choose. Nothing is appreciated better than having your own project ideas, in which case everyone in the team devotes their time for them(the ideas) to achieve fruition.
 We believe in an open, “no-rules” environment to enhance productivity. 
 
 > yes, everything you say is swell, but what is it that you do?
@@ -45,7 +45,6 @@ If you are in your first year and do value this kind of a learning experience, d
 To get started, visit <https://sdslabs.co.in/recruit/>.
 
 ---
-Nisha C
-Second Year,Mech
+Nisha C ,Second Year,Mech
 
 
