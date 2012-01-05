@@ -25,7 +25,7 @@ The first ray of light that the application's development saw was in January 201
 
 Whenever in doubt, we looked at three different desktop players - [Zune](http://www.zune.net/en-US/products/software/default.htm), [Windows Media Player](http://windows.microsoft.com/en-IN/windows/products/windows-media-player), and [iTunes](http://www.apple.com/itunes/). 
 
-A few mockups from early January :
+A few mockups from early February :
 
 ![Muzi Playlist View inspired from Zune](https://sdslabs.co.in/muzi/mockup/Playlist.png)
 ![Video View](https://sdslabs.co.in/muzi/mockup/video.png)
@@ -58,7 +58,7 @@ For future developers, here are a few tips :
 
 A few fun facts about Muzi :
 
-1. Major keyboard controls from VLC work in Muzi as well :
+1. Major keyboard controls from VLC work in Muzi as well. Here's a list of the most common ones :
 
     a. Ctrl+Up/Down to increase/descrease Volume. Works even without the control key.
 
@@ -66,7 +66,13 @@ A few fun facts about Muzi :
 
     c. Shift+Left/Right skips the current playing track 
 
-2. Two Developers worked on this application primarily with everyone else open to contributions.
+    d. *m* mutes the current track, while *space* pauses/plays it
+
+    e. The *home* key takes you to the default view of muzi
+
+    f. *Ctrl+s* takes your input to the search box immediately
+
+2. Two Developers worked on this application primarily with everyone else open to contributions. Input was regularly recieved from the entire Team and went into deciding major portions of the app.
 
 3. Muzi uses latest web technologies, including HTML5 and CSS3, leading to its inability to work in older browsers. For that, we apologize to users with a smile and ask them to get a better browser.
 
