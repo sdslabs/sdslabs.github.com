@@ -9,20 +9,20 @@ From the small, clumsy room that once was, near the Cogni office, Hobbies Club, 
 
 ###The Work
 
-The best part, doubtless, is that you get to work on anything that captures your fancy. As newbies, we were first introduced to each of the projects that were then underway and that you now can see, on the homepage and asked to choose. And there is nothing appreciated better having your own project ideas, in which case everyone in the team devotes their time for them(the ideas) to achieve fruition.
+The best part, doubtless, is that you get to work on anything that captures your fancy. As newbies, we were first introduced to each of the projects that were then underway and that you now can see, on the homepage and asked to choose. Nothing is appreciated better having your own project ideas, in which case everyone in the team devotes their time for them(the ideas) to achieve fruition.
 We believe in an open, “no-rules” environment to enhance productivity. 
 
 > yes, everything you say is swell, but what is it that you do?
 
 ###What work and how
 
-Broadly, Web development. More broadly, mobile and web development and Design. In the process, however, the work fans out to different areas. The lab is never the pressure pan with little leeway for errors, nor does it stagnate and radiate leisure such as a poet would require. One day, everyone is coding away, while simulatenously enjoying “yerushalayim shel zahav” on surround speakers and another day we are all playing “crux”, the IEEE online treasure hunt. 
+Broadly, Web development. More broadly, mobile and web development and Design. In the process, however, the work fans out to different areas. The lab is never the pressure pan with little leeway for errors, nor does it stagnate and radiate leisure. On one day, everyone is coding away, while simulatenously enjoying “yerushalayim shel zahav” on surround speakers and on another we are all playing “crux”, the IEEE online treasure hunt. 
 
-Another ordinary day ends in a few people pulling off an all-nighter with some issues filed up in redmine (PMS), as the agenda. Fun all-nighters with coffee-breaks, loads of geek-speak and the normal banter, several lectures and perpetual availability of workplace mentors, make you learn a lot of things that is hard to come by,when you are on your own.
+Another ordinary day ends in a few people pulling off an all-nighter with some issues filed up in redmine (PMS), as the agenda. Development Marathons with coffee-breaks, tons of geek-speak and the normal banter, several lectures and the perpetual availability of workplace mentors make you learn a lot of things that is hard to come by,when you are on your own.
 
 ####Echo 
 
-Echo, the brainchild of Ishan Sir(CS 2006-10 Batch) started developing first in java, over one year ago. Writing about these legends would require another separate article, but in short, Ishan Sir is one among those I will always be honoured to have known. The first version of Echo that you see, on the home page has a backend written in scala and uses some of the very latest from the world web technologies. And even as of now,many ideas are still in the process of gestation. 
+Echo, the brainchild of Ishan Sir(CS 2006-10 Batch) started developing first in java, over one year ago. People at SDSLabs could be the subject of a separate post, and without digressing much here, I would say that Ishan Sir is one among those I will always be honoured to have known. The first version of Echo that you see, on the home page has a backend written in scala and uses some of the very latest from the world of web technologies. And even as of now,many ideas are still in the process of gestation. 
 
 Echo is actually a recursive acronym in which Creed(C) is the recommendation engine, H(Hash) and O(onyx) are the names of the hashed storage on a dfs and the indexer and searcher, respectively. I joined team Echo soon after recruitment in the second semester and have seen its development since. Almost the whole of it, including refactoring, was done by Ishan Sir and Neeraj, and most of it in November this year and I, in the process, managed to learn a thing or two. 
 
