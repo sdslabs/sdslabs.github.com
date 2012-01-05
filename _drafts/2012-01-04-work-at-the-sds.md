@@ -1,32 +1,42 @@
 ---
 layout: post
-title: On SDSLabs- 1
-excerpt: Our experiences on recruiting and interviewing people for the first time for selection into SDSLabs
+title: On working at SDSLabs(1)
+excerpt: About work at the SDS.
 ---
-As all of the readers of this blog (if there are any) will know, SDSLabs had a core team recruitment of first yearites recently. There were altogether 150 people who took our written test, which we had designed to test mental aptitude, coding, HTML, and design appreciation (and some other things as well). The test was well received and we shortlisted 32 people, some of which had chipped in really cool answers. Try this one for example:
+The SDSLabs homepage carries a nice  “Goes Recruiting” ribbon near the top bar this week. Clicking the overlaid image shows you the detailed recruitment poster. As the first years ready themselves for the recruitment process, I thought it fit to write about the work, culture and work-culture of our lab, located on the right wing (no pun intended) of the hobbies club.
+From the small, clumsy room that once was, near the Cogni office, Hobbies Club, SDSLabs, with Shobhit Sir to guide, has come a long way, in an admirably short span of one year. 
 
-How can you open a link in a new browser window?
+##The Work
+The best part, doubtless, is that you get to work on anything that captures your fancy. As newbies, we were first introduced to each of the projects that were then underway and that you now can see, on the homepage and asked to choose. And there is nothing appreciated better having your own project ideas, in which case everyone in the team devotes their time for them(the ideas) to achieve fruition.
+We believe in an open, “no-rules” environment to enhance productivity. 
 
-The most amusing answer we received was this:
+> yes, everything you say is swell, but what is it that you do?
+###What work and how
+Broadly, Web development. More broadly, mobile and web development and Design. In the process, however, the work fans out to different areas. The lab is never the pressure pan with little leeway for errors, nor does it stagnate and radiate leisure such as a poet would require. One day, everyone is coding away, while simulatenously enjoying “yerushalayim shel zahav” on surround speakers and another day we are all playing “crux”, the IEEE online treasure hunt. Another ordinary day ends in a few people pulling off an all-nighter with some issues filed up in redmine (PMS), as the agenda. Fun all-nighters with coffee-breaks, loads of geek-speak and the normal banter, several lectures and perpetual availability of workplace mentors, make you learn a lot of things that is hard to come by,when you are on your own.
 
->Right click on the link, and click “Open in new window”
+##Echo 
+Echo, the brainchild of Ishan Sir(CS 2006-10 Batch) started developing first in java, over one year ago. Writing about these legends would require another separate article, but in short, Ishan Sir is one among those I will always be honoured to have known. The first version of Echo that you see, on the home page has a backend written in scala and uses some of the very latest from the world web technologies. And even as of now,many ideas are still in the process of gestation. 
+Echo is actually a recursive acronym in which Creed(C) is the recommendation engine, H(Hash) and O(onyx) are the names of the hashed storage on a dfs and the indexer and searcher, respectively. I joined team Echo soon after recruitment in the second semester and have seen its development since. Almost the whole of it, including refactoring, was done by Ishan Sir and Neeraj, and most of it in November this year and I, in the process, managed to learn a thing or two. There is an awful lot to learn when you delve deep into anything and the web/computers/technology is no exception. In the jump from java to scala, in the addition of sinatra as the middleware, in using lucene and reading up clustering algorithms, I was taught, some of it in vain, about efficient programming practices, a little about scalable architecture, natural language processing and of course, other things like using github and hordes of other open source software. 
 
-Unfortunately, we couldn’t give the person involved any extra marks for that, but that was some out of the box thinking, especially considering that the question was preceded by 6 HTML questions, which demanded you to write code.
+##Finally, __Why__
+The point is that, every visit to the lab, teaches you one thing or the other. With the likes of Abhay around, there is a continuous passing-on of a range of diverse information, in a way you would like and appreciate. Just eavesdropping on nerdy exchanges will teach you how to set a proxy on the terminal or how to run parallels on a mac, what to expect from windows 8, which the best editor and for what, what Linus Torvalds does on github and such like. 
 
-And the blank space question got in some more amusing responses, ranging from people who had told us why we should select them to people who had written cryptic math equations or a puzzle for us to solve, or simple batch file scripts, and even a paradox (VOID, we thought it might have been better as void* though). Nonetheless, we tried to keep ourselves objective and formed no prejudices about any of the shortlisted candidates.
+##Are you game?
+If you are in your first year and do value this kind of a learning experience, do participate in the recruitment process, because at SDSLabs, you get to:
+* have fun coding and ask geeks for help, when stuck.
+* receive tech updates for free!
+* learn __how stuff works__ ,in a free environment
+* think on the white board,watch webinars on a big plasma screen and look at a copy of _Jonathan Livingston Seagull_ for inspiration.
+* play with  cruft like old monitors and motherboards, to make useful things like _skynet_ and much more!
 
-And then we had to face the actual interviews. There’s only one way to describe them. It was pretty much like falling in love with IIT again. OK, that was not so apt, but we were blinded by the sheer exposure to pure awesomeness (Po’s words, not mine).
 
-Like every other section at IITR, we had a lengthy discussion and debate about our hiring procedure for girls. Despite so many people asking us, we would never have gone ahead & just said yes to all of them. And by probabilities, we thought there might be 1 or maybe 2 who will fit the bill. But we were to be proven wrong by a girl who gave us an almost bug-free recursive shuffle program in 5 minutes, and another who explained to us what a chicken is in OOP terms so brilliantly. And even though we had decided that this test was meant for programmers, we found someone with such a sharp understanding of design principles that we had to take her.
 
-And other than these we found someone who had never heard of a database, but gave us an awesome idea combined with an equivalently good db design. There were people who wrote their code as they thought it, and yet even more who gave us some really cool algorithms to do even cooler stuff.
 
-So all in all, we were surrounded all day and night (from 1100-0100) by ideas, codes, problems, questions, and algorithms. The results will be out soon (we got delayed due to a minor totalling problem with one person, it seems they happen everywhere). And even now, our minds are so full of ideas that we can’t wait to sit with these people and work them out. We only had a small opening, since we want to remain a closed knit group (we’re still in single digits if you want to know). And not choosing any of the rest was a tough decision, believe me. If we had a single more opening, each one of the rest would have been equally apt to get in. And each time we took someone’s name off the list, we were stricken with guilt. There are so many with such great potential, and yet there’s no one to guide them. And that is exactly why we have lectures @SDS. If you want to learn something, come to us, we are more than happy to help you any time. Don’t lose hope if we didn’t select you. It was because we don’t have enough space, not because we didn’t like you.
 
-In the following days, we will be redefining ourselves and enter a new era. And we have Shobhit Sir to thank for that. Thanks to Sagar for managing the entire recruitment, and Ankush sir for the power boosts and pep talks, just when we needed them. Also we believe we will be challenged to our limits by such a brilliant ensemble. We’ll be looking forward to working with them this semester in high hopes.
 
 ---
 
-Team SDSLabs
+Nisha C
+Second Year,Mech
 
-(The final list of selected candidates will be uploaded by 22:15 tonight)
+
