@@ -16,7 +16,7 @@ We believe in an open, “no-rules” environment to enhance productivity.
 
 ###What work and how
 
-Broadly, Web development. More broadly, mobile and web development and Design. In the process, however, the work fans out to different areas. The lab is never the pressure pan with little leeway for errors, nor does it stagnate and radiate leisure. On one day, everyone is coding away, while simulatenously enjoying “yerushalayim shel zahav” on surround speakers and on another we are all playing “crux”, the IEEE online treasure hunt. 
+Broadly, Web development. More broadly, mobile and web development and Design. In the process, however, the work fans out to different areas. The lab is never the pressure pan with little leeway for errors, nor does it stagnate and radiate leisure. On one day, everyone is coding away, while simultaneously enjoying “yerushalayim shel zahav” on surround speakers and on another we are all playing “crux”, the IEEE online treasure hunt. 
 
 Another ordinary day ends in a few people pulling off an all-nighter with some issues filed up in redmine (PMS), as the agenda. Development Marathons with coffee-breaks, tons of geek-speak and the normal banter, several lectures and the perpetual availability of workplace mentors make you learn a lot of things that is hard to come by,when you are on your own.
 
