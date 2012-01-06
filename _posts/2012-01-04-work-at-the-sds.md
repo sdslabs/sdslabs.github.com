@@ -30,7 +30,7 @@ There is an awful lot to learn when you delve deep into anything and the web/com
 
 ###Finally, __Why__
 
-The point is that, every visit to the lab, teaches you one thing or the other. With the likes of Abhay around, there is a continuous passing-on of a range of diverse information, in a way you would like and appreciate. Just eavesdropping on nerdy exchanges will teach you how to set a proxy on the terminal or how to run parallels on a mac, what to expect from windows 8, which the best editor and for what, what Linus Torvalds does on github and such like. 
+The point is that, every visit to the lab, teaches you one thing or the other. With the likes of Abhay around, there is a continuous passing-on of a range of diverse information, in a way you would like and appreciate. Just eavesdropping on nerdy exchanges will teach you how to set a proxy on the terminal or how to run parallels on a mac, what to expect from windows 8, which is the best editor and for what, what Linus Torvalds does on github and such like. 
 
 ###Are you game?
 
