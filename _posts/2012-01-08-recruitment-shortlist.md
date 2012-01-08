@@ -61,5 +61,7 @@ The following students have been shortlisted for selections. The interview slots
 * Atinder Pal Singh - 15:30pm
 * Ujjwal Vasisht - 16:00pm
 
+In case you think you deserve to be one of us and your name is missing from the above list, please send us a mail at <contact@sdslabs.co.in> answering "Why you'd like to join SDSLabs?"
+
 ---
 Team SDSLabs
