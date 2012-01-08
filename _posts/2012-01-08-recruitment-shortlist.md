@@ -55,11 +55,11 @@ The following students have been shortlisted for selections. The interview slots
 * Rahul Meena - 14:30pm
 * Ishaan Bains - 15:00pm
 * Jitin Singla - 15:30pm
-* Chetty Arun - 14:00pm
-* Priyajeet Dev - 14:30pm
-* Mohit Tanwar - 15:00pm
-* Atinder Pal Singh - 15:30pm
-* Ujjwal Vasisht - 16:00pm
+* Chetty Arun - 16:00pm
+* Priyajeet Dev - 16:30pm
+* Mohit Tanwar - 17:00pm
+* Atinder Pal Singh - 17:30pm
+* Ujjwal Vasisht - 18:00pm
 
 In case you think you deserve to be one of us and your name is missing from the above list, please send us a mail at <contact@sdslabs.co.in> answering "Why you'd like to join SDSLabs?"
 
