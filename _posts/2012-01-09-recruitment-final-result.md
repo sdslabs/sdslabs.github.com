@@ -19,6 +19,7 @@ Congratulations to everyone who got in. After checking the examination papers of
 * Nitish Sharma
 * Aarti Dwivedi
 * Mannat Gupta
+* Rushil Nagda
 * Ravi Kishore
 
 ##Designers
