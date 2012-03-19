@@ -9,7 +9,7 @@ title: SDSLabs Blog
 <div id="post">
 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 <p>{{ post.excerpt }}</p>
-<blockquote>Posted on {{ post.date | date:"%Y-%m-%d" }}</blockquote>
+<blockquote>Posted on {{ post.date | date:"%d-%B-%Y" }}</blockquote>
 </div>
 {% endfor %}
 
