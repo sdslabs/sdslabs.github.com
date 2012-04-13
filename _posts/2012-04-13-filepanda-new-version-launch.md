@@ -13,13 +13,18 @@ The online version of filepanda has also been updated with the current version a
 
 As always, we welcome all feedback. Please send us your thoughts at our [feedback page](https://sdslabs.co.in/feedback/), by [email](contact@sdslabs.co.in), or [via Facebook](https://facebook.com/messages/SDSLabs). We shall be delighted to hear from you.
 
+![Optimistic Panda](/images/posts/fp-optimistic-panda.png)
+
 ##Pics from the new update
+
 
 ![New header](/images/posts/fp-header.png)
 
 ![Categories on home page](/images/posts/fp-categories.png)
 
 ![Software Listings](/images/posts/fp-listing.png)
+
+![Error page](/images/posts/fp-errorpage.png)
 
 ![Software Info Page](/images/posts/fp-software-info.png)
 
