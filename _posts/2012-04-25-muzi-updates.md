@@ -31,4 +31,4 @@ We have also updated our Hindi songs collection, and added album arts for all Hi
 
 ![Fort Minor](/images/posts/muzi-fm.png)
 
-As always, you can reach us for feedback via [Facebook](https://facebook.com/SDSLabs), [email](contact@sdslabs.co.in), or our [Feedback](https://sdslabs.co.in/feedback) page.
+As always, you can reach us for feedback via [Facebook](https://facebook.com/SDSLabs), [email](mailto:contact@sdslabs.co.in), or our [Feedback](https://sdslabs.co.in/feedback) page.
