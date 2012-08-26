@@ -9,13 +9,13 @@ The issue with the ultra slow speeds of IITR internet, more specifically in the 
 
 ##Current Situation:  
 The network structure of IITR is somewhat like the one shown below (only for wifi hostels).
-![Current Network](http://getfile8.posterous.com/getfile/files.posterous.com/temp-2012-08-25/isufdIIperHJhJttCvydjIArCBlJbkIAtkbedFnDJkAvurxyuzyJCcdyljJk/1.png.scaled1000.png)
+![Current Network](http://s3.amazonaws.com/files.posterous.com/temp-2012-08-25/isufdIIperHJhJttCvydjIArCBlJbkIAtkbedFnDJkAvurxyuzyJCcdyljJk/1.png.scaled500.png?AWSAccessKeyId=AKIAJFZAE65UYRT34AOQ&Expires=1345985973&Signature=FVY4QVRRdrJKmVnOpY5b2tPNo5c%3D)
 
 As seen from the above figure, there are two primary bottlenecks in the network that reduce the speed.
 
-*   Bhawan Server/gateway: Its an old P4 computer in most bhawans. It is the main culprit since all the traffic load passes through this. But is replacing it the only solution?
+1.   Bhawan Server/gateway: Its an old P4 computer in most bhawans. It is the main culprit since all the traffic load passes through this. But is replacing it the only solution?
  
-*   Access Points: Secondary Bottleneck. Replacement is the only solution in this case but the effect will be limited unless changes are also made at the higher level.
+2.   Access Points: Secondary Bottleneck. Replacement is the only solution in this case but the effect will be limited unless changes are also made at the higher level.
  
 
 ##Solution to the Gateway Problem:
@@ -23,11 +23,11 @@ As seen from the above figure, there are two primary bottlenecks in the network 
 The first solution that everyone thinks of is replacing the bhawan server with a costly, bigger server but the simplest and better solution is often overlooked. There is a lot easier, better and long term solution with Rs 0/- cost for this problem. And the solution is not adding in anything but in removing what is already present. Surprised? Lets see..   
 The server performs three functions:
 
-*   NATing: This seperates the bhawan network from the institute central network.
+1.   NATing: This seperates the bhawan network from the institute central network.
  
-*   DHCP: Gives Ip address to all the users.
+2.   DHCP: Gives Ip address to all the users.
  
-*   Security and Authentication: Secures the network so that unauthorized person may not enter it.
+3.   Security and Authentication: Secures the network so that unauthorized person may not enter it.
  
 ##The solution:
 
@@ -44,7 +44,7 @@ In short, **remove the server** from the connection between user & internet.
 
 
 ##New Network:
-![Current Network](http://getfile2.posterous.com/getfile/files.posterous.com/temp-2012-08-25/JwuvxuzxGbBrdtfBmGvpcmbjdIccDArmguhsEdGrudfCjjBuGhaDmBnjmsnt/2.png.scaled1000.png)
+![Current Network](http://s3.amazonaws.com/files.posterous.com/temp-2012-08-25/JwuvxuzxGbBrdtfBmGvpcmbjdIccDArmguhsEdGrudfCjjBuGhaDmBnjmsnt/2.png.scaled500.png?AWSAccessKeyId=AKIAJFZAE65UYRT34AOQ&Expires=1345985887&Signature=54mFFADSsV2R6%2FYRWYoJi5pslVQ%3D)
 
 
 ##Why this Network is better?
@@ -74,4 +74,4 @@ Further a lot more additional things are required, which will improve the networ
 
 The solution of the primary bottleneck which just requires some effort from the side of administration will solve a lot of problems. It is the easiest, cheapest and quickest solution. After that the purchase of new access points can be carried out which may take time because of the official procedures but till that the students will be able to get at least some improvement. I have personally submitted this method to the director (with help from SAC), as well as to the ISC and had a long heated discusssion with the network manager at ISC on the benefits of this structure. Though they were convinced that they should adopt this, I still don't get the reason for its non adoption. Well, I had done my part in preparing and submitting the solution, I can even help the ISC people in implementng this and anyways implementation would take a day at max because no new equipment is needed. 
 
---Harshil Mathur
+###--Harshil Mathur
