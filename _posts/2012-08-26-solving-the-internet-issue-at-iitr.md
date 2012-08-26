@@ -3,13 +3,15 @@ layout: post
 published: true
 excerpt: "The issue with the ultra slow speeds of IITR internet, more specifically in the wifi bhawans, is something troubling the IITR ocupants since a lot of years. Over the years a lot of solutions have been proposed to this issue from router replacement to server replacement but so far there has been no change in the speed."
 title: "Solving the Internet Issue at IITR"
+author: "Harshil Mathur"
 ---
 
 The issue with the ultra slow speeds of IITR internet, more specifically in the wifi bhawans, is something troubling the IITR ocupants since a lot of years. Over the years a lot of solutions have been proposed to this issue from router replacement to server replacement but so far there has been no change in the speed.
 
 ##Current Situation:  
 The network structure of IITR is somewhat like the one shown below (only for wifi hostels).
-![Current Network](http://s3.amazonaws.com/files.posterous.com/temp-2012-08-25/isufdIIperHJhJttCvydjIArCBlJbkIAtkbedFnDJkAvurxyuzyJCcdyljJk/1.png.scaled500.png?AWSAccessKeyId=AKIAJFZAE65UYRT34AOQ&Expires=1345985973&Signature=FVY4QVRRdrJKmVnOpY5b2tPNo5c%3D)
+
+![Current Network](/images/network-1.png)
 
 As seen from the above figure, there are two primary bottlenecks in the network that reduce the speed.
 
@@ -44,7 +46,7 @@ In short, **remove the server** from the connection between user & internet.
 
 
 ##New Network:
-![Current Network](http://s3.amazonaws.com/files.posterous.com/temp-2012-08-25/JwuvxuzxGbBrdtfBmGvpcmbjdIccDArmguhsEdGrudfCjjBuGhaDmBnjmsnt/2.png.scaled500.png?AWSAccessKeyId=AKIAJFZAE65UYRT34AOQ&Expires=1345985887&Signature=54mFFADSsV2R6%2FYRWYoJi5pslVQ%3D)
+![Current Network](/images/network-2.png)
 
 
 ##Why this Network is better?
