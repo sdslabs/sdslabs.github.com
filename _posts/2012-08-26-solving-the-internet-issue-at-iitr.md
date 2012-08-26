@@ -1,6 +1,8 @@
 ---
 layout: default
-published: false
+published: true
+excerpt: "The issue with the ultra slow speeds of IITR internet, more specifically in the wifi bhawans, is something troubling the IITR ocupants since a lot of years. Over the years a lot of solutions have been proposed to this issue from router replacement to server replacement but so far there has been no change in the speed."
+title: "Solving the Internet Issue at IITR"
 ---
 
 The issue with the ultra slow speeds of IITR internet, more specifically in the wifi bhawans, is something troubling the IITR ocupants since a lot of years. Over the years a lot of solutions have been proposed to this issue from router replacement to server replacement but so far there has been no change in the speed.
