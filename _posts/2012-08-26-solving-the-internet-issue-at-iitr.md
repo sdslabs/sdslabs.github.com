@@ -59,7 +59,7 @@ In short, **remove the server** from the connection between user & internet.
  
 *   Also, any server is bound to get old with time, and will need replacement causing further cost to institute while this is a permanent solution.
  
-*   Interbhawan services like DC%2B%2B will start working which will sharply reduce the load on the institute internet and further increase the network speed.
+*   Interbhawan services like DC++ will start working which will sharply reduce the load on the institute internet and further increase the network speed.
  
 
 ##The Second Bottleneck:
