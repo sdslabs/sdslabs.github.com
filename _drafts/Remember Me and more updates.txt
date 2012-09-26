@@ -1,0 +1,5 @@
+We've finally gotten around to launching one of the most asked for features, 'Remember Me'. This means that the you do not have to login twice on the same computer and we'd keep you logged in for a long amount of time.
+
+Also, we've launched Muzi on the Chrome Web Store, so if you are using Google Chrome, you should check it out. As of now the app itself is just a shortcut to muzi with a cool icon, we plan to improve it with a lot more features in the future.
+
+//insert feedback stuff
