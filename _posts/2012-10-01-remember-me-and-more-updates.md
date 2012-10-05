@@ -12,3 +12,7 @@ So now you can quickly solve a puzzle on Codematics, browse through your problem
 Speaking of Muzi, we've finally launched it on the [Chrome Web Store](https://chrome.google.com/webstore/detail/apghjdamlhjnplhbahmebanbkceacmgn), so if you are using Google Chrome, you should check it out! We plan to improve it with a lot more features soon.
 
 ![Muzi on Chrome Web Store](/images/posts/muzi-chrome.jpg)
+
+We've also updated Muzi to be able to handle the computer's default Media Keys. This means that you can use your keyboard's inbuild Play/Pause/Previous/Next buttons to control muzi. However, it might not work on all browsers (we tested it on Chrome on Windows), since binding media keys is not available across all browsers at the moment. We are still launching the feature, in hopes that our users will find it helpful.
+
+![Media Keys Image](/images/posts/muzi-media-keys.jpg)
