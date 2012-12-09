@@ -95,6 +95,13 @@ Llama allows anyone to deploy anything whenever they want. It takes out the pain
  track of which services are up/down and for how
  long. You can check the public version at <https://status.sdslabs.co.in>.
 
+**Play** :  We have our music player internally for lab, which plays our songs on the 
+lab speakers. We have open sourced it and it is available on [github](https://github.com/sdslabs/play).
+Play takes care of the problem we had in playing music over the speakers in lab.
+Anyone can send play a request, which may even be a youtube video link and play will play it faithfully.
+As for the people who get distracted by music during work, we have our own "Silent Room", which
+anyone in lab can use, any time (We encourage using it for studies as well).
+
 We also run our own internal server for cdnjs, use piwik for statistics, 
 and continue working on more amazing stuff. We do not limit ourselves
  to any technologies, and have work in php, js, node.js, ruby, scala,
