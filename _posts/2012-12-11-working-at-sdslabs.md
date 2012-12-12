@@ -44,6 +44,7 @@ It's December and come January, SDSLabs will start recruiting again. If you are 
 
 
 --
-Shashank Mehta
-IInd Year, ECE
-[http://shashankmehta.in](http://shashankmehta.in)
+Shashank Mehta <br>
+IInd Year, ECE <br>
+[http://shashankmehta.in](http://shashankmehta.in) <br>
+_This post has been cross posted from the author's blog_
