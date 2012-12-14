@@ -1,3 +1,8 @@
+---
+layout: post
+title: How does SDSLabs work
+excerpt: "An insight into the tools used inside SDSLabs"
+---
 SDSLabs is roughly run as two cells
  (programming/design) that collaborate with each
  other on everything. This blog post will take a
@@ -52,6 +57,10 @@ running gitolite and all our code is version controlled in git. We shifted to gi
 from ftp based systems about a year ago, and it has been working out awesome
 for us.
 
+![List of bugs assigned in Redmine](/images/posts/redmine_1.jpg)
+
+![Recent Activity Page](/images/posts/redmine_2.jpg)
+
 **WorkFlowy** : We use a custom account at workflowy.com with a shared list
  to easily manage lots of things. It is an easy-going tool which we find 
 useful for quick edits, lookups and at times when creating a google-doc or
@@ -62,6 +71,8 @@ administration related stuff, with tenders,
  management contacts etc stored there. A daily log of our changes on
  workflowy is forwarded to our google-group so everyone is kept in 
  the loop about any changes made there.
+
+![Workflowy Home Page](/images/posts/workflowy.jpg)
 
 **Presence** : Presence is our automated presence detection system.
  A very common question we found on chat was asking "who all is in lab?".
