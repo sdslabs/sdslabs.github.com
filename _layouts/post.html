@@ -2,21 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <script type='text/javascript' src='https://cdn.sdslabs.co.in/cdnjs/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
-    <link rel="stylesheet" href="https://cdn.sdslabs.co.in/css/css/bootstrap/1.4.0/bootstrap.min.css">
-    <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
-    <!--The above is a fallback for bootstrap used in sdslabs.github.com -->
-    <link type="text/css" href="https://sdslabs.co.in/comet/cometchatcss.php" rel="stylesheet"> 
-    <script type="text/javascript" src="https://sdslabs.co.in/comet/cometchatjs.php"></script>
+    <script type='text/javascript' src='/js/jquery.min.js'></script>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <title>{{page.title}} | SDSLabs Blog</title>
     <meta name="author" content="Team SDSLabs">
-	<title>SDSLabs Accounts</title>
-	<link rel="stylesheet" href="https://sdslabs.co.in/lollipop/topbarwide.css">
-	<script src="https://sdslabs.co.in/api/public/api.js"></script>
     <style type="text/css">
       /* Override some defaults */
       html, body {
-		font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans',Arial, Helvetica, sans-serif;
         background: #F2F2FF !important;
       }
       body {
@@ -27,11 +20,11 @@
       .content {
         background-color: #fff;
          -webkit-box-shadow: 0 5px 10px rgba(0,0,0, 0.3);
-		   -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-				box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+       -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
         border-left: 1px solid #D2D2D2;
-		border-right: 1px solid #D2D2D2;
-		border-bottom: 1px solid #D2D2D2;
+    border-right: 1px solid #D2D2D2;
+    border-bottom: 1px solid #D2D2D2;
       }
 
       /* Page header tweaks */
@@ -40,45 +33,58 @@
         padding: 20px 20px 10px;
     }
     #content{
-		padding: 0px 5px 10px 10px;
-	}
-	$sidebar{
-		padding:0px 5px 10px 0px;
-	}
-	.page-footer{
-		border-top: 1px solid #D2D2D2;
-		background-color: #f5f5f5;
-		
-		padding: 20px 20px 10px;
-	}
-	h2 a,h2 a:hover,h1 a,h1 a:hover{
-		text-decoration:none;
-		color:#404040;
-	}	
-	#content img{
-		border:5px solid whiteSmoke;
-		border-radius:5px;
-		box-shadow: 0 px 10px rgba(0,0,0,0.3);
-		-webkit-box-shadow: 0 px 10px rgba(0,0,0,0.3);
-		-moz-box-shadow: 0 px 10px rgba(0,0,0,0.3);
-	}
+    padding: 0px 5px 10px 10px;
+  }
+  $sidebar{
+    padding:0px 5px 10px 0px;
+  }
+  .page-footer{
+    border-top: 1px solid #D2D2D2;
+    background-color: #f5f5f5;
+    
+    padding: 20px 20px 10px;
+  }
+  h2 a,h2 a:hover,h1 a,h1 a:hover{
+    text-decoration:none;
+    color:#404040;
+  } 
+  #content img{
+    border:5px solid whiteSmoke;
+    border-radius:5px;
+    box-shadow: 0 px 10px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 px 10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 px 10px rgba(0,0,0,0.3);
+  }
     </style>
+    <script>
+      if (window.location.hostname == 'blog.sdslabs.co.in') {
+        document.write('<link type="text/css" href="https://sdslabs.co.in/comet/cometchatcss.php" rel="stylesheet">');
+        document.write('<link rel="stylesheet" href="https://sdslabs.co.in/lollipop/topbarwide.css">');
+        document.write('<script type="text/javascript" src="https://sdslabs.co.in/comet/cometchatjs.php"><\/script>');
+        document.write('<script src="https://sdslabs.co.in/api/public/api.js"><\/script>');
+      }
+    </script>
     <!-- Le fav and touch icons -->
     <!--<link rel="shortcut icon" href="images/favicon.ico">-->
   </head>
   <body>
+    <script type="text/javascript">
+      if (window.location.hostname != 'blog.sdslabs.co.in') {
+        $('body').css('padding-top', '0px');
+      }
+    </script>
     <div class="content container">
         <div class="page-header">
           <h1><a id="home_link" href="{{page.url}}">{{page.title]}}</a></h1>
         </div>
         <div class="row">
           <div class="span10" id="content">
-			  {{content}}
-			  <!-- AddThis Button BEGIN -->
-			<div class="addthis_toolbox addthis_default_style ">
-			<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-			<a class="addthis_button_tweet"></a>
-			<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+        {{content}}
+        <!-- AddThis Button BEGIN -->
+      <div class="addthis_toolbox addthis_default_style ">
+      <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+      <a class="addthis_button_tweet"></a>
+      <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
 			<a class="addthis_counter addthis_pill_style"></a>
 			</div>
 			<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4f69ed4816c1ba08"></script>
