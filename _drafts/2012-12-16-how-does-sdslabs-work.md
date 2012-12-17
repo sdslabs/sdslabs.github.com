@@ -86,6 +86,7 @@ to sniff around people in general. It even takes a photo that refreshes
 every one minute to let us see what state the lab is in. We are looking 
 to open-source presence in the near future in hopes it will be useful 
 to others as well.
+![Presence](/images/posts/presence.jpg)
 
 **Llama** : Llama is our in-house
  deployment/management system that helps us run
@@ -105,6 +106,7 @@ Llama allows anyone to deploy anything whenever they want. It takes out the pain
  their health at a glance. It keeps a continous
  track of which services are up/down and for how
  long. You can check the public version at <https://status.sdslabs.co.in>.
+ ![Public StatusBoard](/images/posts/status.png)
 
 **Play** :  We have our music player internally for lab, which plays our songs on the 
 lab speakers. We have open sourced it and it is available on [github](https://github.com/sdslabs/play).
@@ -112,6 +114,7 @@ Play takes care of the problem we had in playing music over the speakers in lab.
 Anyone can send play a request, which may even be a youtube video link and play will play it faithfully.
 As for the people who get distracted by music during work, we have our own "Silent Room", which
 anyone in lab can use, any time (We encourage using it for studies as well).
+![Play](/images/posts/play.png)
 
 We also run our own internal server for cdnjs, use piwik for statistics, 
 and continue working on more amazing stuff. We do not limit ourselves
