@@ -41,6 +41,14 @@ We use it to answer commonly asked questions, like who is in lab, and
 integrated with most of our other internal services, and we plan to use it
 for even more stuff.
 
+- Let's you act all innocent when you need it <br> ![bot pug me](/images/posts/bot/1.png)
+- Pictures are worth more than words <br> ![double facepalm](/images/posts/bot/2.png)
+- Keeps track of scores for us and also lets us correct those _fingers of slips_  <br> ![scores](/images/posts/bot/3.png)
+- Gives us details of members, if you ask politely _(yoda = Abhishek Das)_ <br> ![bot info](/images/posts/bot/4.png)
+- For those times when we are too lazy to open google.com <br> ![bot google me](/images/posts/bot/5.png)
+- And for those times when we are too lazy to open "Compose mail" <br> ![bot summon](/images/posts/bot/7.png)
+- And sometimes the bot chooses to troll us <br> ![bot decide](/images/posts/bot/6.png)
+
 **Dropbox** : Our designers primarily share all their work through dropbox.
  It is all continously synced with dropbox, and available on Redmine 
 for offline access. All our designs, past and present have a place in
