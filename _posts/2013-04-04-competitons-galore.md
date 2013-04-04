@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Competitions Galore!
+title: Competitions Galore
 excerpt: "Recent Competitions organized by SDSLabs"
 ---
 
-**Competitions galore!**
 
 We were involved in organizing quite a few online competitions last month as part of Srishti and Cognizance. All of them occurred in the same week. This resulted in a highly hectic, but fun experience. Here’s a brief overview into the contests.
 
