@@ -75,7 +75,7 @@ We shifted to Redmine for management, and I ended up doing a lot of server-admin
 It has almost been a year since our last recruitment. We have been working of tons of things; some of which 
 will be launched soon. I took lectures on far apart topics from 
 ["Usability Designing"](https://speakerdeck.com/captn3m0/ux-and-usability-designing) to
- ["Software Development 101"].(https://speakerdeck.com/captn3m0/software-development-101) I mostly
+ ["Software Development 101"](https://speakerdeck.com/captn3m0/software-development-101) I mostly
 worked on internal features, improving our API, and something called Presence. We also 
 [participated](http://captnemo.in/blog/2012/05/23/phonegap-blog-post/) in 
 [two hackathons](http://blog.sdslabs.co/2012/09/hacku),
