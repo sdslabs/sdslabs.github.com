@@ -27,7 +27,6 @@ While we have uploaded over 600 files to a multitude of courses for launch, the 
 
 Check out the application at [Study Portal](http://study.sdslabs.co.in)
 
-
 ##Echo
 
 There are very few amongst us who do not enjoy the pleasure of sinking into the depths of a book. Searching for books, however, has always been a real pain. We seek to fix this problem, therefore we are launching Echo, a fast and powerful ebook search engine which is designed to help you find the books you want instantaneously.
@@ -47,7 +46,6 @@ We'd also appreciate [contributions](https://echo.sdslabs.co.in/contribute) from
 We hope you have a great reading experience with Echo!
 
 Check out the application at [Echo](http://echo.sdslabs.co.in)
-
 
 ##Technical details
 
