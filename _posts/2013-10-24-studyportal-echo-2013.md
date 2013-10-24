@@ -25,6 +25,8 @@ If a course is not listed in the uploads page, you can [request](http://study.sd
 
 While we have uploaded over 600 files to a multitude of courses for launch, the sole purpose of this app is to enable sharing. We hope that with user contribution, the app will soon be the knowledge base of IIT Roorkee.
 
+Check out the application at [Study Portal](http://study.sdslabs.co.in)
+
 
 ##Echo
 
@@ -43,6 +45,8 @@ The collection of books is being updated regularly.
 We'd also appreciate [contributions](https://echo.sdslabs.co.in/contribute) from the community. If you'd like to upload your own collection of books, or if you have suggestions for books you think should be available on Echo, please [contact us](mailto:contact@sdslabs.co.in).
 
 We hope you have a great reading experience with Echo!
+
+Check out the application at [Echo](http://echo.sdslabs.co.in)
 
 
 ##Technical details
