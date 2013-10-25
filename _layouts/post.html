@@ -1,132 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <script type='text/javascript' src='/js/jquery.min.js'></script>
-    <link href="http://blog.sdslabs.co/atom.xml" rel="alternate" title="SDSLabs Blog" type="application/atom+xml" />
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <title>{{page.title}} | SDSLabs Blog</title>
-    <meta name="author" content="Team SDSLabs">
-    <style type="text/css">
-      /* Override some defaults */
-      html, body {
-    font-family: 'Open Sans',Arial, Helvetica, sans-serif;
-        background: #F2F2FF !important;
-      }
-      body {
-        padding-top: 30px; /* 40px to make the container go all the way to the bottom of the topbar */
-      }
+---
+layout: base
+---
+{% if page.cover_image %}
+<div class="article-cover">
+    <div>
+        <img src="/images/{{ page.cover_image }}" class="image">
+    </div>
+</div>
+{% endif %}
+<article>
 
-      /* The white background content wrapper */
-      .content {
-        background-color: #fff;
-         -webkit-box-shadow: 0 5px 10px rgba(0,0,0, 0.3);
-       -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-        border-left: 1px solid #D2D2D2;
-    border-right: 1px solid #D2D2D2;
-    border-bottom: 1px solid #D2D2D2;
-      }
+    <div class="container">
+        <header>
+            <div class="meta">
+                {% if page.author %} By <address><a rel="author" href="{{ page.author.link }}" title="{{ page.author.name }}" target="_blank">{{ page.author.name }}</a> &mdash; {% endif %}
+                <time pubdate datetime="{{ page.date | date: "%Y-%d-%B" }}" title="{{ page.date | date: "%B %d, %Y" }}">{{ page.date | date: "%B %d, %Y" }}</time>
+            </div>
+            <h1 class="title">{{ page.title }}</h1>
+            {% if page.subtitle %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %}
+        </header>
 
-      /* Page header tweaks */
-      .page-header {
-        background-color: #f5f5f5;
-        padding: 20px 20px 10px;
-    }
-    #content{
-    padding: 0px 5px 10px 10px;
-  }
-  $sidebar{
-    padding:0px 5px 10px 0px;
-  }
-  .page-footer{
-    border-top: 1px solid #D2D2D2;
-    background-color: #f5f5f5;
-    
-    padding: 20px 20px 10px;
-  }
-  h2 a,h2 a:hover,h1 a,h1 a:hover{
-    text-decoration:none;
-    color:#404040;
-  } 
-  #content img{
-    border:5px solid whiteSmoke;
-    border-radius:5px;
-    box-shadow: 0 px 10px rgba(0,0,0,0.3);
-    -webkit-box-shadow: 0 px 10px rgba(0,0,0,0.3);
-    -moz-box-shadow: 0 px 10px rgba(0,0,0,0.3);
-  }
-    </style>
-    <script>
-      if (window.location.hostname == 'blog.sdslabs.co.in' || window.location.hostname == 'blog.sdslabs.local') {
-        document.write('<link rel="stylesheet" href="https://sdslabs.co.in/lollipop/topbarwide.css">');
-        document.write('<script src="https://sdslabs.co.in/api/public/api.js"><\/script>');
-      }
-    </script>
-    <!-- Le fav and touch icons -->
-    <!--<link rel="shortcut icon" href="images/favicon.ico">-->
-  </head>
-  <body>
-    <script type="text/javascript">
-      if (window.location.hostname != 'blog.sdslabs.co.in' && window.location.hostname != 'blog.sdslabs.local') {
-        $('body').css('padding-top', '0px');
-      }
-    </script>
-    <div class="content container">
-        <div class="page-header">
-          <h1><a id="home_link" href="{{page.url}}">{{page.title]}}</a></h1>
-        </div>
-        <div class="row">
-          <div class="span10" id="content">
-        {{content}}
-        <!-- AddThis Button BEGIN -->
-      <div class="addthis_toolbox addthis_default_style ">
-      <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-      <a class="addthis_button_tweet"></a>
-      <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
-      <a class="addthis_counter addthis_pill_style"></a>
-      </div>
-      <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4f69ed4816c1ba08"></script>
-      <!-- AddThis Button END -->
-           </div>
-      <div class="span4" id="sidebar">
-        <h2><a href="/">SDSLabs Blog</a></h2>
-        <ul>
-          {% for post in site.posts %}
-          <li>
-          <a href="{{ post.url }}" title="{{ post.title }}">
-            <span class="title">{{ post.title }}</span>
-          </a>
-          </li>
-          {% endfor %}
-                </ul>
-                <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FSDSLabs&amp;width=292&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=false&amp;appId=196618997019945" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:258px;" allowTransparency="true"></iframe>
-      </div>
-        </div>
-        <div class="page-footer">
-            <p>Copyright <a href="http://blog.sdslabs.co/team">Team SDSLabs</a> | The source code for this blog is available at <a href="https://github.com/sdslabs/sdslabs.github.com">GitHub</a></p>
-        </div>
-    </div> <!-- /container -->
-  <script>
-  $(document).ready(function(){
-    if (typeof topbar !== 'undefined')
-    {
-      topbar.showTopbar();
-      topbar.setCurrent('Blog');
-    }
-  });
-  </script>
-  <!-- Piwik --> 
-  <script type="text/javascript">
-  var pkBaseURL = (("https:" == document.location.protocol) ? "https://stat.sdslabs.co.in/" : "http://stat.sdslabs.co.in/");
-  document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-  </script><script type="text/javascript">
-  try {
-  var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
-  piwikTracker.trackPageView();
-  piwikTracker.enableLinkTracking();
-  } catch( err ) {}
-  </script><noscript>&lt;p&gt;&lt;img src="https://stat.sdslabs.co.in/piwik.php?idsite=1" style="border:0" alt="" /&gt;&lt;/p&gt;</noscript>
-  <!-- End Piwik Tracking Code -->
-  </body>
-</html>
+        <section>
+            {{ content }}
+            {% include _social.html %}
+        </section>
+
+        {% if page.author %}
+        <footer>
+            <address>
+               {% if page.author.image %}<img src="/images/{{ page.author.image }}">{% endif %}
+                <p>Written by <strong><a rel="author" href="https://twitter.com/{{ page.author.twitter }}" title="{{ page.author_name }}" target="_blank">{{ page.author.name }}</a></strong><br>
+                <span class="muted">{{ page.author.bio }}</span>
+                </p>
+            </address>
+
+        </footer>
+        {% endif %}
+
+        {% if site.inc.disqus.shortname %}
+        <section>
+            {% include _disqus.html %}
+        </section>
+        {% endif %}
+    </div>
+</article>
