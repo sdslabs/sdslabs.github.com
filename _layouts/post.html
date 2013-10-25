@@ -58,14 +58,9 @@
   }
     </style>
     <script>
-      if (window.location.hostname == 'blog.sdslabs.co.in') {
-        document.write('<link type="text/css" href="https://sdslabs.co.in/comet/cometchatcss.php" rel="stylesheet">');
+      if (window.location.hostname == 'blog.sdslabs.co.in' || window.location.hostname == 'blog.sdslabs.local') {
         document.write('<link rel="stylesheet" href="https://sdslabs.co.in/lollipop/topbarwide.css">');
-        document.write('<script type="text/javascript" src="https://sdslabs.co.in/comet/cometchatjs.php"><\/script>');
         document.write('<script src="https://sdslabs.co.in/api/public/api.js"><\/script>');
-        $(document).ready(function(){
-          api.setCurrent("Blog");
-        })
       }
     </script>
     <!-- Le fav and touch icons -->
@@ -73,7 +68,7 @@
   </head>
   <body>
     <script type="text/javascript">
-      if (window.location.hostname != 'blog.sdslabs.co.in') {
+      if (window.location.hostname != 'blog.sdslabs.co.in' && window.location.hostname != 'blog.sdslabs.local') {
         $('body').css('padding-top', '0px');
       }
     </script>
@@ -114,7 +109,9 @@
     </div> <!-- /container -->
 	<script>
 	$(document).ready(function(){
-		topbar.showTopbar();
+    if (typeof topbar !== 'undefined')
+		  topbar.showTopbar();
+      topbar.setCurrent('Blog');
 	});
 	</script>
 	<!-- Piwik --> 
