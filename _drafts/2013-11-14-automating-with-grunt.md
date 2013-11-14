@@ -20,8 +20,10 @@ I recently came across [Grunt.js](http://gruntjs.com/) while working on [Erdős]
 
 As I've mentioned earlier, Grunt uses Node.js and is installed via NPM (Node Package Manager). Once you've got those ready, install the Grunt CLI globally.
 
+{% highlight sh %}
     npm install -g grunt-cli
     grunt --version
+{% endhighlight %}
 
 The second command should output your current command line module version. Next, create `package.json`, which keeps track of the dependencies we're using in our project so we don't have to push the node modules when collaborating with other developers.
 
@@ -39,6 +41,7 @@ This is what the project directory looks like which I'll be referring to through
 
 ### package.json
 
+{% highlight json %}
     {
       "name": "Erdos",
       "version": "0.1.0",
@@ -54,6 +57,7 @@ This is what the project directory looks like which I'll be referring to through
         "matchdep": "*"
       } 
     }
+{% endhighlight %}
 
 Run `npm install`, and NPM will go fetch these for us and place them in a `node_modules` folder (which should ideally be under gitignore).
 
@@ -61,6 +65,7 @@ Run `npm install`, and NPM will go fetch these for us and place them in a `node_
 
 Create `gruntfile.js` which defines the workflow and tasks for Grunt to execute. Inside `gruntfile.js`, all configuration is done by passing an object literal to `grunt.initConfig()`.
 
+{% highlight js %}
     module.exports = function(grunt){
 
       "use strict";
@@ -78,17 +83,20 @@ Create `gruntfile.js` which defines the workflow and tasks for Grunt to execute.
       grunt.registerTask('default', ['cssmin','uglify','env:production','preprocess','hashres']);
 
     };
+{% endhighlight %}
 
 ### [CSS Minification](https://github.com/gruntjs/grunt-contrib-cssmin)
 
 This is used to minify all the CSS files for use in the production environment.
 
+{% highlight js %}
     cssmin: {
       production: {
         src: 'assets/*.css',
         dest: 'assets/dist/style.css'
       }
     }
+{% endhighlight %}
 
 This task can now be executed by calling `grunt cssmin:production` on the command line.
 
@@ -96,6 +104,7 @@ This task can now be executed by calling `grunt cssmin:production` on the comman
 
 This takes care of javascript compression and minification, thus reducing file size which is important for websites to load fast. 
 
+{% highlight js %}
     uglify: {
       production: {
         files: {
@@ -103,6 +112,7 @@ This takes care of javascript compression and minification, thus reducing file s
         }
       }
     }
+{% endhighlight %}
 
 This task can now be executed by running `grunt uglify:production` from the command line. It will concatenate and uglify `jquery.js` and `main.js` in one file.
 
@@ -110,6 +120,7 @@ This task can now be executed by running `grunt uglify:production` from the comm
 
 This is a grunt task to automate environment configuration for other tasks. It can be used with the grunt-preprocess plugin to build `index.html` on-the-fly.
 
+{% highlight js %}
     env: {
       development: {
         NODE_ENV: 'development'
@@ -118,20 +129,24 @@ This is a grunt task to automate environment configuration for other tasks. It c
         NODE_ENV: 'production'
       }
     }
+{% endhighlight %}
 
 ### [Preprocess](https://github.com/jsoverson/grunt-preprocess/)
 
 As mentioned earlier, Grunt can preprocess files based off environment configuration.
 
+{% highlight js %}
     preprocess: {
       html: {
         src: 'index.tmpl',
         dest: 'index.html'
       }
     }
+{% endhighlight %}
 
 This task can now be executed by calling `grunt preprocess` on the command line. Our `layout.tmpl` can have logical blocks. This is useful in including analytics only on the production build, throwing in some ascii art, changing static asset paths based on environment etc.
 
+{% highlight html %}
     <!doctype html>
     <html>
       <!-- @if NODE_ENV = 'production' -->
@@ -153,11 +168,13 @@ This task can now be executed by calling `grunt preprocess` on the command line.
       -->
       <!-- @endif -->
       ...
+{% endhighlight %}
 
 ### [Cache-busting](https://github.com/Luismahou/grunt-hashres)
 
 grunt-hashres is an extremely useful plugin that hashes js and css files and renames the `<script>` and `<link>` declarations that refer to them in my html/php/etc files.
 
+{% highlight js %}
     hashres: {
       options: {
         encoding: 'utf8',
@@ -169,6 +186,7 @@ grunt-hashres is an extremely useful plugin that hashes js and css files and ren
         dest: 'index.html'
       }
     }
+{% endhighlight %}
 
 This task can now be executed by running `grunt hashres:production` from the command line. It would change `<link rel="stylesheet" href="assets/dist/style.css">` to `<link rel="stylesheet" href="assets/dist/style.130fdfaa.css">` and `<script src="assets/dist/main.js">` to `<script src="assets/dist/main.9c4cc83e.js">` in `index.html`. It would also rename the corresponding CSS & JS files in the `assets/dist` directory. This is much better than using a timestamp because the hash only changes when a file has been updated.
 
