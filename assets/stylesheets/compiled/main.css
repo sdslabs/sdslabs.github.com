@@ -3419,8 +3419,8 @@ article .highlight .lineno {
 /* line 183, ../sass/_article.scss */
 article pre {
   border: 0;
-  padding: 1.5em 3em;
-  margin: 0 -3em 1.5em;
+  padding: 1em 1em;
+  margin: 0 0 1.5em;
   background: whitesmoke;
   border: 0;
   border-radius: 2px;
