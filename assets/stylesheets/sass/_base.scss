@@ -111,16 +111,16 @@ a {
         background-image: -ms-linear-gradient(bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 100%);
 
         background-image: -webkit-gradient(
-        	linear,
-        	left bottom,
-        	left top,
-        	color-stop(0, rgba(0,0,0,0.15)),
-        	color-stop(1, rgba(0,0,0,0))
+            linear,
+            left bottom,
+            left top,
+            color-stop(0, rgba(0,0,0,0.15)),
+            color-stop(1, rgba(0,0,0,0))
         );
         padding: 100px 0;
         z-index:10;
 
-        a {
+        a.social {
             color:#fff;
             border:0;
             width:36px;
@@ -149,6 +149,18 @@ a {
                 .icon-facebook {
                      background-position:0px -14px;
                  }
+            }
+        }
+
+        .links {
+            padding-top: 30px;
+            color: white;
+            a {
+                color: white;
+
+                &:hover {
+                    color: $accent;
+                }
             }
         }
     }

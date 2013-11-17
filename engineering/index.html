@@ -17,28 +17,29 @@ layout: base
             <a class="social" href="/feed.xml" title="RSS Feed">
                 <i class="icon icon-rss"></i>
             </a>
+            <div class="links">
+                <a href="/">Home</a> | 
+                <a href="/engineering">Engineering</a>
+            </div>
         </div>
     </section>
 </div>
 
-
 <article class="container">
-{% for post in paginator.posts %}
+{% for post in site.categories.engineering %}
   {% unless post.draft %}
-    {% unless post.categories contains 'engineering' %}
-        <section class="index">
-            <!-- {% if post.author.image %}<img src="/images/{{ post.author.image }}" class="avatar">{% endif %}-->
-            <div>
-                <h2 class="title"><a href="{{ post.url }}" rel="prefetch">{{ post.title }}</a></h2>
-                <p>{{ post.excerpt }}</p>
-                <div class="meta">
-                    {% if post.author %} Written By <address>{{ post.author.name }}</a> &mdash; {% endif %}
-                    <time pubdate datetime="{{ post.date | date: "%Y-%d-%B" }}" title="{{ post.date | date: "%B %d, %Y" }}">{{ post.date | date: "%B %d, %Y" }}</time>
-                </div>
+    <section class="index">
+        <!-- {% if post.author.image %}<img src="/images/{{ post.author.image }}" class="avatar">{% endif %}-->
+        <div>
+            <h2 class="title"><a href="{{ post.url }}" rel="prefetch">{{ post.title }}</a></h2>
+            <p>{{ post.excerpt }}</p>
+            <div class="meta">
+                {% if post.author %} Written By <address>{{ post.author.name }}</a> &mdash; {% endif %}
+                <time pubdate datetime="{{ post.date | date: "%Y-%d-%B" }}" title="{{ post.date | date: "%B %d, %Y" }}">{{ post.date | date: "%B %d, %Y" }}</time>
             </div>
-            <hr>
-        </section>
-    {% endunless %}
+        </div>
+        <hr>
+    </section>
   {% endunless %}
 {% endfor %}
     <section class="pagination" style="text-align:center">
