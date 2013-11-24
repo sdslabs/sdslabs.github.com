@@ -22,8 +22,8 @@ I recently came across [Grunt.js](http://gruntjs.com/) while working on [Erdős]
 As I've mentioned earlier, Grunt uses Node.js and is installed via NPM (Node Package Manager). Once you've got those ready, install the Grunt CLI globally.
 
 {% highlight sh %}
-    npm install -g grunt-cli
-    grunt --version
+npm install -g grunt-cli
+grunt --version
 {% endhighlight %}
 
 The second command should output your current command line module version. Next, create `package.json`, which keeps track of the dependencies we're using in our project so we don't have to push the node modules when collaborating with other developers.
@@ -43,21 +43,21 @@ This is what the project directory looks like which I'll be referring to through
 ### package.json
 
 {% highlight json %}
-    {
-      "name": "Erdos",
-      "version": "0.1.0",
-      "author": "Abhishek Das",
+{
+  "name": "Erdos",
+  "version": "0.1.0",
+  "author": "Abhishek Das",
 
-      "devDependencies" : {
-        "grunt": "~0.4.0",
-        "grunt-contrib-cssmin": "*",
-        "grunt-contrib-uglify": "*",
-        "grunt-hashres": "*",
-        "grunt-env": "*",
-        "grunt-preprocess": "*",
-        "matchdep": "*"
-      } 
-    }
+  "devDependencies" : {
+    "grunt": "~0.4.0",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-hashres": "*",
+    "grunt-env": "*",
+    "grunt-preprocess": "*",
+    "matchdep": "*"
+  } 
+}
 {% endhighlight %}
 
 Run `npm install`, and NPM will go fetch these for us and place them in a `node_modules` folder (which should ideally be under gitignore).
@@ -67,23 +67,41 @@ Run `npm install`, and NPM will go fetch these for us and place them in a `node_
 Create `gruntfile.js` which defines the workflow and tasks for Grunt to execute. Inside `gruntfile.js`, all configuration is done by passing an object literal to `grunt.initConfig()`.
 
 {% highlight js %}
-    module.exports = function(grunt){
+module.exports = function(grunt){
 
-      "use strict";
+  "use strict";
 
-      /* Load grunt modules */
-      require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
+  /* Load grunt modules */
+  require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
 
-      grunt.initConfig({
+  grunt.initConfig({
 
-        /* All grunt tasks go here */
+    /* All grunt tasks go here */
 
-      });
+  });
 
-      /* Public grunt tasks - to be called from command line */
-      grunt.registerTask('default', ['cssmin','uglify','env:production','preprocess','hashres']);
+  /* Public grunt tasks - to be called from command line */
+  grunt.registerTask('default', ['cssmin','uglify','env:production','preprocess','hashres']);
 
-    };
+};
+{% endhighlight %}
+
+####Matchdep
+
+We are using matchdep to load all the grunt-modules in a single line instead of loading them sequentially. That is to say that instead of using:
+
+{% highlight js %}
+grunt.loadNpmTasks('grunt-contrib-cssmin');
+grunt.loadNpmTasks('grunt-contrib-uglify');
+grunt.loadNpmTasks('grunt-contrib-env');
+grunt.loadNpmTasks('grunt-contrib-preprocess');
+grunt.loadNpmTasks('grunt-contrib-hashres');
+{% endhighlight %}
+
+We are using the matchdep module to retrieve the dependency list from package.json, filter it for `grunt-*`, and load all those modules in grunt using:
+
+{% highlight js %}
+require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
 {% endhighlight %}
 
 ### [CSS Minification](https://github.com/gruntjs/grunt-contrib-cssmin)
@@ -91,12 +109,12 @@ Create `gruntfile.js` which defines the workflow and tasks for Grunt to execute.
 This is used to minify all the CSS files for use in the production environment.
 
 {% highlight js %}
-    cssmin: {
-      production: {
-        src: 'assets/*.css',
-        dest: 'assets/dist/style.css'
-      }
-    }
+cssmin: {
+  production: {
+    src: 'assets/*.css',
+    dest: 'assets/dist/style.css'
+  }
+}
 {% endhighlight %}
 
 This task can now be executed by calling `grunt cssmin:production` on the command line.
@@ -106,13 +124,13 @@ This task can now be executed by calling `grunt cssmin:production` on the comman
 This takes care of javascript compression and minification, thus reducing file size which is important for websites to load fast. 
 
 {% highlight js %}
-    uglify: {
-      production: {
-        files: {
-          'assets/dist/main.js': ['assets/*.js']
-        }
-      }
+uglify: {
+  production: {
+    files: {
+      'assets/dist/main.js': ['assets/*.js']
     }
+  }
+}
 {% endhighlight %}
 
 This task can now be executed by running `grunt uglify:production` from the command line. It will concatenate and uglify `jquery.js` and `main.js` in one file.
@@ -122,14 +140,14 @@ This task can now be executed by running `grunt uglify:production` from the comm
 This is a grunt task to automate environment configuration for other tasks. It can be used with the grunt-preprocess plugin to build `index.html` on-the-fly.
 
 {% highlight js %}
-    env: {
-      development: {
-        NODE_ENV: 'development'
-      },
-      production: {
-        NODE_ENV: 'production'
-      }
-    }
+env: {
+  development: {
+    NODE_ENV: 'development'
+  },
+  production: {
+    NODE_ENV: 'production'
+  }
+}
 {% endhighlight %}
 
 ### [Preprocess](https://github.com/jsoverson/grunt-preprocess/)
@@ -137,38 +155,38 @@ This is a grunt task to automate environment configuration for other tasks. It c
 As mentioned earlier, Grunt can preprocess files based off environment configuration.
 
 {% highlight js %}
-    preprocess: {
-      html: {
-        src: 'index.tmpl',
-        dest: 'index.html'
-      }
-    }
+preprocess: {
+  html: {
+    src: 'index.tmpl',
+    dest: 'index.html'
+  }
+}
 {% endhighlight %}
 
 This task can now be executed by calling `grunt preprocess` on the command line. Our `layout.tmpl` can have logical blocks. This is useful in including analytics only on the production build, throwing in some ascii art, changing static asset paths based on environment etc.
 
 {% highlight html %}
-    <!doctype html>
-    <html>
-      <!-- @if NODE_ENV = 'production' -->
-      <!--
-            ,---,.                                         
-        ,'  .' |             ,---,                       
-      ,---.'   |  __  ,-.  ,---.'|   ,---.               
-      |   |   .',' ,'/ /|  |   | :  '   ,'\   .--.--.    
-      :   :  |-,'  | |' |  |   | | /   /   | /  /    '   
-      :   |  ;/||  |   ,',--.__| |.   ; ,. :|  :  /`./   
-      |   :   .''  :  / /   ,'   |'   | |: :|  :  ;_     
-      |   |  |-,|  | ' .   '  /  |'   | .; : \  \    `.  
-      '   :  ;/|;  : | '   ; |:  ||   :    |  `----.   \ 
-      |   |    \|  , ; |   | '/  ' \   \  /  /  /`--'  / 
-      |   :   .' ---'  |   :    :|  `----'  '--'.     /  
-      |   | ,'          \   \  /              `--'---'   
-      `----'             `----'                          
+<!doctype html>
+<html>
+  <!-- @if NODE_ENV = 'production' -->
+  <!--
+        ,---,.                                         
+    ,'  .' |             ,---,                       
+  ,---.'   |  __  ,-.  ,---.'|   ,---.               
+  |   |   .',' ,'/ /|  |   | :  '   ,'\   .--.--.    
+  :   :  |-,'  | |' |  |   | | /   /   | /  /    '   
+  :   |  ;/||  |   ,',--.__| |.   ; ,. :|  :  /`./   
+  |   :   .''  :  / /   ,'   |'   | |: :|  :  ;_     
+  |   |  |-,|  | ' .   '  /  |'   | .; : \  \    `.  
+  '   :  ;/|;  : | '   ; |:  ||   :    |  `----.   \ 
+  |   |    \|  , ; |   | '/  ' \   \  /  /  /`--'  / 
+  |   :   .' ---'  |   :    :|  `----'  '--'.     /  
+  |   | ,'          \   \  /              `--'---'   
+  `----'             `----'                          
 
-      -->
-      <!-- @endif -->
-      ...
+  -->
+  <!-- @endif -->
+  ...
 {% endhighlight %}
 
 ### [Cache-busting](https://github.com/Luismahou/grunt-hashres)
@@ -176,17 +194,17 @@ This task can now be executed by calling `grunt preprocess` on the command line.
 grunt-hashres is an extremely useful plugin that hashes js and css files and renames the `<script>` and `<link>` declarations that refer to them in my html/php/etc files.
 
 {% highlight js %}
-    hashres: {
-      options: {
-        encoding: 'utf8',
-        fileNameFormat: '${name}.${hash}.${ext}',
-        renameFiles: true
-      },
-      production: {
-        src: ['assets/dist/style.css','assets/dist/main.js'],
-        dest: 'index.html'
-      }
-    }
+hashres: {
+  options: {
+    encoding: 'utf8',
+    fileNameFormat: '${name}.${hash}.${ext}',
+    renameFiles: true
+  },
+  production: {
+    src: ['assets/dist/style.css','assets/dist/main.js'],
+    dest: 'index.html'
+  }
+}
 {% endhighlight %}
 
 This task can now be executed by running `grunt hashres:production` from the command line. It would change `<link rel="stylesheet" href="assets/dist/style.css">` to `<link rel="stylesheet" href="assets/dist/style.130fdfaa.css">` and `<script src="assets/dist/main.js">` to `<script src="assets/dist/main.9c4cc83e.js">` in `index.html`. It would also rename the corresponding CSS & JS files in the `assets/dist` directory. This is much better than using a timestamp because the hash only changes when a file has been updated.
