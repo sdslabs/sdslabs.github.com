@@ -1,16 +1,21 @@
 ---
 layout: post
 title: Working at SDSLabs (4)
-excerpt: "Divij Bindlish's experience as a lab member"
+excerpt: "Divij Bindlish's experience as a member of SDSLabs"
+author:
+  name: Divij Bindlish
+  twitter: DivijBindlish
+  bio: 2nd year, Electrical Engineering
+  image: divij.jpg
 ---
 
 It was a cold January evening when I received the news that I was selected in SDSLabs. Back then, I didn't know about the effect that phone call would have, but here we are, 11 months later and now, SDSLabs has become a central part of my identity here at IITR. It's in here, that I met some of the most hard working and talented people in the entire campus and it has been an absolute pleasure working with them.
 
 ##The Learning Experience
 
-After joining, I was introduced to a lot of new stuff like Git, Node, Python, Backbone.js, design patterns, Javascript, AJAX, jQuery, Angular, CSS, Stylus, LESS... I could go on and on. I started using Linux (after using windows for the past 10 years) and have since fallen in love with it. The point is that lab is a center for learning, you learn something new every time you are here. It provides a place to learn without any kind of restriction. The lab is open 24 hours a day so you can come and go as you please. Everybody is extremely helpful and will consistently point you in the right direction as to what you should learn or try next. You get to learn how websites that you visit daily and how the applications you use on your mobile actually work. Every last detail.
+After joining, I was introduced to a lot of new stuff like Git, Node, Python, Backbone.js, Design Patterns, Javascript, MVC, AJAX, jQuery, Angular, CSS, Stylus, LESS... I could go on and on. I started using Linux (after using windows for the past 10 years) and have since fallen in love with it. The point is that lab is a center for learning, you learn something new every time you are here. It provides a place to learn without any kind of restriction. The lab is open 24 hours a day so you can come and go as you please. Everybody is extremely helpful and will consistently point you in the right direction as to what you should learn or try next. You get to learn how websites that you visit daily and how the applications you use on your mobile actually work. Every last detail.
 
-Another great thing about the environment, is the geek-speak that flows about. Just listening to all the conversations in the lab will tell you something new about an open source library, why the new application for android is really cool, why a new startup is bound to fail etc. This list is endless as well.
+Another great thing about the environment is the geek-speak that flows about. Just listening to all the conversations in the lab will tell you something new about an open source library, why the new application for android is really cool, why a new startup is bound to fail etc. This list is endless as well.
 
 ##My Work
 
@@ -29,13 +34,10 @@ SDSLabs started primarily as a group of web developers who, over a period of two
 ##What Else?
 
 - Frequent interactions with our alumni. Any member can have a chat with any of our alumni at any time. They constantly respond to all the emails as if they are still part of the group. This goes to show the effect that lab has on all it's members.
-- Amazing chapos. This semeter, we have had a lot of chapos, almost one chapo every week. That includes domi chapos with your huge order coming on a rickshaw, to hotel chapos in prakash or divine.
+- Amazing chapos. This semester, we have had a lot of chapos, almost one chapo every week. That includes Domi chapos with your huge order coming on a rickshaw, to hotel chapos in Prakash or Divine.
 - Your regular home away from home. A lot of the members choose to spend their nights at SDSLabs, rather than staying at their hostels. Some people even leave for their classes directly from the lab itself!
 - A 42" TV. The best place to view all your sports matches from the Cricket World Cup to the UEFA Champions league whilst sitting comfortably on a bean bag ( that's right, bean bags ).
 
-##Recruitement
+##Recruitment
 
 Coming January, SDSLabs is recruiting. If you feel like you belong here, head over to [join.sdslabs.co](http://join.sdslabs.co/) to get started.
-
---
-Divij Bindlish, 2nd Year, Electrical
