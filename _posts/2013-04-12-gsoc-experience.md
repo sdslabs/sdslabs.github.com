@@ -42,5 +42,5 @@ Resources:
 <http://groups.google.com/group/google-summer-of-code-discuss> 
 <http://flossmanuals.net/GSoCStudentGuide/>  
 <http://blog.vmsplice.net/2011/03/advice-for-students-applying-to-google.html> 
-<https://developers.google.com/open-source/soc/> 
+<http://developers.google.com/open-source/soc/> 
 
