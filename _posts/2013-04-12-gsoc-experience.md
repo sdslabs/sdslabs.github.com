@@ -2,6 +2,8 @@
 layout: post
 title: GSoC 2012 Experience
 excerpt: "My experiences as a participant of GSoC 2012"
+author:
+  gplus: +AshwiniKhare
 ---
 
 Roughly the same time last year I was caught in a dilemma of what to make of my summer. Given my low interest in departmental courses, I was not so convinced about going for an industrial internship with just one year knowledge of relevant courses. Research domain was beyond me to say the very least and whole idea of mailing exhaustively professors with little or no idea of research topics, just for the sake of a free holiday did not amuse me much.
@@ -42,5 +44,3 @@ Resources:
 <http://blog.vmsplice.net/2011/03/advice-for-students-applying-to-google.html> 
 <https://developers.google.com/open-source/soc/> 
 
---
-Ashwini Khare, 3rd Year, Civil

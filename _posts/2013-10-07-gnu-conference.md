@@ -2,6 +2,8 @@
 layout: post
 title: GNU Conference
 excerpt: "Excerpts from the GNU 30th anniversary conference."
+author:
+  gplus: +AartiKDwivedi
 ---
 
 The best way to spend time is to do the things that you love. And last weekend of September
@@ -83,6 +85,3 @@ interns in the organizations that were also running Outreach Program for Women i
 To be honest, there is no greater joy than being invited to such a great conference, being awarded a
 travel scholarship for the same and then meeting exceptional people. I would like to thank SDSLabs for
 leading me to this point.
-
-Aarti Dwivedi,
-Team SDSLabs

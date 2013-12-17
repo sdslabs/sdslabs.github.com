@@ -14,6 +14,7 @@ layout: base
         <header>
             <div class="meta">
                 {% if page.author %} By <address><a rel="author" href="{{ page.author.link }}" title="{{ page.author.name }}" target="_blank">{{ page.author.name }}</a> &mdash; {% endif %}
+
                 <time pubdate datetime="{{ page.date | date: "%Y-%d-%B" }}" title="{{ page.date | date: "%B %d, %Y" }}">{{ page.date | date: "%B %d, %Y" }}</time>
             </div>
             <h1 class="title">{{ page.title }}</h1>
@@ -24,15 +25,27 @@ layout: base
             {{ content }}
             {% include _social.html %}
         </section>
-
         {% if page.author %}
         <footer>
-            <address>
-               {% if page.author.image %}<img src="/images/{{ page.author.image }}">{% endif %}
+
+             {% if page.author.gplus %}
+                <center>
+                    <p style="text-align:center"> Written by : </p>
+                    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+                        <div class="g-person" data-href="https://plus.google.com/{{ page.author.gplus }}" data-layout="landscape" data-width="273"></div>
+                    </script>
+                 </center>   
+
+             {% elsif page.author.name %}   
+             <address>
+          
+                {% if page.author.image %}<img src="/images/{{ page.author.image }}">{% endif %}
                 <p>Written by <strong><a rel="author" href="https://twitter.com/{{ page.author.twitter }}" title="{{ page.author_name }}" target="_blank">{{ page.author.name }}</a></strong><br>
                 <span class="muted">{{ page.author.bio }}</span>
-                </p>
-            </address>
+                </p>               
+               
+             </address>
+             {% endif %}
 
         </footer>
         {% endif %}
