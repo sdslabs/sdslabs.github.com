@@ -12,7 +12,7 @@ It’s tough to put down how much and in how many ways I have benefited being a 
 
 ##Learning
 
-My mentor in initial lab days was Abhay Rana(a.k.a. Nemo). If you have ever interacted him, you’ll know about his technical prowess. While it was exciting working on the same project, it was also a bit scary(no kidding) to ask him an easy question(He did answer them, but a good amount of them used to be [lmgty](http://lmgtfy.com/) links). The best part was that you’ll understand how to go about things and he’ll always give you ample resources to check out and learn.    
+My mentor in initial lab days was Abhay Rana(a.k.a. Nemo). If you have ever interacted him, you’ll know about his technical prowess. While it was exciting working on the same project, it was also a bit scary(no kidding) to ask him an easy question(He did answer them, but a good amount of them used to be [lmgtfy](http://lmgtfy.com/) links). The best part was that you’ll understand how to go about things and he’ll always give you ample resources to check out and learn.    
 
 A year later, I found myself giving lectures to the next batch which joined us. It was no easy task, because I had to be prepared to answer their questions without a second thought and later mentor them for new projects, living up to high standards that Abhay and Harshil had set. The culture has so developed that even today if you participate in any discussion, leave apart the lectures, you’ll learn something new, every time.
 
