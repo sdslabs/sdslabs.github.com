@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Working at SDSLabs (3)
-excerpt: "My experiences at SDSLabs"
+excerpt: "Abhay Rana, aka Capt Nemo's experiences at SDSLabs"
 ---
 ##Introduction
 For the past two years, I have been involved in a student group in our campus called SDSLabs.
