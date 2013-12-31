@@ -2124,6 +2124,8 @@ a {
           background-position: 0px -15px; }
         .blog-cover section a.social:hover .icon-facebook {
           background-position: 0px -14px; }
+        .blog-cover section a.social:hover .icon-mail {
+          background-image: url('/images/email-black.png'); }
     .blog-cover section .links {
       padding-top: 30px;
       color: white; }
@@ -2472,6 +2474,16 @@ article {
   background-position: 0 0;
   width: 14px;
   height: 14px; }
+
+  .icon-mail {
+  background-image: url('/images/email-white.png');
+  background-size: 14px;
+  background-position: 0 0;
+  width: 14px;
+  height: 14px; }
+
+  .icon-mail.black {
+  background-image: url('/images/email-black.png'); }
 
 .icon-rss.black {
   background-position: 1px -11px; }
