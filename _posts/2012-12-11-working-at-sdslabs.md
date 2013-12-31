@@ -1,11 +1,14 @@
 ---
 layout: post
 title: Working at SDSLabs (2)
-excerpt: "What's it like to be member of SDSLabs"
+excerpt: "What's it like to be member of SDSLabs, by Shashank Mehta"
+author:
+  gplus: +ShashankMehta
+  name: Shashank Mehta
 ---
 _The first post on this topic can be read [here](http://blog.sdslabs.co.in/2012/01/work-at-the-sds/)_
 
-<img src="/images/sdslabs.jpg" style="float: right; margin: 5px 0px 20px 20px;">
+<img src="/images/posts/working-sdslabs/sdslabs.jpg" style="float: right; margin: 5px 0px 20px 20px;">
 
 If you have ever spoken to me in real life or follow me on [twitter](http://twitter.com/leostatic) or 
 are in my friend list in facebook or instagram or ..... you get the point, then you must have seen my
@@ -28,7 +31,7 @@ I was one of the 13, out of nearly 200 people who had applied, to be chosen in t
 category (Design being the other). The process was long and ardous but the end result has been 
 wonderful. The last 11 months in SDSLabs have been amazing.
 
-<img src="/images/sds1.jpg" style="width: inherit; margin: 5px 0px 20px 0px;">
+<img src="/images/posts/working-sdslabs/sds1.jpg" style="width: inherit; margin: 5px 0px 20px 0px;">
 
 ##What's it like inside of SDSLabs
 The first thing that you realise is the level of service and infrastructure available inside 
@@ -43,7 +46,7 @@ talk about [Hacker News](http://news.ycombinator.com/) without getting clueless 
 the first place where when I complained about unnecessary clicks on a website people actually understood 
 because it is in their system to create user friendly apps.
 
-<img alt="ManUtd vs ManCity" src="/images/sds2.jpg" style="width: inherit; margin: 5px 0px 20px 0px;">
+<img alt="ManUtd vs ManCity" src="/images/posts/working-sdslabs/sds2.jpg" style="width: inherit; margin: 5px 0px 20px 0px;">
 
 ##Technology
 After joining lab I was introduced to git(version control system), redmine(project management system), 
