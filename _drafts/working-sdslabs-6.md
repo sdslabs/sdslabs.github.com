@@ -16,7 +16,7 @@ We had an introductory meet the very first day after our recruitments, my first 
 
 ##The Inside Story
 
-Lab is a wonderful place to learn a lot of new things. We have some really cool brains at work 24x7 in here. Everyone is just so supportive. I still remember our starting days when we used to have problems with the smallest of issues, and had full support from the other members in solving them. f
+Lab is a wonderful place to learn a lot of new things. We have some really cool brains at work 24x7 in here. Everyone is just so supportive. I still remember our starting days when we used to have problems with the smallest of issues, and had full support from the other members in solving them.
 
 Don't confuse it with being spoon-fed because that is something that will never be done. We're always instructed to find the solution ourselves, at least try really hard for the same, before asking someone for help. There couldn't be a better way to learn than this.
 
@@ -56,10 +56,13 @@ Now after this little description  of the lab,  no doubt anyone would surely wan
 ##Recruitments 2014
 
 Well then, roll up your sleeves!  For all those out there, waiting for that one phone call, here we are recruiting the tech geeks. Come, join us this Jan.
+
 Eligibility??
 An enthusiastic fresher interested in coding and/or designing.
 Yes! That's all.
+
 Don't believe me? Do visit [join.sdslabs.co](http://join.sdslabs.co/).
+
 Good Luck!
 
 
