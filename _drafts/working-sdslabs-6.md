@@ -8,7 +8,7 @@ author:
   gplus: +AnkitaShukla
 ---
 
-What if you get a phone call that changes the way you see things, changes your schedule for the good and is the call you always awaited since you joined the campus? I got such a call, nearly a year back, "Congratulations! You've been selected in SDSLabs!". Since then, life has never been the same.
+What if you get a phone call that changes the way you see things, changes your schedule for the good and is the call you always awaited since you joined the campus? I got such a call, nearly a year back, "Congratulations! You've been selected in SDSLabs!". Since then, life has never been the same. As a member of SDSLabs one does not only groom one's programming skills but also unleashes the technological and entrepreneur acumen chained within oneself.
 
 ##The First Look
 
