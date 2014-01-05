@@ -34,12 +34,9 @@ layout: base
         <footer>
 
              {% if page.author.gplus %}
-                <center>
-                    <p style="text-align:center"> Written by : </p>
-                    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-                        <div class="g-person" data-href="https://plus.google.com/{{ page.author.gplus }}" data-layout="landscape" data-width="273"></div>
-                    </script>
-                 </center>   
+                <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+                    <div class="g-person" data-href="https://plus.google.com/{{ page.author.gplus }}" data-layout="landscape" data-width="300"></div>
+                </script>
 
              {% elsif page.author.name %}   
              <address>

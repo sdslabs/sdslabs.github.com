@@ -10,6 +10,7 @@ author:
   twitter: abhshkdz
   bio: Developer, SDSLabs
   image: abhishek.jpg
+  gplus: +AbhishekDasZ
 
 ---
 

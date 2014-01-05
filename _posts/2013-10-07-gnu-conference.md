@@ -4,6 +4,7 @@ title: GNU Conference
 excerpt: "Excerpts from the GNU 30th anniversary conference."
 author:
   gplus: +AartiKDwivedi
+  name: Aarti Dwivedi
 ---
 
 The best way to spend time is to do the things that you love. And last weekend of September
