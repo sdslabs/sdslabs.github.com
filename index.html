@@ -8,6 +8,10 @@ layout: base
             <h1>{{ site.inc.title }}</h1>
             {% if site.inc.subtitle %}<h3>{{ site.inc.subtitle }}</h3>{% endif %}
         
+
+            {% if site.inc.github %}
+            <a class="social" href="https://github.com/{{ site.inc.github }}" title="Follow on GitHub" target="_blank"><i class="icon icon-github"></i></a>
+            {% endif %}
             {% if site.inc.twitter %}
             <a class="social" href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter"></i></a>
             {% endif %}

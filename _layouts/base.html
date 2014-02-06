@@ -47,6 +47,9 @@
         </nav>
         
         <nav class="social">
+            {% if site.inc.github %}
+            <a href="https://github.com/{{ site.inc.github }}" title="Follow on GitHub" target="_blank"><i class="icon icon-github black"></i></a>
+            {% endif %}
             {% if site.inc.twitter %}
             <a href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter black"></i></a>
             {% endif %}

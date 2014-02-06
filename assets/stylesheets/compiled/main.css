@@ -2126,6 +2126,8 @@ a {
           background-position: 0px -14px; }
         .blog-cover section a.social:hover .icon-mail {
           background-image: url('/images/email-black.png'); }
+        .blog-cover section a.social:hover .icon-github {
+          background-image: url('/images/github-black.png'); }
     .blog-cover section .links {
       padding-top: 30px;
       color: white; }
@@ -2482,6 +2484,14 @@ article {
   width: 14px;
   height: 14px; }
 
+  .icon-github {
+    background-image: url('/images/github-white.png');
+    background-size: 18px;
+    background-position: -2px -2px;
+    width: 14px;
+    height: 14px;
+  }
+
   .icon-mail.black {
   background-image: url('/images/email-black.png'); }
 
@@ -2493,6 +2503,10 @@ article {
 
 .icon-facebook.black {
   background-position: 0px -14px; }
+
+.icon-github.black {
+  background-image: url('/images/github-black.png');
+}
 
 .highlight {
   background: #ffffff; }
