@@ -1,6 +1,6 @@
 ---
 layout: post
-title: code.fun.do '14
+title: Code.Fun.Do '14
 excerpt: "A team of 4 from SDSLabs participated and won in the code.fun.do hackathon organized by Microsoft"
 author:
   name: Divij Bindlish
@@ -21,12 +21,14 @@ SDSLabs, being at the forefront of software development in the campus took part 
 
 The Air Maps application creates a flying simulation over any city across the globe and the view is controlled using gestures. The application also shows educational places like museums, parks and national monuments on the city. You can pause at any location and see corresponding history and information about it. Relevant tweets are also displayed for that location. It also supports voice commands which allows a user to directly fly to a different city by saying “Fly to New York”. The application also supports street view to create a simulation of standing at a particular point inside a city. The view changes on when the user turns or moves in space.
 
+![Airmaps](/images/posts/code-fun-do/application.jpg)
+
 All the four members of the top two teams won a Nokia Lumia 520 each. Apart from this, the 5 shortlisted teams get to be a part of the Finalists Forum, run by Microsoft where they are mentored by technology experts, both from within and outside Microsoft, to build impactful apps, over a period of approximately three months. These teams get to compete on a national level where the competition is much better and more fierce.
 
 ![Closing Ceremony](/images/posts/code-fun-do/closing.jpg)
 
 With an amazing response by the students and the professors of IITR, the crew from Microsoft was more than happy. Thus, we can expect them to show up next year as well with a bigger event with more workshops and better prizes. This is just a starting step which in the long run, will help the campus become more technology oriented.
 
-##Techinical Details
+##Technical Details
 
 The winning application, AirMaps was a web based application with a server and client. A Kinect device was connected to the server. Data was crunched in C# and the corresponding result was sent to the front end using a custom modified Alchemy C# websocket server. User’s gestures and voice was recognized using robust SDKs provided by Microsoft and appropriate actions were defined for certain gestures and voice commands. This was built on top of the Kinect WPFViewers framework for faster development. The front-end utilized Google’s Earth, Maps, and Street View APIs to render the 3D landscape of a city and viewing street images. Apart from this, Twitter API was also used to display relevant popular tweets about any city or location.
