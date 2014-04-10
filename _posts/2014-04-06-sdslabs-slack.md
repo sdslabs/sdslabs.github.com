@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SDSLabs moved to Slack for communication
-excerpt: "We switched from Partychat to Slack of team chat"
+excerpt: "We switched from Partychat to Slack for team chat"
 author:
   name: Shashank Mehta
   twitter: leostatic
