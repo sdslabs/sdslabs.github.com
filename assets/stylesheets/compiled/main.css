@@ -2304,6 +2304,8 @@ article {
     article .social > div {
       display: inline-block;
       min-width: 120px; }
+    article .social > div .fb-like > span {
+      vertical-align: top !important; }
   article .container > footer {
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;

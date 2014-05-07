@@ -14,6 +14,9 @@ article {
         > div {
             display:inline-block;
             min-width:120px;
+            .fb-like > span {
+                vertical-align:top !important;
+            }
         }
     }
 
