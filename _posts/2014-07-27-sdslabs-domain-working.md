@@ -12,9 +12,9 @@ A very common asked question is about our domain name and how does it work local
 
 Now, however we are using the domain name sdslabs.co.in for all our services, including [DC](http://dc.sdslabs.co.in). To understand how this works, you will have to understand how the name resolution of a domain name takes place.
 
-<blockquote>
-The Domain Name System (DNS) is a hierarchical distributed naming system for computers, services, or any resource connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities.
-</blockqoute>
+
+>The Domain Name System (DNS) is a hierarchical distributed naming system for computers, services, or any resource connected to the Internet
+>or a private network. It associates various information with domain names assigned to each of the participating entities.
 
 [Wikipedia](http://en.wikipedia.org/wiki/Domain_Name_System)
 
