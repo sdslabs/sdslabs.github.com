@@ -14,9 +14,9 @@ Now, however we are using the domain name sdslabs.co.in for all our services, in
 
 <blockquote>
 The Domain Name System (DNS) is a hierarchical distributed naming system for computers, services, or any resource connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities.
-
-- [Wikipedia](http://en.wikipedia.org/wiki/Domain_Name_System)
 </blockqoute>
+
+[Wikipedia](http://en.wikipedia.org/wiki/Domain_Name_System)
 
 DNS is basically a service which resolves domain names to IP addresses. If you own a domain name, you can point it to wherever you want. This is usually done in the administration panel of your hosting services. We have setup multiple domains on our nameserver ([mitsu.in](http://mitsu.in) as of the moment) to point to the IP address 192.168.208.x.
 
