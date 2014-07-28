@@ -4,7 +4,7 @@ title:      "How does the sdslabs.co.in domain name work?"
 excerpt:    "People have asked us many times how our domain name works and here is the answer"
 author:
   name: Abhay Rana
-  twitter: "capt_n3m0"
+  twitter: "captn3m0"
   bio: Developer, SDSLabs
   image: nemo.jpg
 ---
