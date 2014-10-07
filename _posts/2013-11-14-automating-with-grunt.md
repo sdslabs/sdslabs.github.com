@@ -4,7 +4,6 @@ layout:     post
 title:      "Workflow Automation with Grunt"
 date:       2013-11-14 00:00:00
 excerpt:    "Grunt is a JS command-line build tool that is used to automate repetitive tasks"
-category: engineering
 author:
   name: Abhishek Das
   twitter: abhshkdz
