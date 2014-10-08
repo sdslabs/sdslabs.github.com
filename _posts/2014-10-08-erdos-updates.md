@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Search, Activity, πrates, etc."
+title:      "Erdős: Search, Activity, πrates, etc."
 excerpt:    "We're launching lots of big improvements to Erdős"
 author:
   name: Abhishek Das
