@@ -16,19 +16,19 @@ Backdoor is a platform for the hackers out there to showcase their talent in a c
 
 ##History
 
-In March 2013 SDSLabs organized the first ever Capture the Flag event by IIT Roorkee under the banner of Cognizance, the technical festival of IIT Roorkee. 80 teams participated in it from all over the world with Team [dcua](https://ctftime.org/team/762 "Team dcua")(currently ranked 9 at [ctftime](https://ctftime.org/ "ctftime") winning it.
+In March 2013, SDSLabs organized the first ever Capture the Flag event by IIT Roorkee under the banner of Cognizance, the technical festival of IIT Roorkee. 80 teams participated in it from all over the world with Team [dcua](https://ctftime.org/team/762 "Team dcua")(currently ranked 9 at [ctftime](https://ctftime.org/ "ctftime") winning it.
 
-Encouraged by it's success, SDSLabs was back with BackdoorCTF'14 the next year during Cognizance. We had a participation of whooping 460 teams from 68 different countries. 
+Encouraged by its success, SDSLabs was back with BackdoorCTF '14 the next year during Cognizance. We had a participation of whopping 460 teams from 68 different countries. 
 
-Inspired by all this we decided to develop Backdoor not only as a CTF that takes place once a year, but as an application that consists of challenges available for the user anytime of the year. Apart from this we shall be hosting competitions frequently. 
+Inspired by all this, we decided to develop Backdoor not only as an annual CTF, but as an application that consists of challenges available for the user anytime of the year, more like a continuous learning environment, a cyber security playground. Apart from this, we shall be hosting competitions frequently. 
 
 > ###Challenges
 
-The challenges in backdoor will range from web, security, network, binary, crypto, etc. Each of these will have a score associated with them. We have tried to simulate real world applications so as to give a hands on experience for the participant. To solve these challenges you would need to exploit some vulnerability.
+The challenges in Backdoor will range from web, security, network, binary, crypto, etc. Each of these will have a score associated with them. We have tried to simulate real world applications so as to give a hands-on experience. To solve these challenges you would need to exploit some vulnerability.
 
 ##Practice Arena
 
-Backdoor has a Practice Arena where users can test their skills by solving various challenges. Each challenge will be tagged for better user experience. Users will be ranked depending on their total scores based on challenges solved.
+Backdoor has a Practice Arena where users can test their skills by solving various challenges. Each challenge will be tagged for easier accessibility. Users will be ranked based on their scores.
 
 ##Competitions
 
@@ -44,7 +44,7 @@ This is where we would be hosting our competitions. There will be team participa
 
 ##Technical details
 
-1. The challenges are hosted on a different server so that the main Backdoor platform is free from any vulnerabilties.
+1. The challenges are hosted on a different server so that the main Backdoor platform is free from any exploits.
 2. We even have a different domain for the challenges so as to prevent an XSS vulnerability in one of the challenges leading to the hijacking of the SDSLabs account of the user.
 3. Backdoor's backend is written in PHP using Toro as the framework.
 4. All the services on the server are running in a chroot jail thereby preventing access to the parent directory and files.
