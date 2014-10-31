@@ -10,7 +10,7 @@ author:
   image: vampire.jpg
 ---
 
-Backdoor is a platform for the hackers out there to showcase their talent in a competitive environment. Currently it has been launched only within the IIT Roorkee campus.
+[Backdoor](https://backdoor.sdslabs.co.in/ "Backdoor") is a platform for the hackers out there to showcase their talent in a competitive environment. Currently it has been launched only within the IIT Roorkee campus.
 
 > It is a Capture the Flag styled event. A flag (basically a string) is associated with every challenge. Once you have solved a particular challenge you would get the hidden flag which you need to submit back to us for getting points.
 
@@ -30,21 +30,19 @@ The challenges in Backdoor will range from web, security, network, binary, crypt
 
 Backdoor has a Practice Arena where users can test their skills by solving various challenges. Each challenge will be tagged for easier accessibility. Users will be ranked based on their scores.
 
+![PracticeArena](/images/posts/launching-backdoor/practice-arena.png)
+
+![User](/images/posts/launching-backdoor/user.png)
+
 ##Competitions
 
 This is where we would be hosting our competitions. There will be team participation as is the case with many other CTFs. Each competition will be open for a particular amount of time only and there will be a separate leaderboard for each one. Challenges will be shifted to Practice Arena soon after the competition ends. 
 
-##Screenshots
-
-![PracticeArena](/images/posts/launching-backdoor/practice-arena.png)
-
 ![Competitions](/images/posts/launching-backdoor/competitions.png)
-
-![User](/images/posts/launching-backdoor/user.png)
 
 ##Technical details
 
 1. The challenges are hosted on a different server so that the main Backdoor platform is free from any exploits.
-2. We even have a different domain for the challenges so as to prevent an XSS vulnerability in one of the challenges leading to the hijacking of the SDSLabs account of the user.
-3. Backdoor's backend is written in PHP using Toro as the framework.
-4. All the services on the server are running in a chroot jail thereby preventing access to the parent directory and files.
+2. We even have a different domain for the challenges so as to prevent an `XSS` vulnerability in one of the challenges leading to the hijacking of the SDSLabs account of the user.
+3. Backdoor's backend is written in `PHP` using `Toro` as the framework.
+4. All the services on the server are running in a `chroot` jail thereby preventing access to the parent directory and files.
