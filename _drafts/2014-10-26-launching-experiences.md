@@ -12,6 +12,8 @@ Experiences features a simple functionality to fetch content from existing blog 
 
 We hope to see active participation from alumni as well as students to create a large pool of experiences that they had had at IIT Roorkee. If you want a post to be added to Experiences on your behalf, you can log in to Experiences and add one or you can mail us with a link to your blog post at contact@sdslabs.co.in.
 
+Experiences is live at [experiences.sdslabs.co](http://experiences.sdslabs.co) on the internet.
+
 ## Technical Details
 - Experiences has been in our kitchen for quite a while and needed a polish before launch.
 - PHP based backend using Limonade framework and JavaScript for DOM side manipulations.
