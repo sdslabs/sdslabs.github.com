@@ -14,6 +14,12 @@ We hope to see active participation from alumni as well as students to create a 
 
 Experiences is live at [experiences.sdslabs.co](http://experiences.sdslabs.co) on the internet.
 
+## Screenshots
+
+![Homepage](/images/posts/launching-experiences/homepage.png)
+
+![Example Post](/images/posts/launching-experiences/example_post.png)
+
 ## Technical Details
 - Experiences has been in our kitchen for quite a while and needed a polish before launch.
 - PHP based backend using Limonade framework and JavaScript for DOM side manipulations.
