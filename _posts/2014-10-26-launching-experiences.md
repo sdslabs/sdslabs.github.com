@@ -2,6 +2,12 @@
 layout: post
 title: Launching Experiences
 excerpt: Dive into experiences of IITR alumni
+author:
+  name: Amanpreet Singh
+  link: http://apsdehal.in
+  bio: Developer, SDSLabs
+  twitter: apsdehal
+  image: aps.jpg
 ---
 
 Experiences is a collection of posts by the Indian Institute of Technology Roorkee alumni. It aims to guide as well as enlighten the new generation. The idea is to bring all this content together on a single platform and make it easily accessible for everybody.
