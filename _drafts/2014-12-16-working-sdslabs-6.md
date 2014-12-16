@@ -50,7 +50,7 @@ Our goal is to turn dreams to reality through our projects.
 
 We hold regular lectures and meetings regarding web technologies and Linux. We also organize hackathons like Syntax Error to promote development within campus. We hold competitions on CodeVillage, Erdős and Backdoor regulary.
 
-We also participate in various competitions. A team from SDSLabs has been winning the Deloitte Collegiate Cyber Security competition consecutively for the past 3 years at a national level. Last year a team from lab qualified for Microsoft Code.Fun.Do held within campus and went further to win the nationals! We were also the runners up in Angel Hacks Internation Series, Delhi edition. Twelve members of our section have cleared the prestigious Google Summer  of Code summer intern.
+We also participate in various competitions. A team from SDSLabs has been winning the Deloitte Collegiate Cyber Threat competition consecutively for the past 3 years at a national level. Last year a team from lab qualified for Microsoft Code.Fun.Do held within campus and went further to win the nationals! We were also the runners up in Angel Hacks International Series, Delhi edition. Twelve members of our section have cleared the prestigious Google Summer of Code program.
 
 ## Recruitment
 
