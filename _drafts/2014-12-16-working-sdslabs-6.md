@@ -16,7 +16,7 @@ SDSLabs will be having recruitments the coming January. We welcome promising dev
 
 SDSLabs is a student group that works on many software projects. They are mainly web-based but as such there is no restriction. We have developed many applications for the IIT-R intranet. Lately, we have also launched a few of them on the Internet which have got a pretty good global response. We also manage the activities of SDS (Software Development Section) which is an open proficiency for all.
 
-## Learning Experiene
+## Learning Experience
 
 Being a member of SDSLabs is a journey involving a tremendous amount of learning. I was initially introduced to various technologies like PHP, Javascript, AJAX, NodeJS, Python, MVC, git, etc. Even though we may have launched mostly web applications, I got to learn about many different things regarding Linux, networking, server management, security, etc. We have some of the brightest and most helpful people of IIT-R working at SDSLabs. Every visit to lab has provided me with knowledge about new concepts or some information regarding upcoming technologies.
 
@@ -44,11 +44,13 @@ The culture in lab is pretty awesome. You can enter/leave lab anytime during day
 
 _iDream. iCode. iInnovate._
 
-Our goal is to convert our dreams to reality through our projects.
+Our goal is to turn dreams to reality through our projects.
 
 ## Activities
 
 We hold regular lectures and meetings regarding web technologies and Linux. We also organize hackathons like Syntax Error to promote development within campus. We hold competitions on CodeVillage, Erdős and Backdoor regulary.
+
+We also participate in various competitions. A team from SDSLabs has been winning the Deloitte Collegiate Cyber Security competition consecutively for the past 3 years at a national level. Last year a team from lab qualified for Microsoft Code.Fun.Do held within campus and went further to win the nationals! We were also the runners up in Angel Hacks Internation Series, Delhi edition. Twelve members of our section have cleared the prestigious Google Summer  of Code summer intern.
 
 ## Recruitment
 
