@@ -14,7 +14,7 @@ SDSLabs will be having recruitments the coming January. We welcome promising dev
 
 ## About
 
-SDSLabs is a student group that works on many software related projects. They are mainly web-based but as such there is no restriction. We have developed many applications for the IIT-R intranet. Lately, we have also launched a few of them on the Internet which have got a pretty good global response. We also manage the activities of SDS (Software Development Section) which is an open proficiency for all.
+SDSLabs is a student group that works on many software projects. They are mainly web-based but as such there is no restriction. We have developed many applications for the IIT-R intranet. Lately, we have also launched a few of them on the Internet which have got a pretty good global response. We also manage the activities of SDS (Software Development Section) which is an open proficiency for all.
 
 ## Learning Experiene
 
@@ -28,23 +28,23 @@ The most important thing in lab is that the source code is open to everyone and 
 
 ### Erdős
 
-A few weeks after my recruitment in lab I was asked to add some minor feature in Erdős. Abhishek Das was my mentor. Working under him and on his code was a great experience for me. I was introduced to proper MVC Architecture. This was the first time I had ever worked on someone else's code. Erdős's code is perhaps one of the best written code I have seen in lab. I learnt how to properly document my code and structure it alongwith some common coding guidlines.
+A few weeks after my recruitment in lab I was asked to add some minor feature in Erdős. Abhishek Das was my mentor. Working under him and on his code was a great experience for me. I was introduced to proper MVC Architecture. This was the first time I had ever worked on someone else's code. Erdős's code is perhaps one of the best written code I have seen in lab. I learnt how to properly document my code and structure it alongwith some common coding guidelines.
 
 ### Backdoor
 
 By the end of my first year I was given the task to develop Backdoor into a proper application. The existing code was quite haphazardly written. It was pretty much disorganized. After pondering over a bit I decided to rewrite the backend completely. Abhishek Kandoi helped in laying down the foundation for the application. With constant help from Ravi Kishore Rachuri I rewrote Backdoor during the summer break. Although a little late, we were able to launch it at the end of October. I got to know many things about dynamic web applications starting from the initial setup to the final deployment stage. Apart from that I learnt more and more about security.
 
-### Jee Ranklist
+### JEE Ranklist
 
-As part of the custom(laid by Abhay Rana, aka nemo), SDSLabs released the JEE Advanced 2014 Namewise Rank List. I, along with a few other members worked on it.
+As part of the custom(laid by Abhay Rana, aka nemo), SDSLabs released the JEE Advanced 2014 Namewise Rank List. I helped in getting the ranks, parsing the results and in developing the final website.
 
 ## Culture in Lab
 
-The culture in lab is pretty awesome. You can enter/leave lab anytime during day or night. There is a lot of interaction within the group resulting in a strong bond between the members. Even the alumni remain in contact with us through mails and slack(our internal group chat). We have regular chapos with Olive, Homtel, Dominoes being the most preferred places! We also go for an annual trip. Apart from the fun that we have we cling to our motto:
+The culture in lab is pretty awesome. You can enter/leave lab anytime during day or night. There is a lot of interaction within the group resulting in a strong bond between the members. Even the alumni remain in contact with us through mails and slack(our internal group chat). We have chapos regulary at Olive, Homtel, Dominoes! We also go for an annual trip. Apart from the fun that we have we cling to our motto:
 
 _iDream. iCode. iInnovate._
 
-Making our dreams come true in our projects is our goal.
+Our goal it to convert our dreams to reality through our projects.
 
 ## Activities
 
@@ -52,8 +52,8 @@ We hold regular lectures and meetings regarding web technologies and Linux. We a
 
 ## Recruitment
 
-We have our recruitments in January. Some points worth to be noted:
+We have our recruitments in January. Some points worth noting:
 
 1. If you are thinking of applying just for a high package in your future please _turn back_.
-2. We are more interested in people having a will to learn rather than someone who knows more.
+2. We are more interested in people willing to learn rather than somebody who just happens to know more.
 2. Your branch is irrevelant to us. Currently we have just 15 members in CS whereas 36 non CS members.
