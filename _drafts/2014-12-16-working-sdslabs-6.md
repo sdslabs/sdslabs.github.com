@@ -54,7 +54,7 @@ We also participate in various competitions. A team from SDSLabs has been winnin
 
 ## Recruitment
 
-We have our recruitments in January. Some points worth noting:
+We have our recruitments in January. Visit [here](https://join.sdslabs.co/) for more details. Some points worth noting:
 
 1. If you are thinking of applying just for a high package in your future please _turn back_.
 2. We are more interested in people willing to learn rather than somebody who just happens to know more.
