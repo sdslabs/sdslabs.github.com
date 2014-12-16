@@ -40,11 +40,11 @@ As part of the custom(laid by Abhay Rana, aka nemo), SDSLabs released the JEE Ad
 
 ## Culture in Lab
 
-The culture in lab is pretty awesome. You can enter/leave lab anytime during day or night. There is a lot of interaction within the group resulting in a strong bond between the members. Even the alumni remain in contact with us through mails and slack(our internal group chat). We have chapos regulary at Olive, Homtel, Dominoes! We also go for an annual trip. Apart from the fun that we have we cling to our motto:
+The culture in lab is pretty awesome. You can enter/leave lab anytime during day or night. There is a lot of interaction within the group resulting in a strong bond between the members. Even the alumni remain in contact with us through mails and slack(our internal group chat). We have chapos "regulary" at Olive, Hometel and Dominoes! We also go for an annual trip. Apart from the fun that we have we cling to our motto:
 
 _iDream. iCode. iInnovate._
 
-Our goal it to convert our dreams to reality through our projects.
+Our goal is to convert our dreams to reality through our projects.
 
 ## Activities
 
