@@ -11,6 +11,7 @@ author:
 ##Introduction
 
 This post is eighth in the series of blog posts written by members of SDSLabs over the years on their experiences and lifestyle in lab. Everyone has gained from being in SDSLabs in some or the other way and this is how the students from upcoming years can have a peek into the workflow of lab.
+![SDSLabs](/images/posts/SDSLabs_1.jpg)
 
 ##The Beginning
 
@@ -30,6 +31,7 @@ I also worked on comments, which is a _SDSLabs clone of Disqus_ and intends to a
 ##The Fun
 
 I was astounded at the number of Chapos(IITR lingo for treats) we had here. We had regular Dominos' orders, Alumni sponsored treats, Convocation chapos, Placement chapos and what-not-for-no-reason chapo. We also have an annual trip to the most peaceful cities around. The Seniors here are so helpful and friendly that you can ask them almost anything(they'll obviously omit what they want to though). The group interaction level is so high, that after some time you forget who you're supposed to call 'sir' and who's supposed to call you 'sir'. We choose to omit the word 'sir' from our conversations instead.
+![Trip](/images/posts/Trip_1.jpg)
 
 ##The Environment
 
