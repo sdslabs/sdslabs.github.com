@@ -35,10 +35,9 @@ I was astounded at the number of Chapos(IITR lingo for treats) we had here. We h
 
 ##The Environment
 
-At SDSLabs we have really diligent seniors who tell us even the silliest of our doubts, encouraging us to participate in the discussions and taking up responsibilities for lab. I have peers, each good at what they were selected for. One of my peers for example has crashed his ubuntu around 4-5 times and is now an expert in matters concerning ubuntu. One of them has his own version of bomberman that he wrote in class 11th, cooler than most of the student-made games I've seen. One of them has applications ranging from captcha breaker to network manager, and is undoubtedly one of the best developers of my year. Amidst such hardworking and dedicated people, all you feel like doing is become like them, the zeal to learn keeps growing. All these people have been greatly contibuting in my learning process from day one, inspiring me to push harder.
+At SDSLabs we have really diligent seniors who answer even the silliest of our questions, encouraging us to participate in the discussions and taking up responsibilities for lab. I have peers, each good at what they were selected for. One of my peers for example has crashed his ubuntu around 4-5 times and is now an expert in matters concerning ubuntu. One of them has his own version of bomberman that he wrote in class 11th, cooler than most of the student-made games I've seen. One of them has applications ranging from captcha breaker to network manager, and is undoubtedly one of the best developers of my year. Amidst such hardworking and dedicated people, all you feel like doing is become like them, the zeal to learn keeps growing. All these people have been greatly contibuting in my learning process from day one, inspiring me to push harder.
 
 ##Recruitments
 
-If you feel that such an environment is what you long for, do sit for our recruitments coming January. I hope it'll be a pleasure for you going through the recruitment process, and an even greater pleasure if you join us.
-
+If you feel that such an environment is what you long for, do sit for our recruitments coming January. I hope it'll be a pleasure for you going through the recruitment process, and an even greater pleasure if you join us. Visit [join.sdslabs.co](http://join.sdslabs.co/) for more details on the recruitment procedure and dates. 
 
