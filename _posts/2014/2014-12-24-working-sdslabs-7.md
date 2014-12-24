@@ -10,7 +10,8 @@ author:
   image: aps.jpg
 ---
 
-_This post is seventh in the series of blog posts that members of SDSLabs' write every year to give an insight into what [SDSLabs](http://sdslabs.co) is all about._
+
+_This post is seventh in the series of blog posts that members of SDSLabs' write every year to give an insight into what [SDSLabs](http://sdslabs.co) is all about. For people interested in joining SDSLabs but are not in first year, please read this post on [how to join SDSLabs](http://blog.sdslabs.co/2014/01/how-to-join-sdslabs/)_
 
 ##Introduction
 
