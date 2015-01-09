@@ -6,9 +6,9 @@ excerpt: "After a rigorous test, the final shortlist for interviews is ready!"
 
 The following students have been shortlisted for the interview round of SDSLabs Recruitment 2015. The time slots are given below as well. Please come 15 minutes before your allotted time. The venue for all interviews is SDSLabs, Hobbies Club.
 
-## Programming
+##Programming Interviews
 
-### Day 1 (10th Jan, Saturday)
+###Day 1 (10th Jan, Saturday)
 
 * Vaibhav Gosain (CSE) 9:00 - 9:20
 * Anushrut Gupta (CSE) 9:20 - 9:40
@@ -29,7 +29,7 @@ The following students have been shortlisted for the interview round of SDSLabs 
 * P.Kinnera Priya (EE) 15:00 - 15:20
 * Saurabh Mishra (EE) 15:20 - 15:40
 * Shubham Chowdhary (EE) 15:40 - 16:00
-* Sushant S Samuel (EE) 16:00 - 16:20
+* Sushant S. Samuel (EE) 16:00 - 16:20
 * Swapnil Lohani (EE) 16:20 - 16:40
 * Aashaka Shash (CSE) 16:40 - 17:00
 * Abhinav Kaushal Keshari (ECE) 17:00 - 17:20
@@ -53,7 +53,7 @@ The following students have been shortlisted for the interview round of SDSLabs 
 
 * Ketan Mittal (CSE) 9:00 - 9:20
 * Kunal Bansal (ECE) 9:20 - 9:40
-* M.Thahir Shah (Mech) 9:40 - 10:00
+* M. Thahir Shah (Mech) 9:40 - 10:00
 * Mohit Fafat (CSE) 10:00 - 10:20
 * Navita Goyal (MSM) 10:20 - 10:40
 * Nikhil Sheoran (CSE) 10:40 - 11:00
