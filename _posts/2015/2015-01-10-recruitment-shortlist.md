@@ -4,7 +4,7 @@ title: Recruitment Shortlist (First Year)
 excerpt: "After a rigorous test, the final shortlist for interviews is ready!"
 ---
 
-The following students have been shortlisted for interviews. The time slots are given below as well. Please come 15 minutes before your allotted time. The venue for all interviews is **SDSLabs, Hobbies Club**.
+The following students have been shortlisted for the interview round of SDSLabs Recruitment 2015. The time slots are given below as well. Please come 15 minutes before your allotted time. The venue for all interviews is **SDSLabs, Hobbies Club**.
 
 ## Programming
 
