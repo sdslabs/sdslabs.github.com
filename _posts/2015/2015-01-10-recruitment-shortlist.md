@@ -8,7 +8,7 @@ The following students have been shortlisted for the interview round of SDSLabs 
 
 ## Programming
 
-*Day 1 (10th Jan, Saturday)*
+### Day 1 (10th Jan, Saturday)
 
 * Vaibhav Gosain (CSE) 9:00 - 9:20
 * Anushrut Gupta (CSE) 9:20 - 9:40
@@ -49,7 +49,7 @@ The following students have been shortlisted for the interview round of SDSLabs 
 * Indroneil Kanungd (MSP) 22:20 - 22:40
 * Karan Bedi (MSM) 22:40 - 23:00
 
-*Day 2 (11th Jan, Sunday)*
+### Day 2 (11th Jan, Sunday)
 
 * Ketan Mittal (CSE) 9:00 - 9:20
 * Kunal Bansal (ECE) 9:20 - 9:40
@@ -80,3 +80,8 @@ The following students have been shortlisted for the interview round of SDSLabs 
 * Vipul Gola (MSP) 18:20 - 18:40
 * Vivek Gupta (ECE) 18:40 - 19:00
 * Vora Meet Hitesh (CSE) 19:00 - 19:20
+
+We will be releasing the shortlist for designers soon.
+
+---
+Team SDSLabs
