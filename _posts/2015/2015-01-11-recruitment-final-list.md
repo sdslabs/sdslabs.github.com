@@ -16,8 +16,8 @@ We interviewed 75 people before selecting the final 13 programmers and 3 designe
 * Arpit Singla _(EE)_
 * Ashish Chaudhary _(ECE)_
 * Asutosh Palai _(CSE)_
-* Indroneil Kanungo _(MSP)_
 * Harkirat Singh _(CSE)_
+* Indroneil Kanungo _(MSP)_
 * Punit Dhoot _(CSE)_
 * Tanmay Tiwari _(CSE)_
 * Vaibhav Gosain _(CSE)_
