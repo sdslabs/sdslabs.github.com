@@ -13,6 +13,11 @@ SDSLabs is roughly run as two cells
  inquiry about any of this, and you can reach us
  anytime at contact@sdslabs.co.in.
 
+**Updates**: Since this article was published, we've switched from Partychat to
+[Slack](/2014/04/sdslabs-slack/). We've also launched a separate
+[Feedback and Chat](/2014/10/feedback-chat/) portal that helps us communicate
+with our users better.
+
 **Mailing List** : Our mailing list, like most other groups runs on Google Groups. 
 This is our primary means of communication. We send out a heavy amount of email 
 each day and email-overload is an actual problem for people who just join.
