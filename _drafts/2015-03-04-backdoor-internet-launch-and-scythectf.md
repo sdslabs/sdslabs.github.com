@@ -23,10 +23,14 @@ Backdoor can be accessed at [backdoor.sdslabs.co](https://backdoor.sdslabs.co "B
 
 In order to make sure we have a stable and robust platform ahead of time, we organized scytheCTF, inviting participants from both IIT Roorkee and outside. It started at 4 pm on 26th February and lasted for 8 hours. scytheCTF saw a decent participation, enough to nail down bugs and issues. We have already fixed major bugs, before we make way for our flagship capture the flag event ie. BackdoorCTF '15.
 
-[DefConUA](https://twitter.com/DefConUA "dcua") won the [competition](https://backdoor.sdslabs.co/competitions/scythe15 "scytheCTF").
+[dcua](https://twitter.com/DefConUA "DefConUA") won the [competition](https://backdoor.sdslabs.co/competitions/scythe15 "scytheCTF").
 
 ##Techical Details
 
 * Backdoor Challenges are hosted over a separate domain and on a different server to avoid cross-site scripting and ensure isolation
 
-* The domain object models in Backdoor now extend a Base model which provides common methods and the ability to extend their functionality
+* An inhouse tool is used for automating the process of deployment
+
+* Backdoor’s backend is written in `PHP` using `Toro` as the framework.
+
+* All the services on the server are running in a `chroot` jail thereby preventing access to the parent directory and files.
