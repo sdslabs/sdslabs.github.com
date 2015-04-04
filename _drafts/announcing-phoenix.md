@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Announcing phoenix
-excerpt: phoenix is a taskrunner for phantomjs tasks that uses redis as the job queue.
+excerpt: phoenix is a taskrunner for phantomjs tasks that uses redis as the job queue. We made it for use in BackdoorCTF and are open sourcing it today.
 author:
   name: Abhay Rana
   twitter: "capt_n3m0"
@@ -9,13 +9,13 @@ author:
   image: nemo.jpg
 ---
 
-As part of the recently conducted BackdoorCTF '15, we developed a redis based queue taskrunner for phantomjs tasks that we are open-sourcing today. This blog post is about the problem we faced and the solution we developed and how it can help you.
+As part of the recently conducted [BackdoorCTF '15][bd15], we developed a redis based queue taskrunner for phantomjs tasks called [phoenix][phoenix] that we are open-sourcing today. This blog post is about the problem we faced and the solution we developed and how it can help you.
 
-##Problem
+##problem
 
-As part of two challenges in the CTF (MEDUSA, JSHUNT), we wanted a browser solution that could automatically open the webpages for the challenge in a safe environment after each submission. These challenges are web challenges and require techniques such as XSS, which means that they can only be exploited in a real browser.
+As part of two challenges in the CTF ([MEDUSA][medusa], [JSHUNT][jshunt]), we wanted a browser solution that could automatically open the webpages for the challenge in a safe environment after each submission. These challenges are web challenges and require techniques such as XSS, which means that they can only be exploited in a real browser.
 
-Unfortunately, running a full browser such as Chrome/Firefox is not feasible in such sitations. Instead, we decided to use the most popular headless browser phantomjs for our task. Using phantom is hard, though. It has its own API, which uses JS, but is completely different in its own manner (too many synchronous methods, for one).
+Unfortunately, running a full browser such as Chrome/Firefox is not feasible in such sitations. Instead, we decided to use the most popular headless browser [phantomjs][phantom] for our task. Using phantom is hard, though. It has its own API, which uses JS, but is completely different in its own manner (too many synchronous methods, for one).
 
 As part of the CTF, we had to build a queue system as well, which would do the following:
 
@@ -72,6 +72,13 @@ For each job, the job id (generated randomly) is stored in the `channel:log:id` 
 
 ---
 
-As you can see, phoenix is a very robust mechanism to handle a variety of job queues. It is available on npm today as the `phantom-phoenix` package, which sets up a binary called `phoenix`. Further instructions on usage etc can be found on the repository.
+As you can see, phoenix is a very robust mechanism to handle a variety of job queues. It is available on npm today as the [`phantom-phoenix`][npm] package, which sets up a binary called `phoenix`. Further instructions on usage etc can be found on the [repository][phoenix].
 
 We hope it will be useful to people looking to setup a queue system based around phantomjs instances. Since it uses redis as the queue mechanism, it can be easily scaled to multiple machines as well.
+
+[bd15]: https://backdoor.sdslabs.co/competitions/backdoorctf15/ "Backdoor CTF 2015"
+[medusa]: https://backdoor.sdslabs.co/challenges/MEDUSA
+[jshunt]: https://backdoor.sdslabs.co/challenges/JSHUNT
+[phantom]: http://phantomjs.org
+[npm]: https://www.npmjs.com/package/phantom-phoenix "Package on npm"
+[phoenix]: https://github.com/sdslabs/phoenix
