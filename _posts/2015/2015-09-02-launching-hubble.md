@@ -18,13 +18,13 @@ Simple answer, **Hubble** is a **_link sharing platform_** for IITR junta where 
 
 Whenever you come across something catchy online and feel that it's pretty interesting, what do you do? I guess, you share it on Facebook or Google+. But, as you might have noticed, these resources get buried under the pictures and status updates of your friends. Hardly does anybody open Facebook when in a mood to read about something insightful.
 
-So, we decided to create a platform where you can easily share links to articles and videos that you think will help others being sure that it is read by right minded people.
+So, we decided to create a platform where you can easily share links to articles and videos that you think will help others, being sure that it is read by right minded people.
 
-Whenever you read a trendy/mind-blowing post, a pathbreaking scientific research article or an interesting UI/UX article and want to share it not only among your friends, but also to a larger audience having similar interests, Hubble is your place to go. It is not only about sharing links but you can also start a discussion around something though comments.
+Whenever you read a trendy/mind-blowing post, a pathbreaking scientific research article or an interesting UI/UX article and want to share it not only among your friends, but also to a larger audience having similar interests, Hubble is your place to go. It is not only about sharing links but you can also start a discussion around something through comments.
 
 ## Ask Hubble: Do you want to ask the users’ opinion on certain topics?
 
-Yes, you guessed it right. You can also **post questions** (without links) where the users can answer or give their opinions. All you have to do is go to the [Add page](https://hubble.sdslabs.co/submit) and start asking your question with `Ask Hubble: ` as the prefix, or you can click on the link in the suggestion text above the input field and it will insert this prefix for you.
+Yes, you guessed it right. You can also **post questions** (without links) where the users can answer or give their opinions. All you have to do is go to the [Add page](https://hubble.sdslabs.co/submit) and start asking your question with `Ask Hubble: ` as the prefix, or you can click on the link in the suggestion text above the input field, and it will insert this prefix for you.
 
 ## Sign up is restricted to invites only
 
