@@ -44,7 +44,7 @@ GEM
       rdiscount (= 2.1.7)
       redcarpet (= 3.3.2)
       terminal-table (~> 1.4)
-    github-pages-health-check (0.5.2)
+    github-pages-health-check (0.5.3)
       addressable (~> 2.3)
       net-dns (~> 0.8)
       public_suffix (~> 1.4)
