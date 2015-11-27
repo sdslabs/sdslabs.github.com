@@ -23,16 +23,16 @@ Then there is the third type where the challenge requires both types. Example: [
 
 ### Previous architecture:
 
-The public-type challenges were served by an Apache server running at `http://hack.bckdr.in`. The script-type challenges were run in `chroot` jails and served using the `xinetd` super-server. `chroot` operation is used to mimic the current directory as the root directory of the system ([change]root). More can be learnt about this from [this post](https://dhavalkapil.com/blogs/Combining-chroot-and-xinetd/) by [Dhaval Kapil](https://twitter.com/dhaval_kapil).
+The public-type challenges were served by an Apache server running at `http://hack.bckdr.in`. The script-type challenges were run in `chroot` jails and served using the `xinetd` super-server. `chroot` operation is used to mimic the current directory as the root directory of the system ([change]root). More can be learned about this from [this post](https://dhavalkapil.com/blogs/Combining-chroot-and-xinetd/) by [Dhaval Kapil](https://twitter.com/dhaval_kapil).
 
 ### Problems with the previous architecture:
 
 For public-type challenges, the same structure has been retained. Earlier, all challenges had the same `virtualHost` but now each challenge has its own. This was done to better implement challenges that required custom rules or a custom domain name.
 
-Script-type challenges however had some major problems:
+Script-type challenges, however, had some major problems:
 
 1. The aim is to run all script-type challenges in `chroot` jails but adding new environments to the jail is a huge pain.
-2. There is a big problem of redundancy. Because each challenge runs in a separate jail, each of them had their own copy of the necessary environment. This can be solved by creating a common jail for all challenges but that puts other challenges at risk in case one of them gets compromised.
+2. There is a big problem of redundancy. Because each challenge runs in a separate jail, each of them had their own copy of the necessary environment. This can be solved by creating a common jail for all challenges, but that puts other challenges at risk in case one of them gets compromised.
 3. Automated monitoring of challenges' deployment status is not easy because there is no standardization.
 4. Deployment takes up a lot of time. Shifting challenges from one machine to another and ensuring they work fine required a lot of manual labour given that we have 70+ challenges and many of them require an elaborate setup.
 
@@ -48,7 +48,7 @@ The description on the [Docker](https://www.docker.com/what-docker) website read
 
 And that's precisely what we need!
 
-1. Setting up a new enviroment is as easy as `docker pull python` which effortlessly sets up a python image for us. And we can make our own Docker images to be used and combined with other images.
+1. Setting up a new environment is as easy as `docker pull python` which effortlessly sets up a python image for us. And we can make our own Docker images to be used and combined with other images.
 2. Each Docker image consists of a series of layers. Docker makes use of union file systems to combine these layers into a single image. These layers are where the magic lies. If you want to update an image, instead of updating the whole image, only the relevant layer is updated. And these layers can further be used to stack images one over the other! So we can just build a python environment once and use the same layer for building secondary layers without redundancy thus solving problem 2.
 
 With the major problems sorted out, lets look at the new architecture.
