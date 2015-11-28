@@ -18,7 +18,13 @@ layout: base
     <div class="container">
         <header>
             <div class="meta">
-                {% if page.author %} By <address><a rel="author" href="{{ page.author.link }}" title="{{ page.author.name }}" target="_blank">{{ page.author.name }}</a> &mdash; {% endif %}
+                {% if page.author %}
+                {% if page.author.link %}
+                By <address><a rel="author" href="{{ page.author.link }}" title="{{ page.author.name }}" target="_blank">{{ page.author.name }}</a> &mdash;
+                {% else %}
+                By <address>{{ page.author.name }} &mdash;
+                {% endif %}
+                {% endif %}
 
                 <time pubdate datetime="{{ page.date | date: "%Y-%d-%B" }}" title="{{ page.date | date: "%B %d, %Y" }}">{{ page.date | date: "%B %d, %Y" }}</time>
             </div>
