@@ -49,7 +49,7 @@ The description on the [Docker](https://www.docker.com/what-docker) website read
 And that's precisely what we need!
 
 1. Setting up a new environment is as easy as `docker pull python` which effortlessly sets up a python image for us. And we can make our own Docker images to be used and combined with other images.
-2. Each Docker image consists of a series of layers. Docker makes use of union file systems to combine these layers into a single image. These layers are where the magic lies. If you want to update an image, instead of updating the whole image, only the relevant layer is updated. And these layers can further be used to stack images one over the other! So we can just build a python environment once and use the same layer for building secondary layers without redundancy thus solving problem 2.
+2. Each Docker image consists of a series of layers. Docker makes use of union file systems to combine these layers into a single image. These layers are where the magic lies. If you want to update an image, instead of updating the whole image, only the relevant layer is updated. And these layers can further be used to stack images one over the other! So we can just build a python environment once and use the same for building secondary layers without redundancy thus solving problem 2.
 
 With the major problems sorted out, lets look at the new architecture.
 
