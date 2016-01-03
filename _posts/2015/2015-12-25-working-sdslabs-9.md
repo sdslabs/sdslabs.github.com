@@ -17,7 +17,7 @@ It is very amusing to me as I reflect back on the changes that SDSLabs has broug
 
 ## Learning Experience
 
-The first month was spent in lectures and getting up and running with the essential tech. After that I picked up Backdoor andLoop worked on a new feature. Then Srishti, hobbies club's annual tech-exhibition arrived and I managed it's website and also made a rock-paper-scissors game with the Leap Motion device we have in lab. In the summer break I worked on some small side projects. Other than that, participating in a hackathon allowed me to try out [a crazy but fun idea](https://ashishchaudhary.in/torrent-streaming/). My major project was on Backdoor's behind the wheels automation which introduced me to some very exciting technologies. I have written about it in detail in another [blog post](https://blog.sdslabs.co/2015/11/dockerizing-backdoor).
+The first month was spent in lectures and getting up and running with the essential tech. After that I picked up Backdoor and worked on a new feature. Then Srishti, hobbies club's annual tech-exhibition arrived and I managed it's website and also made a rock-paper-scissors game with the Leap Motion device we have in lab. In the summer break I worked on some small side projects. Other than that, participating in a hackathon allowed me to try out [a crazy but fun idea](https://ashishchaudhary.in/torrent-streaming/). My major project was on Backdoor's behind the wheels automation which introduced me to some very exciting technologies. I have written about it in detail in another [blog post](https://blog.sdslabs.co/2015/11/dockerizing-backdoor).
 
 ## Work Culture
 
