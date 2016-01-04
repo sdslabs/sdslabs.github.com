@@ -8,7 +8,6 @@ author:
   bio: Developer, SDSLabs
   image: harkirat.jpg
 ---
-# Working at SDSLabs
 
 ## The Initial Launch
 
