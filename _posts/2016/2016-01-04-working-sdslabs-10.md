@@ -24,9 +24,9 @@ After all the glamour and appreciation faded away, came the time to start develo
 
 Right after joining SDSLabs I was introduced to technologies like git, node, scala, jquery, laravel, lumen, three.js and many more. These opened up an entirely new world of technology for me, being a complete newbie in these things. I shifted to Ubuntu, one of the best OS you could have. I learned game development, creative arts, design as well as web development along my journey.
 
-## Shrishti
+## Srishti
 
-In March arrived Shristi, the cultural festival of the Hobbies Club. I took up a project on 3-D projection mapping called "Kakashi" and remember missing all my classes and sleeping in lab for 3 consecutive days at that time. It was the most interesting time I had in lab. The project involved shooting all of the lab members singing "Animals" by Maroon 5, and projecting them on 3-D face maps for an exotic virtual feel. We demoed the google cardboard, made games on the Leap motion device and had a lot of fun along the way. That was the most exciting time I had that semester.
+In March arrived Srishti, the cultural festival of the Hobbies Club. I took up a project on 3-D projection mapping called "Kakashi" and remember missing all my classes and sleeping in lab for 3 consecutive days at that time. It was the most interesting time I had in lab. The project involved shooting all of the lab members singing "Animals" by Maroon 5, and projecting them on 3-D face maps for an exotic virtual feel. We demoed the google cardboard, made games on the Leap motion device and had a lot of fun along the way. That was the most exciting time I had that semester.
 
 ## The Trip
 
