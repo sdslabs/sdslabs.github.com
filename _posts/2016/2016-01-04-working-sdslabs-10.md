@@ -4,7 +4,7 @@ title: Working at SDSLabs (10)
 excerpt: Harkirat Singh's experience as a member of SDSLabs
 author:
   name: Harkirat Singh
-  link: singhharkirat.com
+  link: http://singhharkirat.com
   bio: Developer, SDSLabs
   image: harkirat.jpg
 ---
@@ -49,3 +49,4 @@ Bidding seniors off good bye is always hard but is fun too. We made sdslabs.co/f
 SDSLabs will be recruiting in January. If you want to be a part of Lab you can find further details [here](https://join.sdslabs.co). And remember you only need to be eager to learn to get into lab.
 
 **"Stay hungry, Stay Foolish!"**
+	
