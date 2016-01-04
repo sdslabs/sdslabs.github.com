@@ -39,10 +39,10 @@ At SDSLabs, I got to meet some of the most creative minds at IITR. The level of 
 
 ## The Farewell
 
-Bidding seniors off good bye is always hard but is fun too. We made sdslabs.co/farewell in half an hour, made individual invitation cards and made the whole experience memorable.
+Bidding seniors off good bye is always hard but is fun too. We made [sdslabs.co/farewell](sdslabs.co/farewell) in half an hour, made individual invitation cards and made the whole experience memorable.
 
 
-[farewell video](https://www.youtube.com/watch?v=n6D00Bigm0g) 
+[Farewell video](https://www.youtube.com/watch?v=n6D00Bigm0g) 
 
 ## Recruitment
 
