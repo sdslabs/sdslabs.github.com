@@ -41,8 +41,6 @@ At SDSLabs, I got to meet some of the most creative minds at IITR. The level of 
 Bidding seniors off good bye is always hard but is fun too. We made [sdslabs.co/farewell](https://sdslabs.co/farewell) in half an hour, made individual invitation cards and made the whole experience memorable.
 
 
-[Farewell video](https://www.youtube.com/watch?v=n6D00Bigm0g) 
-
 ## Recruitment
 
 SDSLabs will be recruiting in January. If you want to be a part of Lab you can find further details [here](https://join.sdslabs.co). And remember you only need to be eager to learn to get into lab.
