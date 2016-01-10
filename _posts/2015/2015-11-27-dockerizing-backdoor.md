@@ -73,7 +73,7 @@ Beast also monitors the resource usage of running containers using [google/cadvi
 
 One important feature of the new architecture is the standardization it brings. Now each challenge specifies a setup file that is used as a deployment guideline by Beast. Let's take a look at a sample challenge `pytest` that is a mixed-type challenge. The setup file for `pytest` is shown below.
 
-<script src="https://gist.github.com/yankee101/58075d100b2658fc7070.js"></script>
+<script src="https://gist.github.com/tocttou/58075d100b2658fc7070.js"></script>
 
 The keys used are self-explanatory. Note that the challenge creator can also specify bash scripts for elaborate deployment (like if some challenge requires `composer install`).
 
