@@ -13,8 +13,8 @@ We interviewed 75 people before releasing the final list of selected people. It 
 * Deepak Verma _(EE)_
 * Ketan Gupta _(CSE)_
 * Manish Kumar Dangi _(P&I)_
-* Mohan Agarwal _(Engg. Phy)_
-* Mugdha Jadav _(EE)_
+* Mohan Agrawal _(Engg. Phy)_
+* Mugdha Jadao _(EE)_
 * Nisha Agarwal _(EE)_
 * Paras Chetal _(CSE)_
 * Utkarsh Gupta _(ECE)_
