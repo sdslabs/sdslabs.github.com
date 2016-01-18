@@ -22,7 +22,6 @@ We interviewed 75 people before releasing the final list of selected people. It 
 
 ## Designers
 
-* Juhi Srivastava _(AR)_
 * Naman Rajput _(GT)_
 * Pramit Singhi _(EE)_
 * Tanmay Joshi _(P&I)_
