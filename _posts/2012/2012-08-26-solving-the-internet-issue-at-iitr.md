@@ -8,61 +8,61 @@ author: "Harshil Mathur"
 
 The issue with the ultra slow speeds of IITR internet, more specifically in the wifi bhawans, is something troubling the IITR ocupants since a lot of years. Over the years a lot of solutions have been proposed to this issue from router replacement to server replacement but so far there has been no change in the speed.
 
-##Current Situation:  
+##Current Situation:
 The network structure of IITR is somewhat like the one shown below (only for wifi hostels).
 
-![Current Network](/images/network-1.png)
+![Current Network](/images/posts/network-1.png)
 
 As seen from the above figure, there are two primary bottlenecks in the network that reduce the speed.
 
 1.   Bhawan Server/gateway: Its an old P4 computer in most bhawans. It is the main culprit since all the traffic load passes through this. But is replacing it the only solution?
- 
+
 2.   Access Points: Secondary Bottleneck. Replacement is the only solution in this case but the effect will be limited unless changes are also made at the higher level.
- 
+
 
 ##Solution to the Gateway Problem:
 
-The first solution that everyone thinks of is replacing the bhawan server with a costly, bigger server but the simplest and better solution is often overlooked. There is a lot easier, better and long term solution with Rs 0/- cost for this problem. And the solution is not adding in anything but in removing what is already present. Surprised? Lets see..   
+The first solution that everyone thinks of is replacing the bhawan server with a costly, bigger server but the simplest and better solution is often overlooked. There is a lot easier, better and long term solution with Rs 0/- cost for this problem. And the solution is not adding in anything but in removing what is already present. Surprised? Lets see..
 The server performs three functions:
 
 1.   NATing: This seperates the bhawan network from the institute central network.
- 
+
 2.   DHCP: Gives Ip address to all the users.
- 
+
 3.   Security and Authentication: Secures the network so that unauthorized person may not enter it.
- 
+
 ##The solution:
 
 1.  Instead of NAT, create a VLAN for the bhawan in the central switch which essentially performs the first function of gateway. (a similar thing already exists for the LAN bhawans).
- 
+
 2.  Remove the server from the middle of the connection between bhawan and central switch.
- 
+
 3.  Attach the same server/switch to the internal bhawan network anywhere.
- 
+
 4.  Continue perform DHCP and authentication using the same server.
- 
+
 
 In short, **remove the server** from the connection between user & internet.
 
 
 ##New Network:
-![Current Network](/images/network-2.png)
+![Current Network](/images/posts/network-2.png)
 
 
 ##Why this Network is better?
 
 *   The first bottleneck i.e. the bhawan server is now out of main network between clients and internet.
- 
+
 *   It is only connected to once just for getting IP (DHCP), and for authentication. that takes approx. 2 minutes and only once for a new connection.
- 
+
 *   Since both of these are meager tasks, no processing is required and hence no need to purchase or replace the existing box.
- 
+
 *   It is actually better than buying a new box, because a new server no matter how fast it is will be slower than a simple wire between two points so removing it from network will increase the speed by maximum value.
- 
+
 *   Also, any server is bound to get old with time, and will need replacement causing further cost to institute while this is a permanent solution.
- 
+
 *   Interbhawan services like DC++ will start working which will sharply reduce the load on the institute internet and further increase the network speed.
- 
+
 
 ##The Second Bottleneck:
 
@@ -74,6 +74,6 @@ Further a lot more additional things are required, which will improve the networ
 
 ##Conclusion:
 
-The solution of the primary bottleneck which just requires some effort from the side of administration will solve a lot of problems. It is the easiest, cheapest and quickest solution. After that the purchase of new access points can be carried out which may take time because of the official procedures but till that the students will be able to get at least some improvement. I have personally submitted this method to the director (with help from SAC), as well as to the ISC and had a long heated discusssion with the network manager at ISC on the benefits of this structure. Though they were convinced that they should adopt this, I still don't get the reason for its non adoption. Well, I had done my part in preparing and submitting the solution, I can even help the ISC people in implementng this and anyways implementation would take a day at max because no new equipment is needed. 
+The solution of the primary bottleneck which just requires some effort from the side of administration will solve a lot of problems. It is the easiest, cheapest and quickest solution. After that the purchase of new access points can be carried out which may take time because of the official procedures but till that the students will be able to get at least some improvement. I have personally submitted this method to the director (with help from SAC), as well as to the ISC and had a long heated discusssion with the network manager at ISC on the benefits of this structure. Though they were convinced that they should adopt this, I still don't get the reason for its non adoption. Well, I had done my part in preparing and submitting the solution, I can even help the ISC people in implementng this and anyways implementation would take a day at max because no new equipment is needed.
 
 ###--Harshil Mathur

@@ -23,7 +23,7 @@ The first ray of light that the application's development saw was in January 201
 4. Use of Album Artists instead of Track Artists
 5. Easy and usable interface, which reminds people of a desktop player.
 
-Whenever in doubt, we looked at three different desktop players - [Zune](http://www.zune.net/en-US/products/software/default.htm), [Windows Media Player](http://windows.microsoft.com/en-IN/windows/products/windows-media-player), and [iTunes](http://www.apple.com/itunes/). 
+Whenever in doubt, we looked at three different desktop players - [Zune](http://www.zune.net/en-US/products/software/default.htm), [Windows Media Player](http://windows.microsoft.com/en-IN/windows/products/windows-media-player), and [iTunes](http://www.apple.com/itunes/).
 
 A few mockups from early February :
 
@@ -34,18 +34,18 @@ A few mockups from early February :
 
 The design was iterated several times, leading to the design that you see today.
 <!-- Moved the images to the blog itself from minus.com as it was getting blocked for hotlinking-->
-![Quite similar Designs](/images/dbt7dM.png)
+![Quite similar Designs](/images/posts/dbt7dM.png)
 
 Several other iterations were discussed, such as this one, which was ultimately ruled out as being too complicated :
 
-![Difficult to use play/pause](/images/db2QU8.png)
+![Difficult to use play/pause](/images/posts/db2QU8.png)
 
 A current pic of the application is given below as reference.
 
 ![Current Version](https://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-snc7/388548_281184221928070_182484805131346_835810_1854827723_n.jpg)
 
 
-The application was written using [JQuery](http://jquery.com) for easier Javascript syntax and several plugins, [SoundManager 2](http://www.schillmania.com/projects/soundmanager2/) for music playing capabilities. We also worked on using HTML5 Canvas for visualizations, but ultimately dropped it for the current version, as it was slowing down muzi. We had, from the very beginning tried to keep muzi as fast as possible. In fact, we were adamant about not adding JQuery until later in the project, when it became a necessity. 
+The application was written using [JQuery](http://jquery.com) for easier Javascript syntax and several plugins, [SoundManager 2](http://www.schillmania.com/projects/soundmanager2/) for music playing capabilities. We also worked on using HTML5 Canvas for visualizations, but ultimately dropped it for the current version, as it was slowing down muzi. We had, from the very beginning tried to keep muzi as fast as possible. In fact, we were adamant about not adding JQuery until later in the project, when it became a necessity.
 
 For future developers, here are a few tips :
 
@@ -64,7 +64,7 @@ A few fun facts about Muzi :
 
     b. Left/Right changes the current track.
 
-    c. Shift+Left/Right skips the current playing track 
+    c. Shift+Left/Right skips the current playing track
 
     d. *m* mutes the current track, while *space* pauses/plays it
 
