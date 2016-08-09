@@ -59,8 +59,6 @@ show_drafts: false
 limit_posts: 0
 pygments:    true
 
-relative_permalinks: true
-
 permalink:      /:year/:month/:title
 paginate_path: 'page:num'
 paginate: 10
