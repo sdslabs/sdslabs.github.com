@@ -44,7 +44,7 @@ After the farewell party, we stayed up all night just listening intently to the 
 
 ## `CTRL-R`
 
-Looking back, being in SDSLabs for this past year has been a great experience. SDSLabs has changed me. Browsing hackernews and productive subreddits has become a part of my daily routine now. It makes my day when I read about a random [stranger on reddit recommending Backdoor](https://www.reddit.com/r/netsecstudents/comments/5klcm2/any_good_ctf_dumps/dbor693/) to practice security challenges, or when some stranger lets us know on chat.sdslabs.co that he wants to use it for a presentation he has to give.
+Looking back, being in SDSLabs for this past year has been a great experience. SDSLabs has changed me. Browsing hackernews and productive subreddits has become a part of my daily routine now. It makes my day when I read about a random [stranger on reddit recommending Backdoor](https://www.reddit.com/r/netsecstudents/comments/5klcm2/any_good_ctf_dumps/dbor693/) to practice security challenges, or when someone lets us know on chat.sdslabs.co that he wants to use it for a presentation he has to give.
 
 I hope that I too am able to contribute to this culture that SDSLabs’ seniors have pioneered here at IIT Roorkee. I, therefore, encourage all interested freshers to give your best shot for the recruitments. We will be recruiting in January. For more details, visit [join.sdslabs.co](https://join.sdslabs.co) .
 
