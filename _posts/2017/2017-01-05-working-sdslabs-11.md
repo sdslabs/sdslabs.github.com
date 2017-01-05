@@ -35,7 +35,7 @@ In my 3rd semester, I traveled to Surat to participate in the InOut 3.0 hackatho
 
 The seniors are always ready to help you out, whether be it for SDSLabs related things or otherwise. Like I said before, most of what I learnt is directly or indirectly due to the seniors and other members.
 
-## `cowsay “Do you even chill?”`
+## `cowsay “Do you even chill\?”`
 
 Oh yes, we do! We went on the annual trip to Rishikesh a few weeks after the recruitments where we camped near a stream, trekked a bit, played Mafia, sat around a bonfire and listened to horror stories. We had multiple gaming and movie nights in which we would watch movies and play computer games all night long. Since the SDSLabs seniors were always winning something or the other, the parties were frequent too. We dance like crazy! We have many inside jokes about the members and some applications.
 
