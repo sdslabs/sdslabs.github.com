@@ -14,7 +14,7 @@ author:
 I got to know about the existence of SDSLabs, much like most of the people do, through the infamous JEE rank list they had released. Before coming to Roorkee I had looked at their portfolio and some of the applications they had launched and was thoroughly impressed. In fact, I was so impressed that my decision to take up Computer Science at IIT Roorkee instead of some other branch at some other IIT was perhaps even biased because of SDSLabs’ existence.
 
 
-## `pacman -Sy recruit`
+## `pacman -Sy recruits`
 
 Throughout my first semester I kept hearing about the amazing things the members of SDSLabs were working on and though I did not understand most of them, it only motivated me further to be a part of the group. I attended the lecture series they had organized, worked on few infosec challenges on [Backdoor](https://backdoor.sdslabs.co), independently learnt python and coded a couple of projects during my winter vacations and put them up on Github. By the end of my first semester here, I was pretty confident in what I had learnt. Remember this, I did not have much knowledge about programming before coming to IIT Roorkee. So, in fact, most of what I have learnt about software development in such a short time is directly/indirectly due to SDSLabs. This is what I like most about SDSLabs, that it has been successfully able to raise from scratch, a whole new culture of software development at IIT Roorkee! And not just that, SDSLabs has even played an indispensable role in promoting fields like information security, competitive programming,  machine learning etc. in the campus (and beyond!). Every student here at IIT Roorkee should be grateful to SDSLabs for this.
 
