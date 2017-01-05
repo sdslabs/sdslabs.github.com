@@ -90,6 +90,7 @@ GEM
       jekyll (>= 2.0)
     json (1.8.3)
     kramdown (1.5.0)
+    libv8 (3.16.14.17)
     liquid (2.6.2)
     listen (2.10.1)
       celluloid (~> 0.16.0)
@@ -115,9 +116,13 @@ GEM
       ffi (>= 0.5.0)
     rdiscount (2.1.7)
     redcarpet (3.3.2)
+    ref (2.0.0)
     safe_yaml (1.0.4)
     sass (3.4.18)
     terminal-table (1.5.2)
+    therubyracer (0.12.3)
+      libv8 (~> 3.16.14.15)
+      ref
     thread_safe (0.3.5)
     timers (4.0.4)
       hitimes
@@ -141,7 +146,8 @@ DEPENDENCIES
   maruku
   rake
   sass
+  therubyracer
   uglifier
 
 BUNDLED WITH
-   1.10.6
+   1.13.6
