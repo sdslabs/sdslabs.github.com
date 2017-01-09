@@ -49,7 +49,7 @@ There (generally) is a lot of fuss & confusion among the latest lot of students 
 
 ## Pens Down!
 
-As we are browsing Facebook and quickly arriving at judgements whilst being in the warmth of our bed, from the little NAT-enabled bubble of comfort (called Internet), we forget that the root of this group lies in the time where people didn't have access to the world of fuss outside. It is then, [Muzi](https://muzi.sdslabs.co.in) was born (still boasting a collection of 180,000+ songs) and [Live](https://live.sdslabs.co.in) and [D.C.](https://brute.sdslabs.co.in) This just goes on to show that unlike the common  perception, SDSLabs is one of the most open group, all our secrets just a click away! I have been fortunate enough to be a part of this group and hope I can keep adding to the legacy.
+As we are browsing Facebook and quickly arriving at judgements whilst being in the warmth of our bed, from the little NAT-enabled bubble of comfort (called Internet), we forget that the roots of this group lie in the time when people didn't have access to the world of fuss outside. It is then, [Muzi](https://muzi.sdslabs.co.in) was born (still boasting a collection of 180,000+ songs) and [Live](https://live.sdslabs.co.in) and [D.C.](https://brute.sdslabs.co.in) This just goes on to show that unlike the common  perception, SDSLabs is one of the most open group, all our secrets just a click away! I have been fortunate enough to be a part of this group and hope I can keep adding to the legacy.
 
 So long. Till next time.
 
