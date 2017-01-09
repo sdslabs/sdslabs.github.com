@@ -1,7 +1,7 @@
 ---
 layout: post
 title: To and fro SDSLabs
-excerpt: Working at SDSLabs
+excerpt: Mohan Agrawal's experience as a member of SDSLabs
 ---
 
 > I want you to close your eyes & imagine the most satisfying experience you have had. It feels good doesn’t it? Even if it’s all in your brain. For me, that experience is perpetual. _It’s learning._
