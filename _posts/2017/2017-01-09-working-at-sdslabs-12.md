@@ -43,7 +43,7 @@ I can start listing the tech giants from Google MTV to Facebook and universites 
 
 ###  Circa 2015...
 
-> It is then knew this is the place that could provide me with the pleasure I talk about in the very beginning!
+> It is then I knew that this is the place which could provide me with the pleasure I talk about in the very beginning!
 
 There (generally) is a lot of fuss & confusion among the latest lot of students about what this group is, what it does in the campus. Unlike many, I came to Roorkee with no previous knowledge (or bias) of this or any other campus group for that matter. I knew that I enjoyed programming and hence attended the intro talk of every other tech group. SDSLabs being one of them. And it is after seeing all the applications it had for the masses and the vast variety of fields the members worked in, I knew this is the place that could provide me with the pleasure I talk about in the very beginning! <span style="background-color: #fffd4a">I let the work of SDSLabs influence me not what they talk about it.</span> 
 
