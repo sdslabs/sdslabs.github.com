@@ -5,7 +5,7 @@ excerpt: Muzi has been updated to support slow connection networks, and brings a
 ---
 We've upgraded muzi to support slow connection networks, added last.fm integration, and a auto-updating Hindi collection. We also have a live tickr that shows you songs as people are listening to them.
 
-##Slow Connection Mode
+## Slow Connection Mode
 
 Ever since we launched muzi, our aim was to make it _The Music Player of the campus_. Due to the way our network infrastructure is designed at IIT Roorkee, we have an effective split of the visitors muzi recieves. One comes from the faster lan bhawans (Radhakrishnan, Rajeev, Kasturba) while most of the rest comes from the wifi bhawans.
 
@@ -19,7 +19,7 @@ If you are listening to muzi from a wifi-hostel, please enable the slow connecti
 
 After you enable the slow connection mode, all songs you listen to are encoded on-the-fly to a lower bitrate with slight reduction in quality.
 
-##Last.FM Integration
+## Last.FM Integration
 
 Last.FM is a popular music service that helps people keep track of what you've listened to. Its "scrobbler service" is cross-platform and available as a plugin for various music players and services. We've now integrated muzi with last.fm, so if you are listening to music on muzi, it will automatically be added to your last.fm library.
 
@@ -38,20 +38,22 @@ After this, every song you listen on muzi will be scrobbled back to last.fm and 
 
 ![Last.FM Recent Tracks](/images/posts/muzi-lastfm-recent.png)
 
-##Live Tickr
+## Live Tickr
 
 We've always wanted to take muzi to the next level for music listeners and make it more social. Today, we're taking the first step in this direction by launching our live tickr. The live-tickr is a continous stream of music that people are listening to right now. Just click on the tickr button in the top bar, and see who's listening to what on muzi.
 
 ![Muzi Live Tickr Screenshot](/images/posts/muzi-tickr.png)
 
-##Bug Fixes &amp; New Songs
+## Bug Fixes &amp; New Songs
+
 This update also brings lots of bug fixes, and an improved drag-drop experience. We've also updated hindi songs, so you can listen to all the latest hits from 2012 as well. We've also worked hard on keeping the songs permanently updated, so **new Hindi Releases are automatically added to muzi within a day**. If you feel muzi to be lacking in its music collection, please let us know of your choice using the request feature in muzi.
 
 We are continously improving our services, and are always open to feedback. As always, you can reach us for feedback via [Facebook](https://facebook.com/SDSLabs), [email](mailto:contact@sdslabs.co.in), or our [Feedback](https://sdslabs.co.in/feedback/?from=muzi) page.
 
-##Technical Notes
+## Technical Notes
 
-###Slow Connection Mode
+### Slow Connection Mode
+
 For the technically inclined, we are converting the music on-the-fly using [lame](http://lame.sourceforge.net/) using the following configuration:
 
     --vbr-new (Use the new vbr algorithm, which is much faster)
@@ -63,5 +65,6 @@ So as to avoid audio degradation, only files larger than 3MB are converted, sinc
 
 We are aware that this on-the-fly conversion causes audio quality to go down substantially, but this is a trade-off we are leaving to the users. You can enable/disable this feature any time you want, and muzi will remember you choice for the next time.
 
-###Live Tickr
+### Live Tickr
+
 We are using a new HTML5 API called [Event Source](http://www.w3.org/TR/eventsource/)/Server-Sent Events. This allows us to recieve events from the server on a large number of devices without resorting to other alternatives like long-polling or websockets. This also means that users of some browsers(for instance Opera &lt; 12) will be left out of this feature. We gracefully degrade in that case and remove the tickr button if that happens. 

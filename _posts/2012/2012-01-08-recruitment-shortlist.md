@@ -5,7 +5,7 @@ excerpt: Recruitment Shortlist of people selected for interviews.
 ---
 The following students have been shortlisted for selections. The interview slots are given below as well. Please come 15 minutes before your allotted time. The venue for all interviews is **SDSLabs, Hobbies Club**.
 
-###Programming Interviews
+### Programming Interviews
 
 * Abhishek Das - 9:00am
 * Adurv Surya Kiran - 9:20am
@@ -46,7 +46,7 @@ The following students have been shortlisted for selections. The interview slots
 * Akash Agarwal - 22:20pm
 * Kaushtabh Kulkarni - 22:40pm
 
-###Design Interviews
+### Design Interviews
 
 * Divya Khandelwal - 12:00am
 * Apoorva Mudgal - 12:30am

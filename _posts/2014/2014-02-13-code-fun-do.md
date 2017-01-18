@@ -29,6 +29,7 @@ All the four members of the top two teams won a Nokia Lumia 520 each. Apart from
 
 With an amazing response by the students and the professors of IITR, the crew from Microsoft was more than happy. Thus, we can expect them to show up next year as well with a bigger event with more workshops and better prizes. This is just a starting step which in the long run, will help the campus become more technology oriented.
 
-##Technical Details
+## Technical Details
 
 The winning application, AirMaps was a web based application with a server and client. A Kinect device was connected to the server. Data was crunched in C# and the corresponding result was sent to the front end using a custom modified Alchemy C# websocket server. User’s gestures and voice was recognized using robust SDKs provided by Microsoft and appropriate actions were defined for certain gestures and voice commands. This was built on top of the Kinect WPFViewers framework for faster development. The front-end utilized Google’s Earth, Maps, and Street View APIs to render the 3D landscape of a city and viewing street images. Apart from this, Twitter API was also used to display relevant popular tweets about any city or location.
+

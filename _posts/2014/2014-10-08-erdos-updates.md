@@ -29,13 +29,13 @@ Searching for a tag would list all problems with that tag. For example, here we 
 
 It works just like you'd expect it to. Go give it a try.
 
-##Activity
+## Activity
 
 ![activity](/images/posts/erdos-updates/activity.png)
 
 In addition to [activity](http://erdos.sdslabs.co/activity) across all problems on Erdős, you can also view recent submissions by a particular [user](http://erdos.sdslabs.co/activity/users/Min) or for a particular [problem](http://erdos.sdslabs.co/activity/problems/2).
 
-##User Profiles
+## User Profiles
 
 ![solved_problems](/images/posts/erdos-updates/solved_problems.png)
 
@@ -45,23 +45,23 @@ Lists were taking up too much space. [Green highlights](http://erdos.sdslabs.co/
 
 Public profile information is now editable in [profile settings](http://erdos.sdslabs.co/settings/profile).
 
-##Newsletter
+## Newsletter
 
 We're starting a newsletter service for Erdős. This will have upcoming competition details, new problems, feature additions and more. No spam of course. You can subscribe to it [here](http://tinyletter.com/erdos).
 
-##Logo
+## Logo
 
 ![phex](/images/posts/erdos-updates/phex.png)
 
 Yes, we have a shiny new logo as well.
 
-##πrates
+## πrates
 
 ![πrates](/images/posts/erdos-updates/pi-rates-cover.png)
 
 We are hosting [πrates](http://erdos.sdslabs.co/competitions/pi-rates) this weekend. It's a 24-hour online contest with problems set by [PAG](http://pag.sdslabs.co) and ₹7000 hard cash up for grabs, sponsored by [Thomso](http://thomso.in)!
 
-##Technical Details
+## Technical Details
 
 - We've shifted to a custom [Opauth](http://opauth.org/)-based multi authentication framework which enables us to support Single Sign-On across all our internet applications.
 - Our newsletter service is powered by [TinyLetter](http://tinyletter.com/).

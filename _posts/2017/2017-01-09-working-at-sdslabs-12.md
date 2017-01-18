@@ -41,7 +41,7 @@ Innovation and collective learning go hand in hand. SDSLabs has been at the very
 
 I can start listing the tech giants from Google MTV to Facebook and universites from M.I.T. to N.Y.U. where the alumini base of this group has expanded to, but that (although motivating) will be being boastful, which does not serve the purpose I talk about when we started.
 
-###  Circa 2015...
+### Circa 2015...
 
 > It is then I knew that this is the place which could provide me with the pleasure I talk about in the very beginning!
 

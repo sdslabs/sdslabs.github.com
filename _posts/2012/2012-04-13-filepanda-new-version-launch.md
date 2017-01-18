@@ -15,8 +15,7 @@ As always, we welcome all feedback. Please send us your thoughts at our [feedbac
 
 ![Optimistic Panda](/images/posts/fp-optimistic-panda.png)
 
-##Pics from the new update
-
+## Pics from the new update
 
 ![New header](/images/posts/fp-header.png)
 

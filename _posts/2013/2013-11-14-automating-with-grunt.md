@@ -86,7 +86,7 @@ module.exports = function(grunt){
 };
 {% endhighlight %}
 
-####Matchdep
+#### Matchdep
 
 We are using matchdep to load all the grunt-modules in a single line instead of loading them sequentially. That is to say that instead of using:
 

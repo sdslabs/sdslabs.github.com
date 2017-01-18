@@ -15,7 +15,8 @@ It was a pleasure to meet all the people about whom you had just read in news ar
 is overwhelming to meet the people you had been admiring ever since you had stepped into
 FOSS.
 
-##The Conference
+## The Conference
+
 The conference was nothing less than amazing.
 
 It started with the welcome address from John Sullivan who explained why Free and Open Source
@@ -76,7 +77,8 @@ its shortcomings, advantages, vulnerabilty. These people could have used their k
 common users without our knowledge and could have earned huge sums of money from the exploitation but well,
 they are acting as our protectors.
 
-##How I got there?
+## How I got there?
+
 Well, travel to a foreign soil is usually expensive business. Free Software Foundation had awarded me a
 travel scholarship, taking care of most of my travel cost. And the credit for this goes to Marina,
 the coordinator of GNOME's Outreach Program for Women. She had invited the women participants of GSoC

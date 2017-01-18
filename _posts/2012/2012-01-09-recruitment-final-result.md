@@ -6,7 +6,7 @@ excerpt: The list of people selected after the rigourous interviews.
 
 Congratulations to everyone who got in. After checking the examination papers of 196 candidates, we were overwhelmed by the amount of talent and aptitude these people brought on board. If we did not select you, it was because we had limited vacancies, not because we didn’t like you. Each of the rest was as equally likely and capable be to be selected. And each time we took someone’s name off the list, we were stricken with guilt.
 
-##Developers
+## Developers
 
 * Abhishek Das
 * Shagun Sodhani
@@ -22,7 +22,7 @@ Congratulations to everyone who got in. After checking the examination papers of
 * Rushil Nagda
 * Ravi Kishore
 
-##Designers
+## Designers
 
 * Apoorva Mudgal
 * Chetty Arun

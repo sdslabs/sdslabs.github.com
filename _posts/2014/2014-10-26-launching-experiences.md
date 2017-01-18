@@ -27,6 +27,7 @@ Experiences is live at [experiences.sdslabs.co](http://experiences.sdslabs.co) o
 ![Example Post](/images/posts/launching-experiences/example_post.png)
 
 ## Technical Details
+
 - Experiences has been in our kitchen for quite a while and needed a polish before launch.
 - PHP based backend using Limonade framework and JavaScript for DOM side manipulations.
 - Readability API for parsing blog posts.

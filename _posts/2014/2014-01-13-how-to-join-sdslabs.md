@@ -9,23 +9,23 @@ Yet, we understand that the process is not bullet-proof, and we often miss out o
 
 We pride ourselves as being an open group. We often talk about the [tools we use internally](/2012/12/how-does-sdslabs-work/), the tech behind our applications, our [involvement in open-source](http://github.com/sdslabs) and go as far as to conduct open lectures and meetups on every topic we discuss internally. As an extension of this open culture, we want to clarify that contrary to common belief, _we are always open to new members irrespective of year and branch_. Even if you are an awesome designer in your second year, or a kick-ass developer in your third year, we are always open to new additions to our group.  We look for self-motivated doers who have initiated and finished projects on their own.
 
-##PROGRAMMERS
+## PROGRAMMERS
 
 Obsessed with coding? Build something new every week? We insist that you join us!
 It will be nice if you have a GitHub profile with a few projects.
 
-###Requirements
+### Requirements
 
 * Love for coding, in any language
 * Knowledge of Version Control (git) and/or Linux
 * Effective communication skills
 * Few projects to demonstrate the above points
 
-##DESIGNERS
+## DESIGNERS
 
 Have an eye for clean, well-crafted and simple experiences? We insist that you join us!
 
-###Requirements
+### Requirements
 
 * Clear grasp of typography, layout, colour, motion and behaviour
 * Comfortable sketching out ideas, and translating them into Photoshop/Illustrator mockups

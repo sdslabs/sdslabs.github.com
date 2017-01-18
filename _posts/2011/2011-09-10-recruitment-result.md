@@ -11,7 +11,7 @@ There are so many with such great potential, and yet there’s no one to guide t
 ---
 **Team SDSLabs**
 
-#SDSLabs Final Selection List
+# SDSLabs Final Selection List
 
 1. Aditya Garg (Civil)
 2. Ashutosh Singh (CSI)

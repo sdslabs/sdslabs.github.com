@@ -7,7 +7,7 @@ excerpt: SDSLabs is proud to announce a new application, Study Portal, and revam
 Following on the heels of [Erdős and CodeBot](http://blog.sdslabs.co.in/2013/10/erdos-codebot/), SDSLabs is proud to announce [Study Portal](http://study.sdslabs.co.in), and a revamped version of [Echo](http://echo.sdslabs.co.in)
 
 
-##Study Portal
+## Study Portal
 
 For a long time education in IITR has been a uni-directional flow: Professors upload files to LecTut and students download them. But the handouts provided by the professors are not the only reference material needed for a course. A lot of students come across OCW/NPTEL courses which have more informative slides. Students also use files that have been handed down by their senior batch who were given those files by their senior batch and so on. Normally, such sharing involves Dropbox/Google Drive for sharing files and FB/Google groups for posting links etc. This process takes place every single year. 
 
@@ -27,7 +27,7 @@ While we have uploaded over 600 files to a multitude of courses for launch, the 
 
 Check out the application at [Study Portal](http://study.sdslabs.co.in)
 
-##Echo
+## Echo
 
 There are very few amongst us who do not enjoy the pleasure of sinking into the depths of a book. Searching for books, however, has always been a real pain. We seek to fix this problem, therefore we are launching Echo, a fast and powerful ebook search engine which is designed to help you find the books you want instantaneously.
 
@@ -47,12 +47,14 @@ We hope you have a great reading experience with Echo!
 
 Check out the application at [Echo](http://echo.sdslabs.co.in)
 
-##Technical details
+## Technical details
 
-###Echo
+### Echo
+
 * [Apache Solr](http://lucene.apache.org/solr/) is used to maintain our index of books, and perform search queries.
 * This app uses [Limonade](http://limonade-php.github.io/) PHP framework
 
-###Study Portal
+### Study Portal
+
 * This app uses [Toro](http://toroweb.org/) PHP microframework.
 * The ajax layouts are generated using [Handlebars.js](http://handlebarsjs.com)

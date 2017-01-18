@@ -5,7 +5,7 @@ excerpt: Radio Streams are now available in Muzi, along with lots of more visual
 ---
 Muzi has been updated with lots more features. This has been hard work for the team, and we hope you enjoy them.
 
-##Radio
+## Radio
 
 Now you can listen to online radio from within Muzi. We have tried to make the experience as seamless and easy as possible. As of now the following radio streams are available:
 
@@ -22,7 +22,8 @@ Along with this, we have also integrated *Campus Beats* Radio as well.
 
 To start using the radio feature, just click on the Radio button in the topbar, choose a radio, and click on whatever you want to listen to.
 
-##More Updates 
+## More Updates 
+
 We have also updated our Hindi songs collection, and added album arts for all Hindi albums. A major color scheme change means that muzi is now easier to use than ever, with background album arts for various artists. Try clicking on "Avril Lavigne" to see it for yourself.
 
 ![Pink Floyd](/images/posts/muzi-floyd.png)

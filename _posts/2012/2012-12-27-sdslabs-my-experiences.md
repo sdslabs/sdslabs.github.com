@@ -3,7 +3,8 @@ layout: post
 title: Working at SDSLabs (3)
 excerpt: "Abhay Rana, aka Capt Nemo's experiences at SDSLabs"
 ---
-##Introduction
+## Introduction
+
 For the past two years, I have been involved in a student group in our campus called SDSLabs.
 It has been the most fun two years of my life. I have acted as programmer, developer, manager,
 monkey-coder, event-manager and all other roles one might expect in a startup. However, I have
@@ -11,7 +12,8 @@ never really blogged about any of this. Someone pointed it out recently to me, t
 have been meaning to write this since a very long time, but its kind of hard to put down in 
 words. I'll try my best. This post is highly specific to iit roorkee (you have been warned).
 
-##Chronology Of Events / Timeline
+## Chronology Of Events / Timeline
+
 Back in my first year, after joining something called SDS as a proficiency in the campus, I was learning PHP.
  With no-one to guide me, I had only attended a single talk by Shobhit Singh where he talked about dynamic 
  websites. I was instantaneously hooked. I did something called lion, a twitter clone and it won 3rd prize 
@@ -25,7 +27,8 @@ At the very end of the project, a group called [SDSLabs](http://sdslabs.co/) was
 Shobhit sir had found, we founded SDSLabs. Everyone in the group was passionate about building things.
 And somehow, magically, I was in it. And there began the most beautiful chapter of my life.. 
 
-###Coding & Learning
+### Coding & Learning
+
 After completing the PMS (Project Management System), I moved on to work on Filepanda, and then the entire framework 
 application for SDSLabs. All our applications are powered by a single API, which I wrote. Meanwhile, Harshil was working
  on DC++, and other awesome things. I met pranav sir, and was introduced to the thousand-quirks-of-css. It shifted to mint, and
@@ -37,7 +40,8 @@ discussing things I barely remember now. I became a creator. I executed on tons 
 their lives, but I still have them with me, as memento of the past and what was to be. Ishan Sir was a gold-mine for learning. 
 Everything I could ever ask, and he'd hand over a resource. Some of my most productive learning days were spent with him.
 
-###Recruitments
+### Recruitments
+
 After a single semester of work, we held our first recruitments. I wrote my
  [first blog post for the lab](http://blog.sdslabs.co/2011/09/recruitment-experience/) at the time noting 
 down my amazing reaction to the awesome people that had joined the lab.
@@ -52,7 +56,7 @@ And I started to work on [muzi](https://sdslabs.co.in/muzi/), which was to be _m
   based on Zune's design on Windows. We kept on improving it till it was exactly what we wanted. Today, people have listened to
   almost 1 lac songs on Muzi, and it feels awesome to have been behind something that is so widely used (within the campus).
 
-###Launch
+### Launch
 
 The next semester involved our [actual launch (11-11-11)](http://blog.sdslabs.co/2011/11/launch-and-beyond) of all our applications. 
 We had all converted into semi-breathing coding machines cum zombies by that time though. Sleepless and exhausted, we did prevail, 
@@ -63,7 +67,7 @@ I ended up doing a rewrite of Codematics (codename CodeBot) in node for the laun
 which was inspired by [goosh](http://goosh.org/) and [xkcd's unix interface](http://unix.xkcd.com). Along with that, Muzi was
 launched to huge appreciation as well.
 
-###Recruitments Again
+### Recruitments Again
 
 This was the semester where our group actually expanded. Our count is almost 42 now, and nothing could
  make me more glad than actually being with all these people. 
@@ -81,23 +85,27 @@ worked on internal features, improving our API, and something called Presence. W
 [two hackathons](http://blog.sdslabs.co/2012/09/hacku),
 and we won both of them.
 
-##Where, now?
+## Where, now?
+
 Our group is still nascent, and although I have not mentioned every project that the group (or even I) have
  done for fear of making this post too long. That itself speaks volumes about what we've done in a short 
  span of two years. Our tagline reads _"iDream. iCode. iInnovate"_. I wish for the group to continue on that
   path. Develop things that make life easier; for everyone around the world. 
 
-##People
+## People
+
 Throughout this journey, there have been lots of people, without whom this blog post would never have been written.
  You all know who you are. Keep being awesome. 
 
-##Skills
+## Skills
+
 I used to call myself a programmer, but now I'm in a more management-esque role in SDSLabs. Its my share of the work to manage projects,
 and track progress. That does not mean that I've given up coding, and I still do code a lot for our internal projects. I have also become
 somewhat of a UX enthusiast, taking care of most ux work done in lab. I have also found myself becoming an avid learner, and have Ishan
 Sir to thank for that. 
 
-##Anecdotes & Stories
+## Anecdotes & Stories
+
 This post already reads more like a things-i-did-at-sdslabs, which is something I was hoping to avoid, instead of why-i-love-sdslabs, which is what i wanted. So I'm gonna stick a few moments and events that stand out to me...
 
 - We have a board with three defining people on it: Steve Jobs, Dennis Ritchie, and Linus Torvalds. 

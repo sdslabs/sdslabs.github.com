@@ -11,7 +11,7 @@ author:
 
 As part of the recently conducted [BackdoorCTF '15][bd15], we developed a redis based queue taskrunner for phantomjs tasks called [phoenix][phoenix] that we are open-sourcing today. This blog post is about the problem we faced and the solution we developed and how it can help you.
 
-##problem
+## problem
 
 As part of two challenges in the CTF ([MEDUSA][medusa], [JSHUNT][jshunt]), we wanted a browser solution that could automatically open the webpages for the challenge in a safe environment after each submission. These challenges are web challenges and require techniques such as XSS, which means that they can only be exploited in a real browser.
 
@@ -25,7 +25,7 @@ As part of the CTF, we had to build a queue system as well, which would do the f
 
 Since a lot of this is common to both the tasks, we decided to create a small tool that helps us run these jobs.
 
-##phoenix
+## phoenix
 
 phoenix handles the following for you:
 
@@ -38,35 +38,38 @@ phoenix handles the following for you:
 This is all done via a mix of redis, phantomjs and nodejs.
 
 
-##configuration
+## configuration
 
 phoenix is configured via a `config.yml` file, which is expected to be present wherever phoenix is run. You can see [the sample config file](https://github.com/sdslabs/phoenix/blob/master/config.sample.yml) for a list of configuration options that phoenix supports. These include things like user agent support, custom headers, request body (in json or post format), basic authentication support.
 
 Another thing we support is the ability to run custom javascript before the page visit starts. This allows you to set default variables (such as tokens and secrets) that will be available in the JS context once the page visit is made.
 
 
-##page visit
+## page visit
+
 We have a lot of sensible defaults for phantom, which include a maximum timeout of 10 seconds, and extended timeouts for whenever a web request (such as image/script/ajax) is made.
 
-##logging
+## logging
+
 All jobs that start get their own id, and create their own directory with three files: `config.json`, `page.log`, and `browser.log`. The first holds the complete configuration object that is passed to phantom. The second is the console log of the web page (which means any console.log statements made in the web page context). The third is a higher level log containing browser events such as redirects, web requests and timeout extensions.
 
 We plan to make the logging format configurable, but for now it is file system based.
 
-##job config
+## job config
+
 It is assumed that (generally) each job will have its own url, slightly differing from the task's standard url. This is handled in two ways:
 
 - You can pass a query parameter, which is sent along with the url specified in the config
 - You can pass a valid http/s url that will be visited as it is
 
-##queueing
+## queueing
 
 To push a job to a queue, you do the following:
 
 - Generate a queue id by RPUSH to a channel:queue list in redis
 - Publish the queue id on the channel in redis
 
-##log in redis
+## log in redis
 
 For each job, the job id (generated randomly) is stored in the `channel:log:id` key in redis. This can be polled to check whether the job has finished or not.
 

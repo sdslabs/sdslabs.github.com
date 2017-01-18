@@ -6,7 +6,7 @@ excerpt: The list of people selected after the long interviews.
 
 393 people appeared for our written test this year. We interviewed 56 people before selecting the final 12 programmers. It was a really tough job to filter down from the 56 talented applicants to the final 12. Sadly, we have limited vacancies and can only take in 12. But this is not the end of line for others, there's still a way to [join SDSLabs](/2014/01/how-to-join-sdslabs/). We'll continue taking open lectures on variety of topics. Stay connected with us on our Facebook [page](http://facebook.com/sdslabs) and [group](http://facebook.com/groups/sdswebdev) for the updates regarding this.
 
-##Programmers
+## Programmers
 
 * Aditya Prakash _(CSE)_
 * Aniket Gupta _(CSE)_

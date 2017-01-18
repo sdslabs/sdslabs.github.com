@@ -57,7 +57,6 @@ timezone:    nil
 future:      false
 show_drafts: false
 limit_posts: 0
-pygments:    true
 
 permalink:      /:year/:month/:title
 paginate_path: 'page:num'
@@ -66,6 +65,9 @@ paginate: 10
 markdown:      kramdown
 markdown_ext:  markdown,mkd,mkdn,md
 textile_ext:   textile
+highlighter: pygments
+kramdown:
+  input: GFM
 
 excerpt_separator: "<!-- more -->"
 

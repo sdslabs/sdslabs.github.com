@@ -8,7 +8,8 @@ author: "Harshil Mathur"
 
 The issue with the ultra slow speeds of IITR internet, more specifically in the wifi bhawans, is something troubling the IITR ocupants since a lot of years. Over the years a lot of solutions have been proposed to this issue from router replacement to server replacement but so far there has been no change in the speed.
 
-##Current Situation:
+## Current Situation:
+
 The network structure of IITR is somewhat like the one shown below (only for wifi hostels).
 
 ![Current Network](/images/posts/network-1.png)
@@ -20,7 +21,7 @@ As seen from the above figure, there are two primary bottlenecks in the network 
 2.   Access Points: Secondary Bottleneck. Replacement is the only solution in this case but the effect will be limited unless changes are also made at the higher level.
 
 
-##Solution to the Gateway Problem:
+## Solution to the Gateway Problem:
 
 The first solution that everyone thinks of is replacing the bhawan server with a costly, bigger server but the simplest and better solution is often overlooked. There is a lot easier, better and long term solution with Rs 0/- cost for this problem. And the solution is not adding in anything but in removing what is already present. Surprised? Lets see..
 The server performs three functions:
@@ -31,7 +32,7 @@ The server performs three functions:
 
 3.   Security and Authentication: Secures the network so that unauthorized person may not enter it.
 
-##The solution:
+## The solution:
 
 1.  Instead of NAT, create a VLAN for the bhawan in the central switch which essentially performs the first function of gateway. (a similar thing already exists for the LAN bhawans).
 
@@ -45,11 +46,12 @@ The server performs three functions:
 In short, **remove the server** from the connection between user & internet.
 
 
-##New Network:
+## New Network:
+
 ![Current Network](/images/posts/network-2.png)
 
 
-##Why this Network is better?
+## Why this Network is better?
 
 *   The first bottleneck i.e. the bhawan server is now out of main network between clients and internet.
 
@@ -64,16 +66,17 @@ In short, **remove the server** from the connection between user & internet.
 *   Interbhawan services like DC++ will start working which will sharply reduce the load on the institute internet and further increase the network speed.
 
 
-##The Second Bottleneck:
+## The Second Bottleneck:
 
 The Wifi routers/access points are the second bottleneck. The problem here is that they are very old (2005 model) and this era of technology things go old with 2-3 years, this is 8 years old. The solution to it is only replacement with latest access points which can be carried out one bhawan at a time.
 
-##Further Improvement:
+## Further Improvement:
 
 Further a lot more additional things are required, which will improve the network even further (again no additional costs required) like VLANing and proper configuration of internal switches to reduce the broadcasting of packets, collisions and improve the speed and security. This is also required in the LAN bhawans to improve the speed further.
 
-##Conclusion:
+## Conclusion:
 
 The solution of the primary bottleneck which just requires some effort from the side of administration will solve a lot of problems. It is the easiest, cheapest and quickest solution. After that the purchase of new access points can be carried out which may take time because of the official procedures but till that the students will be able to get at least some improvement. I have personally submitted this method to the director (with help from SAC), as well as to the ISC and had a long heated discusssion with the network manager at ISC on the benefits of this structure. Though they were convinced that they should adopt this, I still don't get the reason for its non adoption. Well, I had done my part in preparing and submitting the solution, I can even help the ISC people in implementng this and anyways implementation would take a day at max because no new equipment is needed.
 
-###--Harshil Mathur
+### --Harshil Mathur
+

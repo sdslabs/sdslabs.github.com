@@ -16,7 +16,8 @@ posts related to a certain something known as SDSLabs. It's been 11 months since
 group in IITR and it has more or less become a part of my identity. Before I write anything more I 
 should probably explain what is SDSLabs.
 
-##A Student Group
+## A Student Group
+
 IITR has a very vibrant culture of student groups with there being a group for nearly everything, 
 right from Robotics, Electronics to Philately and even Gardening! While not all of them are active
 and often give the feeling of having been started by few enthusiasts who have long since left and 
@@ -24,7 +25,8 @@ now no one is ready to carry it on, there are a few groups who are actively chan
 
 <!--more-->
 
-##Recruitment Process
+## Recruitment Process
+
 SDSLabs' recruitment process for first years started off in the second week of January.
 A two and half hours of written test and a nearly three hours of interview later I was in.
 I was one of the 13, out of nearly 200 people who had applied, to be chosen in the programmer
@@ -33,7 +35,8 @@ wonderful. The last 11 months in SDSLabs have been amazing.
 
 <img src="/images/posts/working-sdslabs/sds1.jpg" style="width: inherit; margin: 5px 0px 20px 0px;">
 
-##What's it like inside of SDSLabs
+## What's it like inside of SDSLabs
+
 The first thing that you realise is the level of service and infrastructure available inside 
 the lab. A fingerprint scanner based entry, 42 inch TV, an enterprise level server, bean bags,
 AC, radiator are just a few among many other things available. Funds have never been a problem
@@ -48,7 +51,8 @@ because it is in their system to create user friendly apps.
 
 <img alt="ManUtd vs ManCity" src="/images/posts/working-sdslabs/sds2.jpg" style="width: inherit; margin: 5px 0px 20px 0px;">
 
-##Technology
+## Technology
+
 After joining lab I was introduced to git(version control system), redmine(project management system), 
 php, js, ajax, sass, bash, jquery, node.js to name a few. Few people are also using ruby and scala. I 
 have since fallen in love with git and wherever I can use vcs, I do. As a result, I have also fallen 
@@ -58,7 +62,8 @@ and gitolite combo). I have also moved to using Ubuntu full time since. I have s
 come and go. I have become fearless when it comes to partition tables and experiments. And all this
 happened over the last 11 months along with the load of regular college and other extra-curricular activities. I have also met some absolutely brilliant people like [Abhay Rana](http://captnemo.in), [Harshil Mathur](http://harshilmathur.in), Shobhit Singh. They are so brilliant that I could probably end up writing separate blog posts for each one of them and even then I doubt I would be able to do justice to their brilliance! All in all, it's safe to say that lab has become my home away from home with countless hours spent sitting on a bean bag with a laptop and arguing about the merits and demerits of various frameworks.
 
-##The work
+## The work
+
 The best part of SDSLabs is that you are free to come up with a project idea and work on it. 
 The project does not have to be a web app as is the common misconception, it can be related
 to mobile development, linux development or even a windows 8 app. If you are interested in 
@@ -72,13 +77,15 @@ of them. Since this is not a job, there's no check in time or check out time. Th
 whenever needed and remains open well into the night (sometimes people leave directly next day
 morning for breakfast!).
 
-##The Fun
+## The Fun
+
 Dine Out's sponsored by seniors is part of the culture now. Alumnis of our group also give us huge
 Dominos treats now and then and when I say huge I mean _huge_ (imagine three delivery boys coming
 from dominos _just_ for your order!). We also have a few gaming sessions. ProTip: Stay away from 
 abhshkdz. The group also goes for camping once every year. The 42' TV is put to good use, trust us!
 
-##Recruitments plug
+## Recruitments plug
+
 It's December and come January, SDSLabs will start recruiting again. If you are a fresher in IITR
 and are interested in joining SDSLabs then the next few lines are for you.
 

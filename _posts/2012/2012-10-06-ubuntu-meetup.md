@@ -15,7 +15,8 @@ Thanks to everyone who attended the meetup . Here's to many more such meetups in
 
 Cheers!
 
-#Pics
+# Pics
+
 ![Pic 1](/images/posts/ubuntu_meetup1.jpg)
 ![Pic 2](/images/posts/ubuntu_meetup2.jpg)
 

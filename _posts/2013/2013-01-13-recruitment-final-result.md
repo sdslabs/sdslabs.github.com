@@ -6,7 +6,7 @@ excerpt: The list of people selected after the rigourous interviews.
 
 Congratulations to everyone who got in. We were overwhelmed by the amount of talent and aptitude these people brought on board. If we did not select you, it was because we had limited vacancies, not because we didn’t like you. Each of the rest was as equally likely and capable be to be selected. And each time we took someone’s name off the list, we were stricken with guilt.
 
-##Programmers
+## Programmers
 
 * Abhinav Tushar (12115005)
 * Abhishek Kandoi (12114003)
@@ -21,7 +21,7 @@ Congratulations to everyone who got in. We were overwhelmed by the amount of tal
 * Shubham Gupta (12114062)
 * Shubham Roy (12119053)
 
-##Designers
+## Designers
 
 * Kushal Saharan (12116029)
 * Rishabh Yadav (12115090)

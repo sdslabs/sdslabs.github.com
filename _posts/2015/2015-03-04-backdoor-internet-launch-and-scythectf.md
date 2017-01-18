@@ -27,7 +27,7 @@ In order to make sure we have a stable and robust platform ahead of time, we org
 
 [dcua](https://twitter.com/DefConUA "DefConUA") won the [competition](https://backdoor.sdslabs.co/competitions/scythe15 "scytheCTF").
 
-##Techical Details
+## Techical Details
 
 * Backdoor Challenges are hosted over a separate domain and on a different server to avoid cross-site scripting and ensure isolation
 

@@ -9,7 +9,7 @@ We are proud to announce two new applications from SDSLabs: Erdős and CodeBot.
 Both are immediately available to all users. While Erdős is currently an internal application,
 CodeBot can be used by anyone across the world.
 
-##[Erdős](https://erdos.sdslabs.co.in/)
+## [Erdős](https://erdos.sdslabs.co.in/)
 
 Erdős is an application for Math Geeks to try out new mathematical problems
 and keep track of who solves what. Named after one of the most prolific 
@@ -27,7 +27,8 @@ above everything else. Go give it a try at <https://erdos.sdslabs.co.in> and
 
 Lots of exciting features such as gamification (badges), more analytics & visualizations, contests are in the pipeline and will be public soon!
 
-##[CodeBot](http://codebot.sdslabs.co.in/)
+## [CodeBot](http://codebot.sdslabs.co.in/)
+
 Many of you may have heard of [Project Euler](https://projecteuler.net), a 
 collection of various mathematical problems ranging in difficulty from easy
 to extremely hard. CodeBot is a stylized, terminal-style alternative interface
@@ -42,7 +43,8 @@ contests on Erdős, similar to the CodeBlitz contests we have on CodeVillage.
 
 ![CodeBot - Help](/images/posts/erdos-codebot/codebot-help.png)
 
-##Technical Details
+## Technical Details
+
 - Both Erdős and CodeBot emerged as weekend hacks, which were then polished
 over to iron the kinks before their public launch.
 - CodeBot uses node.js for the backend, and redis as the storage mechanism,

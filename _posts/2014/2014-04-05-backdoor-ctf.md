@@ -23,7 +23,7 @@ As an aside, BackdoorCTF reflects a lot of what we've learned while building app
 
 We will be coming up with a bigger, better and more challenging one next year.
 
-##Technical Details
+## Technical Details
 
 * For SQL injection based problems we created a new MySQL user with only **SELECT** privilege (on a separate database) so as to prevent any possible security leak
 

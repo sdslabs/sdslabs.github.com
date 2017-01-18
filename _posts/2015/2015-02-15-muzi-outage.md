@@ -8,7 +8,7 @@ author:
     image: ravi.jpg
 ---
 
-##The Situation
+## The Situation
 
 Muzi is one of the most popular application in campus, that boasts of thousands of all time users and thousands of [listens per day](https://dashboard.sdslabs.co.in/). The songs collection of Muzi resides in a single Hard Disk of 2 Terabytes in size. This drive has a collection of 1,69,000 Hindi tracks and 72,000 English tracks.
 
@@ -16,14 +16,14 @@ On **13th February 2015** at 6:30PM, the hard disk died.
 
 The drive showed signs of bad sectors which we suspect has been because of continuous read/write operations that happen 24X7 on this disk. 
 
-##Impact on services
+## Impact on services
 
 The workstation containing this disk also hosted couple of our services, thankfully in another hard disk. 
 Muzi backend server was hosted on another Virtual Machine totally different from the storage drive. This means the muzi frontend website was available at all times, but the songs themselves were not reachable. We are really sorry for the outage. We regret as much as you do.
 
 The other services running in the machine include Presence, our own lab tracking system and a gitolite instance that hosts all of our source code. These applications didn't use the muzi hard disk, but suffered downtime as we had to perform hardware upgrades to the machine in order to rescue the bad disk.
 
-##Rescue Method
+## Rescue Method
 
 We immediately detached the disk from the CPU cabinet and checked for the actual losses. We analysed that most of the data could be backed up thanks to Windows Disk Analyzer. 
 We further observed that when the disk attempted to read the bad sectors, it borked and did not allow us to read anything further. 
@@ -42,13 +42,13 @@ Later we retired the defective drive and took another 2Tb hard disk and transfer
 
 This disk was then put back into the same workstation hosting the previous disk and thus Muzi was revived!
 
-##Permanent Losses and Recovery
+## Permanent Losses and Recovery
 
 In this recovery process, we lost a total of 2000 songs, 34 of Hindi and rest of them of English. We are determined to get them back and in the next few days, we will cross verify our database dumps for the missing songs and get them back.
 
 Thanks to Teracopy for humane copy controls and good error reporting in this regard.
 
-##Future Thinking
+## Future Thinking
 
 We are totally moved by this situation and will go to any lengths to make sure such an incident never happens again. 
 
