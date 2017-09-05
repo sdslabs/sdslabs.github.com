@@ -23,11 +23,21 @@ Each of our team member was on a seperate ground as far as Android Development w
 
 We began by dividing the tasks by carefully analysing the prior knowledge of a particular member and their capacity to learn new stuff in the given time frame and assigning respective tasks to them.
 
-The constant help from the members of MDG and SDSLabs proved to be a great enthu booster. There were times when we felt that our idea was infeasible and that we would not be able to complete the project. But the perks of winning and the thought of achieving something which could be of great potential was sufficient enogh to raise our morales and to put our asses to work. Finally, the best part was __infinite food__ and drinks which were provided by the organisers.
+The constant help from the members of MDG and SDSLabs proved to be a great enthu booster. There were times when we felt that our idea was infeasible and that we would not be able to complete the project. But the perks of winning and the thought of achieving something which could be of great potential was sufficient enough to raise our morales and to put our asses to work. Finally, the best part was __infinite food__ and drinks which were provided by the organisers.
 
 ### Finishing and presenting the app
 
 We worked continously for 36 hours skipping food and sacrificing sleep. But all the hardwork paid off when we first took out our app for testing and it read the word **Nescafe** perfectly from the top of a Latte Pack. We were so happy after achieving what we aimed for.
+
+#### Screenshots
+So here is a glimpse of what our app actually does. It can read text from live camera stream !! Be it a video aur a static image or a random poster you saw while driving, it can read them all.
+<br>
+<br>
+
+![ocr_static](../../images/posts/hackathon_ocr_img.png) ![ocr_video](../../images/posts/ocr_hackathon_img.png)
+
+<br>
+<br>
 
 Then came the presentations. We had to present our application, first to the members of SDS and then to the Professors who were the final judges of the competition. The presentation part too was quite interesting where we were introduced to a plethora of new ideas from fellow contestants. The entire audience took interest in the presentations and there were a large number of enlightening questions from the jury as well as the audience.
 
