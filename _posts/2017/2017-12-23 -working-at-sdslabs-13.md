@@ -19,19 +19,23 @@ After the recruitment test in January 2017, I got called up for an interview at 
 
 ## Work Cuture
 
-In the initial days, we had lectures on topics like web development, bash commands, version control and networking. Staying in lab for long hours became routine, and I loved every moment of it. I remember a lecture on MVC starting at 10pm and ending at around 7am the following day! People at SDSLabs are always receptive to answering your doubts, even the seemingly foolish ones. SDSLabs has members with interests in various fields like data science, competitive programming, os development and infosec, so there is always someone to guide you in your field of choice. Seniors at SDSLabs are always open to holding discussions/lectures on different topics and seeing their level of expertise in different fields is a truly humbling experience.
+In the initial days, we had lectures on topics like web development, bash commands, version control and networking. Staying in lab for long hours became routine, and I loved every moment of it. Cycling back to RJB at 4am is a chilling experience, but well, _it was worth it_. I remember a lecture on MVC _starting at 10pm and ending at around 7am the following day!_ People at SDSLabs are always receptive to answering your doubts, even the seemingly foolish ones. We have members with interests in various fields like data science, competitive programming, os development and infosec, so there is always someone to guide you in your field of choice. Seniors at SDSLabs are always open to holding discussions/lectures on different topics and seeing their level of expertise in different fields is a truly humbling experience.
 
-After the first few weeks, minor projects are assigned under a mentor. The nature of work at SDSLabs involves bug fixing/feature addition on existing applications as well as developing a new application or a version of an existing one. Code bases are large and similar to what one might experience in industry. The volume of code can be overwhelming initially, but  I realized that reading large volumes of code, not exactly reading but glancing long enough to get the gist of it, is an art in itself.
+After the first few weeks, minor projects are assigned under a mentor. The nature of work at SDSLabs involves bug fixing/feature addition on existing applications as well as developing a new application or a version of an existing one. Code bases are large and similar to what one might experience in industry. The code size can be overwhelming initially, but my time in lab taught me that reading large volumes of code, not exactly reading but glancing long enough to get the gist of it, is an art in itself.
 
-One of my biggest takeaways from time spent in lab is that I could acknowledge the pain people have gone through over the years to make life easier for future developers. How simple fluctuations between two voltage levels, or in binary terms 0 and 1, were somehow exploited to create complex systems that play such fundamental roles in our lives, is truly mind-boggling.
+One of my biggest takeaways from time spent in lab is that I could acknowledge the pain people have gone through over the years to make life easier for future developers. How simple fluctuations between two voltage levels, or in binary terms 0 and 1, were somehow exploited to create complex systems that play such fundamental roles in our lives, is truly mind-boggling. *_Computer science as a field earned my respect_*, and for that I shall remain grateful.
 
 ## All Work & More Play
 
-We had an amazing annual trip to Rishikesh; playing mafia, sharing anecdotes and life experiences. We have a lot of chapos, many of them celebrating a member’s recent achievement, and many inside jokes that constantly get recycled after prolonged use. Life at SDSLabs is fun, and it isn’t a monotonous group with robotic functioning, as some might deduce it to be owing to its technical nature. A member's association with SDSLabs doesn't end after graduating. We maintain strong contact with our esteemed alumni through our Slack organization and constantly look up to them for advice and guidance.
+We had an amazing annual trip to Rishikesh; playing mafia, sharing anecdotes and life experiences next to soft embers of a fireplace along the banks of the Ganga, under a starry sky. There are regular chapos, often to celebrate someone winning a hackathon or getting a cool internship. We have countless running jokes, some of them a bit stale, but they get recycled after prolonged use! Life at SDSLabs is fun, and it is far from monotonous.
+
+## A Lifelong Association
+
+A member's association with SDSLabs doesn't end after graduating. We maintain strong contact with our esteemed alumni through our Slack organization and constantly look up to them for advice and guidance. In fact, a plusplus(its an internal appreciation thing) from an alumnus is greatly valued, and nearly every post from an alumnus on Slack is showered with love reacts!
 
 ## Recruitments
 
-SDSLabs holds recruitments annually for first year students in January. Do try to give it your best shot. It's great if you make it; but even if you don't, feel free to contact us, for as rightly said by the greatest wizard of our time, "Help shall always be provided at SDSLabs to those who ask for it."
+SDSLabs holds recruitments annually for first year students in January. Detai Do try to give it your best shot. It's great if you make it; but even if you don't, feel free to contact us, for as rightly said by the greatest wizard of our time, *_"Help shall always be provided at SDSLabs to those who ask for it."_*
 
 
 
