@@ -37,7 +37,7 @@ A member's association with SDSLabs doesn't end after graduating. We maintain st
 
 ## Recruitments
 
-SDSLabs holds recruitments annually for first year students in January. Detai Do try to give it your best shot. It's great if you make it; but even if you don't, feel free to contact us, for as rightly said by the greatest wizard of our time, **_"Help shall always be provided at SDSLabs to those who ask for it."_**
+SDSLabs holds recruitments annually for first year students in January. Do try to give it your best shot. It's great if you make it; but even if you don't, feel free to contact us, for as rightly said by the greatest wizard of our time, **_"Help shall always be provided at SDSLabs to those who ask for it."_**
 
 
 
