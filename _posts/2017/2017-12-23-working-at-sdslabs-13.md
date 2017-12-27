@@ -9,7 +9,7 @@ author:
 
 ## Noob-ish Beginnings
 
-Before starting life in IIT Roorkee, i was an ultra noob in computer programming. I remember writing some BASIC programs in standard 8, but it’s a fleeting memory. Plus, I’d taken physical education as my optional subject for boards because its supposedly easier to score in. The result was that I could knock off names of different yoga asanas and tell you what not to eat before expected cardiovascular exertion, but had very little idea of how the internet works. However, starting off with an empty head did prevent me from having any preconceived notions(good or bad) about programming.
+Before starting life in IIT Roorkee, I was an ultra noob in computer programming. I remember writing some BASIC programs in standard 8, but it’s a fleeting memory. Plus, I’d taken physical education as my optional subject for boards because its supposedly easier to score in. The result was that I could knock off names of different yoga asanas and tell you what not to eat before expected cardiovascular exertion, but had very little idea of how the internet works. However, starting off with an empty head did prevent me from having any preconceived notions(good or bad) about programming.
 
 I’d heard about SDSLabs while looking up pros and cons of IIT Roorkee after JEE results, and it sounded like a fascinating group to get into. During first semester, I learnt some basic c programming, and then extended to c++. I learnt OOP in java in one of our courses. During winter break, I dabbled a bit in android development while coding an application for Droid Wars 2016.
 
