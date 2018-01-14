@@ -21,7 +21,7 @@ lectures on variety of topics. Stay connected with us on our Facebook
 * Nikita Singh <span style="font-size: 14px;">(_CE_) 17113077</span>
 * Palak Goenka <span style="font-size: 14px;">(_ECE_) 17116050</span>
 * Piyush Sethia <span style="font-size: 14px;">(_CSE_) 17114057</span>
-* Saksham Kukreja <span style="font-size: 14px;">(_ME_) 17310015</span>
+* Saksham Kukreja <span style="font-size: 14px;">(_IN_) 17310015</span>
 * Supratik Das <span style="font-size: 14px;">(_ECE_) 17116071</span>
 * Twarit Waikar <span style="font-size: 14px;">(_CSE_) 17114074</span>
 * Vaibhav <span style="font-size: 14px;">(_CE_) 17118077</span>
