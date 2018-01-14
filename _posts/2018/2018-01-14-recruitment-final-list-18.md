@@ -28,7 +28,7 @@ lectures on variety of topics. Stay connected with us on our Facebook
 
 ## Designers
 
-* Kshitij Kashyap <span style="font-size: 14px;">(_MSM_) 17312013</span>
+* Kshitiz Kashyap <span style="font-size: 14px;">(_MSM_) 17312013</span>
 * Tanvee Moghe <span style="font-size: 14px;">(_GT_) 17410029</span>
 * Yash Khandelwal <span style="font-size: 14px;">(_CE_) 17113133</span>
 
