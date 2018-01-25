@@ -15,7 +15,7 @@ $(".full img").click(function() {
 });
 
 $("img").each(function() {
-    if ($this).attr("class") !== "nozoom") {
+    if ($(this).attr("class") !== "nozoom") {
         this.setAttribute("data-action", "zoom");
     }
 });
