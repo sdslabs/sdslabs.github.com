@@ -10,7 +10,7 @@ layout: base
 {% endif %}
 <center>
     <div class="logo" style="margin-top:50px;">
-        <a href="/"><img src="/images/logo.png" alt=""></a>
+        <a href="/"><img src="/images/logo.png" alt="" class="nozoom"></a>
     </div>
 </center>
 <article>
@@ -47,7 +47,7 @@ layout: base
              {% elsif page.author.name %}   
              <address>
           
-                {% if page.author.image %}<img src="/images/{{ page.author.image }}">{% endif %}
+                {% if page.author.image %}<img src="/images/{{ page.author.image }}" class="nozoom">{% endif %}
                 {% if page.author.twitter %}
                 <p>Written by <strong><a rel="author" href="https://twitter.com/{{ page.author.twitter }}" title="{{ page.author_name }}" target="_blank">{{ page.author.name }}</a></strong><br>
                 {% elsif page.author.link %}

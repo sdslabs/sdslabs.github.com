@@ -13,3 +13,7 @@ $(window).scroll(function() {
 $(".full img").click(function() {
   $(".full img").toggleClass('zoom');
 });
+$("img").each(function() {
+	if($(this).attr("class")!=="nozoom")
+	this.setAttribute("data-action" , "zoom");
+});
