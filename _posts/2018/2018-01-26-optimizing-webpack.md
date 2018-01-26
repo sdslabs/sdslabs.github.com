@@ -9,7 +9,7 @@ author:
   image: agrim.jpg
 ---
 
-I had been involved in building the official website of [Cognizance](https://cognizance.org.in), The annual technical festival of IIT Roorkee. It is also Asia's second largest tech fest.
+As a part of SDSLabs, I had been involved in building the official website of [Cognizance](https://cognizance.org.in), the annual technical festival of IIT Roorkee and also Asia's second largest technical fest!
 
 ### Brief Background
 
