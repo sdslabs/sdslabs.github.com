@@ -8,6 +8,7 @@ author:
   bio: Developer, SDSLabs
   image: agrim.jpg
 ---
+
 I had been involved in building the official website of [Cognizance](https://cognizance.org.in), The Annual Technical Festival of IIT Roorkee. It is also Asia's second largest tech fest.
 
 ### Brief Background
@@ -42,16 +43,16 @@ Stumbling upon reducing bundle size, I came across the concept of async await.
 
 It is a new way to write asynchronous code. Previous available options were Promises and callbacks. They are non blocking just like promises. 
 
-```js
+{% highlight js %}
 const a = async () => {
-  /* console.log will wait till b resolves */
+  // console.log will wait till b resolves
   console.log(await b())
-
   return "Done"
 }
 
 a()
-```
+
+{% endhighlight %}
 
 > An async function returns a promise implicitly, and the resolved value of the promise will be whatever we return from the function.
 
@@ -65,7 +66,7 @@ First step was to create a wrapper that would take a component, and returns anot
 
 Our HOC was an async container:
 
-```js
+{% highlight js %}
 // AsyncContainer.jsx
 
 import React, { Component } from "react"
@@ -97,10 +98,11 @@ export default function asyncContainer(importComponent) {
 
   return AsyncContainer
 }
-```
+{% endhighlight %}
+
 The `asyncContainer` function takes a component as input and renders it when the `importComponent` resolves. This can be implemented in routes as: 
 
-```js
+{% highlight js %}
 // routes.js
 
 ...
@@ -119,7 +121,7 @@ const routes = {
     ...
   ],
 }
-```
+{% endhighlight %}
 
 Everytime the `asyncContainer` is called it will dynamicaly import the passed container. In other words, when we visit `/` route then a chuck file is loaded dynamically containing the `WelcomeContainer`.
 
@@ -127,7 +129,7 @@ This concept can be extended to individual components too. Suppose we have an he
 
 An example of how header is rendered
 
-```js
+{% highlight js %}
 // Header.jsx
 
 ...
@@ -139,13 +141,13 @@ async componentDidMount() {
     LeftHeader: <LeftHeader loading={false} />,
   })
 }
-```
+{% endhighlight %}
 
 We implemented this on every route, login/signup modal, headers, various containers and many more small components.
 
 ### The mighty webpack config
 
-```js
+{% highlight js %}
 import path from 'path'
 import webpack from 'webpack'
 
@@ -184,17 +186,12 @@ export default {
     new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),  // If you are using moment
   ],
 }
-```
+{% endhighlight %}
 Now on running 
 
-```bash
- $ yarn prod:build
-```
-which resolves to
-
-```bash
+{% highlight bash %}
  $ cross-env NODE_ENV=production webpack -p --progress --config webpack.prod.config.babel.js 
-```
+{% endhighlight %}
 
 ![Webpack 2](/images/posts/optimizing-webpack/webpack-2.png)
 
