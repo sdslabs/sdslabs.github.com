@@ -9,7 +9,7 @@ author:
   image: agrim.jpg
 ---
 
-I had been involved in building the official website of [Cognizance](https://cognizance.org.in), The Annual Technical Festival of IIT Roorkee. It is also Asia's second largest tech fest.
+I had been involved in building the official website of [Cognizance](https://cognizance.org.in), The annual technical festival of IIT Roorkee. It is also Asia's second largest tech fest.
 
 ### Brief Background
 
@@ -19,7 +19,7 @@ I will focus on the react part of the application which is one of the client of 
 
 ### n00b steps
 
-Now, as you might know, when webpack does it’s **magic** on the code, it generates a single bundle file, that contains all the code needed in the front end and that can be really huge. Because we are working with single page applications here, this means that browser will fetch all code at once which can lead to slower page loads which can be a bad experience for end users.
+Now, as you might know, when webpack does its **magic** on the code, it generates a single huge bundle file, that contains all the code required for front-end function. Because we are working with single page applications here, this means that browser will fetch all code at once which can lead to slower page loads which can be a bad experience for end users.
 
 Being 4 months into the development, we now have 3 different react apps served on three different namespaced routes, almost complete, but wait, bundled size of all three of them in production is around 900 KB, woot, not feasible for deployment.
 
@@ -31,9 +31,9 @@ Over 60% of our user base are mobile users and around 40% of them are using degr
 
 ### Correcting some mistakes
 
-First step was to remove unnecessary npm modules (or unused). Doing a thorough invetigation of package.json and the codebase and removing unnecessary imports and corresponding packages was another tiresome job but it proved to be fruitful. package.json can get get dirty when you blindly install some packages for testing and then forget to remove them from dependecies. However, it took us one full day to remove those unwanted packages.
+First step was to remove unnecessary npm modules (or unused). Doing a thorough investigation of `package.json` and the codebase and removing unnecessary imports and corresponding packages was another tiresome job but it proved to be fruitful. `package.json` can get get dirty when you blindly install some packages for testing and then forget to remove them from dependecies. However, it took us one full day to remove those unwanted packages.
 
-Thi practice reduced the bundle sizes by around `120 KB`.
+This practice reduced the bundle sizes by around `120 KB`.
 
 #### *The introduction of async await*
 
@@ -60,11 +60,11 @@ a()
 
 #### Back on track
 
-The main idea is to first break the components into more finer components and then load those components when needed.
+The main idea is to first break the components into finer components and then load these components when needed.
 
-First step was to create a wrapper that would take a component, and returns another component. These wrappers are called [Higher-Order Components (HOC)](https://reactjs.org/docs/higher-order-components.html). 
+First step was to create a wrapper that would take a component, and return another component. These wrappers are called [Higher-Order Components (HOC)](https://reactjs.org/docs/higher-order-components.html). 
 
-Our HOC was an async container:
+Our HOC is an async container:
 
 {% highlight js %}
 // AsyncContainer.jsx
@@ -123,9 +123,9 @@ const routes = {
 }
 {% endhighlight %}
 
-Everytime the `asyncContainer` is called it will dynamicaly import the passed container. In other words, when we visit `/` route then a chuck file is loaded dynamically containing the `WelcomeContainer`.
+Everytime the `asyncContainer` is called, it will dynamicaly import the passed container. In other words, when we visit `/` route, then a chuck file is loaded dynamically containing the `WelcomeContainer`.
 
-This concept can be extended to individual components too. Suppose we have an header that can be splitted into two components `RightHeader` and `LeftHeader`. So, when header is mounted both of these components used to come within the `Header` chunk, but now walking on our new path we can make mount these dynamically thus separating the view blocking components.
+This concept can be extended to individual components too. Suppose we have an header that can be split into two components `RightHeader` and `LeftHeader`. So, previously when header was mounted, both of these components used to come within the `Header` chunk, but now walking on our new path we can make them mount dynamically thus separating the view blocking components.
 
 An example of how header is rendered
 
@@ -213,7 +213,7 @@ After applying all the above techniques, we were able to reduce the page load ti
 
 ### Final Problem
 
-Now, after the successful deployment, the next major problem was build time. With current config the build time was around **93 seconds**, too much!!. We are still working on improving the build speed, but its on hold because of other feature addition to the application.
+Now, after the successful deployment, the next major problem is the build time. With current config the build time was around **93 seconds**, too much!!. We are still working on improving the build speed, but its on hold because of other feature addition to the application.
 
 I will talk about how to reduce the build time in future. Till then,
 
