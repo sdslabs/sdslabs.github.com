@@ -4,7 +4,9 @@ title: HackInOut 5.0
 excerpt: Winning experience at HackInOut 5.0
 author:
   name: Anish Mukherjee
+  link: https://github.com/alphadose
   bio: Developer, SDSLabs
+  image: alphadose.jpeg
 ---
 
 Hackathons are an integral part of a developer’s journey. They help us experiment, grow and meet a beautiful mixture of talented people. We present a recollection of our winning experience at India’s biggest community hackathon, [InOut](https://hackinout.co/).
