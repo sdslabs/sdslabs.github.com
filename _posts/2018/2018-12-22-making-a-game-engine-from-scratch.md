@@ -1,4 +1,4 @@
- ---
+---
  layout: post
  title: Making a game engine from scratch
  excerpt: Announcing Rubeus, and how we made a game engine
@@ -7,7 +7,7 @@
    link: https://github.com/IronicallySerious
    bio: Developer, SDSLabs
    image: serious.jpg
- ---
+---
 
 ![Rubeus Logo](/images/posts/rubeus/rubeus_light.png)
 
