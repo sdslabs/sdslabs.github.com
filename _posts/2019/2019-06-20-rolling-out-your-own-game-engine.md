@@ -1,14 +1,3 @@
----
- layout: post
- title: Rolling Out Your Own Game Engine and Beyond
- excerpt: Announcing Rootex and our vision for the future of Rubeus Game Engine
- author:
-   name: Twarit Waikar
-   link: https://github.com/IronicallySerious
-   bio: Developer, SDSLabs
-   image: serious.jpg
----
-
 The Rubeus Game Engine was released by SDSLabs on 22nd December 2018 with the vision to introduce the programmers of IIT Roorkee to game development and design. We received a ton of support with this release even from game development communities outside of R-land. 
 
 We saw multiple release threads pop up on [HN](https://news.ycombinator.com) and [r/Gamedev](https://www.reddit.com/r/gamedev/) which attracted people from the industry to review the codebase and constructively critic on the project. We are very happy with the general reception and in this blog, we want to discuss where we are trying to take Rubeus in the future.
@@ -17,7 +6,7 @@ It has been around 6 months since we released Rubeus, an in-house implementation
 
 # The Motivation behind making Rubeus
 
-We made Rubeus with an objective to help a beginner learn how games are made. Every 90s child who has been exposed to games at an early age has a dream to make video games someday or they at least have wanted to make a game at some point in time in the future.
+We made Rubeus with an objective to help a beginner learn how games are made. Every 90s child who has been exposed to games at an early age has a dream to make video games someday or they at least have wanted to make a game at some point of time in the future.
 
 We believe that one cannot understand something properly until they are able to explain it to a three-year-old. Brightly said by Einstein, it motivated us to have a try at making a game engine for satisfying the curiosity of not only us but also the beginner game developers out in the programming world.
 
@@ -71,3 +60,4 @@ We are actively looking for collaborating with other groups operating in IIT Roo
 ## Why not use Rubeus instead?
 
 As mentioned above, we want the newer framework to be more robust, more flexible in terms of customizability and functionality and just cater to the specific project instead of a wide range of genres. We believe it makes the engine more focused to solving a problem and gives us more performance to work with. Our argument can be compared to when you require a Swiss knife instead of a butter knife made for children.
+
