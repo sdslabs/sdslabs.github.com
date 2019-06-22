@@ -1,3 +1,14 @@
+---
+ layout: post
+ title: Rolling Out Your Own Game Engine and Beyond
+ excerpt: Announcing Rootex and our vision for the future of Rubeus Game Engine
+ author:
+   name: Twarit Waikar
+   link: https://github.com/IronicallySerious
+   bio: Developer, SDSLabs
+   image: serious.jpg
+---
+
 The Rubeus Game Engine was released by SDSLabs on 22nd December 2018 with the vision to introduce the programmers of IIT Roorkee to game development and design. We received a ton of support with this release even from game development communities outside of R-land. 
 
 We saw multiple release threads pop up on [HN](https://news.ycombinator.com) and [r/Gamedev](https://www.reddit.com/r/gamedev/) which attracted people from the industry to review the codebase and constructively critic on the project. We are very happy with the general reception and in this blog, we want to discuss where we are trying to take Rubeus in the future.
