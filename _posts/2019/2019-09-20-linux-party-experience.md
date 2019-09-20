@@ -17,6 +17,10 @@ Linux is a whole new world for someone new to it; beginners(and even veterans!) 
 
 This writing will be mostly a collection of guides distributed across the internet and our experiences that we felt needed to be interwoven to make the user's experience much easier, thus being a.to understand the causes or particulars of any specific part you would need to do some extra research but fret not as Google will always be you best companion. Also, our guide will be specific to Ubuntu but would work for almost any Debian based distro.
 
+## How to use this guide?
+
+First, give this a light reading. You wouldn't want to be distracted by theory, mid-flight the installation process. After tskimming through, you should be able to figure out parts that are relevant to you and follow them while installing.
+
 # Dual Boot vs VM
 
 So here is the first question that may come to one's mind when they get introduced to the world of Linux.
@@ -110,7 +114,7 @@ In case GRUB is now showing up and you are directly booting into an OS(which wil
 
 # Graphics Driver Errors
 
-This is the main issue with most of the laptops that get ubuntu newly installed. A variety of errors are reported in this category.
+This is the main issue with most of the laptops that get ubuntu newly installed. A variety of errors are reported in this category. You may even install some OS that provides you graphics drivers pre-installed. We recommend [Pop!_OS](https://system76.com/pop) if you are interested in such an OS, as it is based on Ubuntu, so all terminal interactions remain the same.
 
 * Black screen on login
 * ACPI errors after GRUB
