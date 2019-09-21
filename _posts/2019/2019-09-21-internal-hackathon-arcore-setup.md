@@ -23,11 +23,11 @@ ARCore uses three key technologies to integrate virtual content with the real en
 
 # Help! How to escape this!
 
-Unity by default does not contain any SDK, JDK related to andrid development. So you have to install it by your own which is not easy as it seems as sdk manager in not available. For insatlling SDK, one can do two things:-
+Unity by default does not contain any SDK, JDK related to andrid development. So you have to install it by your own which is not easy as it seems as sdk manager is not available. For installing SDK, one can do two things:-
 1. Install Android Studio
 2. Install SDK command line tools
 
-While the first method is quite easy. You jut have to install android studio and with it you get SDK manager which will download all the required SDKs. But wait... installing Android Studio... Not every computer has this much capable hardware which can run this heavy beast without any lag.
+While the first method is quite easy. You just have to install android studio and with it you get SDK manager which will download all the required SDKs. But wait... installing Android Studio... Not every computer has this much capable hardware which can run this heavy beast without any lag.
 
 The second way is the hard way. It includes use of command line. The command line tool can be downloaded from https://developer.android.com/studio. After downloading, extract the zip file. Migrate to tools/bin and open command prompt in that folder. Type the command 
 
