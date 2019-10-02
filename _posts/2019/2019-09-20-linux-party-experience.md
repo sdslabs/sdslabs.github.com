@@ -9,7 +9,7 @@
    image: 
 ---
 
-For a brief context, SDSLabs conducts an event called "Linux Party" in which our members help freshers of IIT Roorkee get started with their development experiences by helping them install a Linux distro(mainly Ubuntu) on their systems.
+For a brief context, SDSLabs conducts an event called "Linux Party" in which our members help the freshers of IIT Roorkee install a Linux distro (mainly Ubuntu) on their systems.
 
 # The Motivation behind this blog
 
