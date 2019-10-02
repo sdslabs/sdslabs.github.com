@@ -23,8 +23,6 @@ First, give this a light reading. You wouldn't want to be distracted by theory d
 
 # Dual Boot vs VM
 
-So here is the first question that may come to one's mind when they get introduced to the world of Linux.
-
 _Why go through all the hassle of dual boot when you can simply run a VM?_
 
 * VMs are resource-intensive, you need to have a beefy computer to have a smooth experience inside a VM
@@ -88,23 +86,23 @@ From our experience, a general space ratio of 40:60 between / and /home, and set
 
 There are three cases:
 
-* Only SSD or only HDD
+* SSD only or HDD only
 * SSD + HDD
 * Optane + HDD
 
 Now for HDD only laptops, the work is pretty straightforward. Shrink the required memory which you have calculated previously. 
 
-For only SSD the process is the same as only HDD laptops except that you have to shift your SSD from RAID to AHCI using [this](https://support.thinkcritical.com/kb/articles/switch-windows-10-from-raid-ide-to-ahci). Step 5 of the previous link will vary with manufacturer, so explore your BIOS a bit (don't go on changing any random setting!) and you'll be bound to hit it or you can google for "<insert laptop model> RAID to AHCI".
+For SSD only laptops the process is the same as HDD only laptops except that you have to shift your SSD from RAID to AHCI using [this](https://support.thinkcritical.com/kb/articles/switch-windows-10-from-raid-ide-to-ahci). Step 5 of the previous link will vary with manufacturer, so explore your BIOS a bit (don't go on changing any random setting!) and you'll find the appropriate setting to switch or you can google for "<insert laptop model> RAID to AHCI".
 
-For SSD + HDD laptops, you would want minimize stuff on the SSD as it is generally small. In this case, allocate space for / on the SSD(minimal boot time) and /home on the HDD.
+For SSD + HDD laptops, you would want to minimize stuff on the SSD as it is generally small. In this case, allocate space for / on the SSD(minimal boot time) and /home on the HDD.
 
 For shrinking your Windows drives follow [this guide](https://www.dummies.com/computers/pcs/how-to-shrink-a-hard-drive-volume-in-windows/) for both SSD and HDD
 
 Optane is rare so first check [this](https://www.intel.in/content/www/in/en/support/articles/000023990/memory-and-storage/intel-optane-memory.html) to determine if you have Optane in use in case you are unsure. Installing Ubuntu on Optane is a bit complex so we won't be going there; use [this](https://support.cyberpowerpc.com/hc/en-us/articles/360014775073-How-do-I-disable-Intel-Optane-)(disabling Intel Optane memory with Intel RST is enough, no need disable from BIOS!) and install Ubuntu, but remember to keep an EXTRA 10 MB unallocated space at the END of your HDD which is required by Optane, other than the memory used by Ubuntu. Then use the previous guide to re-enable Optane.
 
-Use [this](https://askubuntu.com/a/521195) to apply the theory you learned. "/dev\*" type of names refer to HDD and "/dev/nvmp\*" refer to SSD.
+Use [this](https://askubuntu.com/a/521195) to install Ubuntu and configure the partitions according to your needs. "/dev/sd\*" type of names refer to HDD and "/dev/nvmp\*" refer to SSD.
 
-In `Device for boot loader installation` shown in the previous link select your SSD in case you have one or your HDD in other case.
+In `Device for boot loader installation` shown in the previous link select your SSD in case you have one or your HDD if you don't.
 
 # GRUB
 
@@ -114,7 +112,7 @@ In case GRUB is now showing up and you are directly booting into an OS(which sho
 
 # Graphics Driver Errors
 
-This is the main issue with most of the laptops that get ubuntu newly installed. A variety of errors are reported in this category. You may even install some OS that provides you graphics drivers pre-installed. We recommend [Pop!_OS](https://system76.com/pop) if you are interested in such an OS, as it is based on Ubuntu, so all terminal interactions remain the same.
+This is the main issue with most of the laptops that get ubuntu newly installed. A variety of errors are reported in this category.
 
 * Black screen on login
 * ACPI errors after GRUB
@@ -124,6 +122,8 @@ and many more...
 This is mainly due to Nvidia graphics cards being present on a system and the need to manually install their drivers.
 If you face this issue (or miraculously don't while owning an Nvidia graphics card), follow [this](https://itsfoss.com/fix-ubuntu-freezing/)(follow step 1, then step 3, and then undo step 1)
 Another error that you may encounter is that of Windows entry not showing up in GRUB. A variety of solutions are available [here](https://askubuntu.com/questions/197868/grub-does-not-detect-windows)
+
+To avoid this problem, you may install some OS that provides you graphics drivers pre-installed. We recommend [Pop!_OS](https://system76.com/pop) if you are interested in such an OS. It is based on Ubuntu, so all terminal interactions remain the same.
 
 # Issues after installing Ubuntu
 
@@ -143,7 +143,7 @@ So you have everything set up and want to know more about the world of this amaz
 
 Then check these out-
 
-[Desktop Environments](https://www.forbes.com/sites/jasonevangelho/2018/09/17/linux-for-beginners-whats-a-desktop-environment/#4f3f2adb1b0a)
+[Desktop Environments](https://itsfoss.com/best-linux-desktop-environments/)
 
 [Hot Distros](https://itsfoss.com/best-linux-distributions/)
 
