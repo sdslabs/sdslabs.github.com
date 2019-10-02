@@ -44,7 +44,7 @@ Here we would like to stress on point 4, Boot selection and Partition scheme. We
 
 EFI tables- In layman's terms, it is a partition(like the C: or D: drive on your windows) which stores 'bootloaders' of various OSs present on your system
 'Bootloaders' are programs that are responsible for starting up an operating system.
-On a Windows laptop, you would be having the Windows Bootloader installed by default on an EFI partition, you can check this by opening Disk Management from the Start menu.
+On a Windows laptop, you probably have the Windows Bootloader installed by default on an EFI partition. You can verify this by opening Disk Management from the Start menu.
 Remember this bit of information, it will be useful later.
 
 You may be used to the Windows partition scheme in there are different drives like C:, D:, etc., but Linux uses a different partition scheme.
@@ -82,11 +82,11 @@ Linux has a more hierarchical file structure, wherein there are different direct
 
 swap is a 'virtual RAM' that is utilised to extend RAM beyond its physical capacity. With swap memory, an 8 GB RAM can 'store' much more data than 8 GB, though it would be significantly slower.
 
-Now for all this blabbering from our experience a general space ratio of 40:60 between / and /home and having swap as double the size of your RAM is the ideal composition. Also, root requires a minimum of 20 GB for smooth operation
+From our experience, a general space ratio of 40:60 between / and /home, and setting swap size to double the size of your RAM is a good composition. If possible, give root more than 20 GB of space apart from the space for /home for smooth operation.
 
 ## The actual partitioning
 
-Now we have three cases
+There are three cases:
 
 * Only SSD or only HDD
 * SSD + HDD
@@ -108,7 +108,7 @@ In `Device for boot loader installation` shown in the previous link select your 
 
 # GRUB
 
-Remember the talk about bootloaders? now GRUB is your new bootloader. You would be seeing a black screen with white text in a not-so-appealing font show up after your manufacturer's logo on startup. Here is where you can select your OS using arrow keys.
+Remember the talk about bootloaders? Now GRUB is your new bootloader. Upon booting up your PC, you should now be greeted with a black or magenta screen with white text in a not-so-appealing font. Here is where you can select your OS using arrow keys.
 
 In case GRUB is now showing up and you are directly booting into an OS(which should not happen if you followed the instructions), the issue can be subjective and your best bet would be to do google searches describing what is happening and you should find a solution(trust us, we've been there too). You can also reach out to us [here](chat.sdslabs.co) and we would love to help!
 
