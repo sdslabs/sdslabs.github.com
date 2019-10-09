@@ -40,7 +40,7 @@ Here we would like to stress on point 4, Boot selection and Partition scheme. We
 
 # Understanding EFI tables and custom partitions
 
-EFI tables- In layman's terms, it is a partition(like the C: or D: drive on your windows) which stores 'bootloaders' of various OSs present on your system
+EFI tables- In layman's terms, it is a partition(like the C: or D: drive on your windows) which stores 'bootloaders' of various OSs present on your system.
 'Bootloaders' are programs that are responsible for starting up an operating system.
 On a Windows laptop, you probably have the Windows Bootloader installed by default on an EFI partition. You can verify this by opening Disk Management from the Start menu.
 Remember this bit of information, it will be useful later.
@@ -108,7 +108,7 @@ In `Device for boot loader installation` shown in the previous link select your 
 
 Remember the talk about bootloaders? Now GRUB is your new bootloader. Upon booting up your PC, you should now be greeted with a black or magenta screen with white text in a not-so-appealing font. Here is where you can select your OS using arrow keys.
 
-In case GRUB is now showing up and you are directly booting into an OS(which should not happen if you followed the instructions), the issue can be subjective and your best bet would be to do google searches describing what is happening and you should find a solution(trust us, we've been there too). You can also reach out to us [here](chat.sdslabs.co) and we would love to help!
+In case GRUB is now showing up and you are directly booting into an OS(which should not happen if you followed the instructions), the issue can be subjective and your best bet would be to do google searches describing what is happening and you should find a solution(trust us, we've been there too). You can also reach out to us [here](https://chat.sdslabs.co) and we would love to help!
 
 # Graphics Driver Errors
 
