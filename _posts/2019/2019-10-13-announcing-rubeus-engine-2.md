@@ -26,6 +26,9 @@ Users are now able to expose their own functions as callbacks to user-defined co
 ## Application Layer for Controlled Execution
 We have introduced a new Application layer to the Rubeus game making procedure. Now all user-defined systems get to live in their own namespaces and have user-defined lifetimes. This allows the user to handle their own resources as and when required and encapsulate the code that talks to the Rubeus Engine from the code that works for their custom systems.
 
+## Z-Index for 2D colliders
+Colliders can now be separated in different planes to allow for objects in the background to not collide with objects in the foreground. Assigning Z-index values is as simple as providing as a single integer value to every collider as an identifier of its Z-indexed layer.
+
 ## Logging System for Debugging
 Our new logging system allows the user to either log to the screen with varying degrees of severity levels, namely `ERROR`, `ASSERT`, and `SUCCESS`. Users can add more severity levels to their liking. What is a bit more exciting is that we now support colored error logging to the console that works on all supported platforms.
 
