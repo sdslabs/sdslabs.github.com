@@ -37,7 +37,7 @@ Users also can now log to files in a separate logging directory on their file sy
 The game object creation API has been made simpler by allowing for more flexible ways to provide the game objects with their data. We also cleaned up a lot of code at the user side of things to allow for a much less overwhelming interface to the engine.
 
 ## Lesser Dependencies = Lesser Build Times
-We have dropped our dependency on Vcpkg, the C++ package manager that we were using in v1.0. All dependencies are now distributed with the engine, except for some system libraries that have been mentioned in our [setup procedure](https://github.com/sdslabs/Rubeus/blob/v2/SETUP.md). You might see that our build process got reduced tenfold and we are glad about it.
+We have dropped our dependency on Vcpkg, the C++ package manager that we were using in v1.0. All dependencies are now distributed with the engine, except for some system libraries that have been mentioned in our [setup procedure](https://github.com/sdslabs/Rubeus/blob/v2/SETUP.md). You might see that our engine build times got reduced almost tenfold and we are glad about it.
 
 Along with all these new additions, we have done a lot of bug fixes under the hood that help optimize the performance of Rubeus games and allow less open ground for bugs to creep in.
 
