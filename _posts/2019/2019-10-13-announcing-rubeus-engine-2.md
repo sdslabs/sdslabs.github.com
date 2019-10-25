@@ -8,7 +8,7 @@
    bio: Developer, SDSLabs
    image: serious.jpg
 ---
-We are excited to announce that the Rubeus Engine that [debuted on the 22nd December 2018](https://blog.sdslabs.co/2018/12/making-a-game-engine-from-scratch) has had major improvements since the last edition and we have reached our goal for Rubeus Engine v2.0!
+We are excited to announce that the Rubeus Engine that [debuted on the 22nd December 2018](https://blog.sdslabs.co/2018/12/making-a-game-engine-from-scratch) has had major improvements since the last edition and we have reached our goal for Rubeus Engine v2.0! Check out [Rubeus Engine v2.0 on Github](https://github.com/sdslabs/rubeus).
 
 ![Rubeus Logo](/images/posts/rubeus/rubeus_light.png)
 
