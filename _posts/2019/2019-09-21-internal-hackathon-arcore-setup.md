@@ -31,8 +31,8 @@ ARCore uses three key technologies to integrate virtual content with the real en
 
 ** When using Unity 2019, the following Unity packages are required:
 
-1. Multiplayer HLAPI
-2. XR Legacy Input Helper
+* Multiplayer HLAPI
+* XR Legacy Input Helper
 
 * ARCore SDK for Unity 1.12.0 or later
 
