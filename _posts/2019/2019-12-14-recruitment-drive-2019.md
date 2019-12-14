@@ -17,10 +17,10 @@ We are open to all years of students of IITR to apply in our recruitment drive. 
 
 We provide you with five different methods of landing an interview at SDSLabs during the Recruitment Drive. These methods are:
 
-* Placing amongst selected teams at the SDSLabs' Syntax Error Hackathon 2019
+* Being amongst the teams at the SDSLabs' Syntax Error Hackathon 2019
 * Completing SDSLabs' Winter of Code 2019
 * Completing SDSlabs' Makers 2020
-* Placing amongst the top students at any of our competitions mentioned below
+* Placing top at any of our competitions mentioned below
 * Placing amongst the top students in SDS' Recruitment Test and Design problem statement submissions
 
 ## Syntax Error
@@ -55,13 +55,13 @@ SDS organizes a variety of competitions for the 1st year junta at IIT Roorkee du
 
 ## Recruitment Test and Design Problem statements
 
-SDS' recruitment test has various sections, including logical reasoning, competitive programming, probability, and web development (HTML/CSS/JS).
+SDS' recruitment test has various sections, including logical reasoning, programming, web development (HTML/CSS/JS), and an ad-hoc section to show off your personality.
 
 We invite the top scores from individual sections and the top scorers overall for an interview during the interview process. Needless to say, the evaluation will be done based on your performance in individual sections.
 
-Design based problem statements will be released during the recruitment test your skills in various fields of design like UI/UX and graphic design. Design submissions will be considered for recruiting into SDSLabs as a designer.
+Design based problem statements will be released a week before the recruitment test takes place to test your skills in various fields of design like UI/UX and graphic design. Design submissions will be considered for recruiting into SDSLabs as a designer.
 
-Apart from all these methods, we are yearly open to wildcard entries. If you somehow are not able to make it this time, you can reach out to us at contact@sdslabs.co.in with your CV after the Recruitment Drive.
+Apart from all these methods, we are yearly open to wildcard entries. If you somehow are not able to make it this time, you can reach out to us at contact@sdslabs.co.in with your CV after the recruitment drive.
 
 We hope we have made the entire recruitment process clear for all the enthusiasts out there. We look forward to seeing you test your skills at our Recruitment Drive this winter.
 
