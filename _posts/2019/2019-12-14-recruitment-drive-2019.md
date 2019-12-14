@@ -55,7 +55,7 @@ SDS organizes a variety of competitions for the 1st year junta at IIT Roorkee du
 
 ## Recruitment Test and Design Problem statements
 
-SDS' recruitment test has various sections, including logical reasoning, programming, web development (HTML/CSS/JS), and an ad-hoc section to show off your personality.
+SDS' recruitment test has various sections, including logical reasoning, programming, web development (HTML/CSS/JS), and an ad-hoc section to show off your geeky side.
 
 We invite the top scores from individual sections and the top scorers overall for an interview during the interview process. Needless to say, the evaluation will be done based on your performance in individual sections.
 
