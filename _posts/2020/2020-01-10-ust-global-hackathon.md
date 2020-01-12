@@ -14,7 +14,7 @@
 
 Recently, UST Global announced the first edition of their d3code hackathon. It took place in 5 stages. The early three stages were online rounds, where basic programming questions were asked. The fourth stage was an interview, after which the top 20 teams got a chance to visit Kerala for the final round in UST Global's headquarters.
 
-We reached Thiruvananthapuram a day before the hackathon, and headed to their office the next day. The campus is phenomenal. Check out the following video for a glimpse of the headquarters - https://www.youtube.com/watch?v=Mk1NY9m6Hlw.
+We reached Thiruvananthapuram a day before the hackathon, and headed to their office the next day. The campus is phenomenal. Check out the following video for a glimpse of the headquarters - [https://www.youtube.com/watch?v=Mk1NY9m6Hlw](https://www.youtube.com/watch?v=Mk1NY9m6Hlw).
 
 Upon entering the office, we were provided with breakfast. Following that, we were introduced to the d3code team and given our problem statements. There were three problem statements of which we were required to choose one. This hackathon was different from the others we usually participate in. Not only were the problem statements given to us, but each part of the problem was defined in detail. The judging process was very well defined so as not to be biased for anyone. There were pointers given to us based on which our projects were to be scored.
 
