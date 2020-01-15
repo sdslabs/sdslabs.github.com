@@ -22,7 +22,7 @@ Manually decide which application goes to which node, then use ssh/telnet to man
 *Kubernetes at the rescue:* \\
 Kubernetes takes away the load distribution problem with its intelligent clustering. But then again, it requires a lot (and yes a lot!) of configurations for each application. Besides, the pipeline for setting up the app still needs to be implemented.
 
-#### The solution
+#### Gasper - A New Hope
 Gasper addresses all of the above problems and makes deploying applications just a breeze. The platform is modeled as a REST API, where the user just needs to provide the Github repository’s URL, build commands and some optional configurations, click the Create button and voila, your application is deployed!
 
 ## Sounds cool? Let's look at the amazing tale under the hood
