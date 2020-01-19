@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Final recruitment list for 1st year (2019)
+title: Final recruitment list for 1st year (2020)
 excerpt: Recruitment results 2019.
 ---
 
