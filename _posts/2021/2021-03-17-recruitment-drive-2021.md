@@ -37,20 +37,20 @@ Students who developed on a project idea released during Makers 2021 or develope
 SDS organizes a variety of competitions for the 1st year junta at IIT Roorkee. We like to call the Top 3 students from each of these competitions for an interview:
 * NoobCTF
   * Capture the flag competition
-  * Hosted at [Backdoor](backdoor.sdslabs.co) with InfoSec IITR
+  * Hosted at [Backdoor](https://backdoor.sdslabs.co/) with InfoSec IITR
 * Beginner's Hypothesis
   * Data Science competition
-  * Hosted at [Cerebro](cerebro.sdslabs.co) with DSG IITR
+  * Hosted at [Cerebro](https://cerebro.sdslabs.co/) with DSG IITR
 * Algophobic
   * Competitive programming competition
-  * Hosted at [Codevillage](codevillage.sdslabs.co) with PAG IITR
+  * Hosted at [Codeforces](https://codeforces.com/) with PAG IITR
 * Endgame
   * Mathematical problem-solving competition
-  * Hosted at [Erdős](erdos.sdslabs.co)
+  * Hosted at [Erdős](https://erdos.sdslabs.co/)
 
 ## Recruitment Test and Design Problem statements
 
-SDS' recruitment test has various sections, including logical reasoning, programming, software development, and an ad-hoc section to show off your geeky side.
+SDSLabs' recruitment test has various sections, including logical reasoning, programming, software development, and an ad-hoc section to show off your geeky side.
 
 We invite the top scores from individual sections and the top scorers overall for an interview during the interview process. Needless to say, the evaluation will be done based on your performance in individual sections.
 
