@@ -24,7 +24,7 @@ We provide you with four different methods of landing an interview at SDSLabs du
 
 ## Syntax Error
 
-We call students for an interview who placed in the top 2 first-year-only teams and the top second-year-only team at Syntax Error.
+We call first-year students for an interview who placed in the top 3 teams in the overall category at Syntax Error.
 
 Since the hackathon winners have already been announced, the respective teams will be called during the interview process.
 
