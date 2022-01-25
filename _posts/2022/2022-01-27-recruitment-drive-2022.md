@@ -55,7 +55,7 @@ Freshers with an exceptional submission at the [Global Game Jam 2022](https://gl
 
 ## Recruitment Test and Design Problem statements
 
-SDSLabsconducts a recruitment test for freshers, having various sections including logical reasoning, programming, software development, and an ad-hoc section to show off your geeky side.
+SDSLabs conducts a recruitment test for freshers, having various sections including logical reasoning, programming, software development, and an ad-hoc section to show off your geeky side.
 
 We invite the top scores from individual sections and the top scorers overall for an interview during the interview process. Needless to say, the evaluation will be done based on your performance in individual sections.
 
