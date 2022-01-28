@@ -31,7 +31,7 @@ SDSLabs held many events for recruitments (Syntax Error, Makers, noobCTF) and a 
 
 A few days later, I got a call for interview. The interview was conducted in 2 parts. First one was basic problem solving, and we also discussed basic networking and webapp vulnerabilities.
 
-The second round was based on my interests and my ability to tackle real world problems. I was asked to come up for high levels designs for Tic-Tac-Toe and a library management system. This was also a fanboy moment for me as one of the interviewers was Twarit Waikar (SDSLabs 2021 alumnus), a game developer who had worked extensively on SDSLabs's game engines Rubeus and Rootex. I had read his blogs and looked at his games and the game engines and was thoroughly impressed by his work (Making a game engine seemed like a very huge undertaking to me). At the end of this round, I was given time to let loose with any queries I had for SDSLabs, an opportunity I made good use of. I asked them about game engines, game development and web security.
+The second round was based on my interests and my ability to tackle real world problems. I was asked to come up with high levels designs for Tic-Tac-Toe and a library management system. This was also a fanboy moment for me as one of the interviewers was Twarit Waikar (SDSLabs 2021 alumnus), a game developer who had worked extensively on SDSLabs's game engines Rubeus and Rootex. I had read his blogs and looked at his games and the game engines and was thoroughly impressed by his work (Making a game engine seemed like a very huge undertaking to me). At the end of this round, I was given time to let loose with any queries I had for SDSLabs, an opportunity I made good use of. I asked them about game engines, game development and web security.
 
 ## The Second Semester
 
@@ -62,7 +62,7 @@ When a project comes to fruition and is ready to be open-sourced, everyone at SD
 
 #### Not just Dev
 
-It's not always software develpoment that we work on. We also work on IoT projects to make our workspace smarter (like presence detection using computer vision, WiFi locks). We have members passionate about information security and Data Science. We also have paper discussions in which we all read a research paper on related to CS and discuss it with other members.
+It's not always software develpoment that we work on. We also work on IoT projects to make our workspace smarter (like presence detection using computer vision, WiFi locks). We have members passionate about information security and Data Science. We also have paper discussions in which we all read a research paper on related to CS and discuss it with other members. I was a part of the [SDSLabs CSAW CTF team](https://www.facebook.com/SDSLabs/posts/4733566126689835?__cft__[0]=AZXlJvCdlQ-aShx04l__LSiGj266lGLX7V3A0-qHk9rQj_8ajY5JBtZaUgo06SX-XFi04SWKDCpApdahSAnoKIyN5E79ZWSo8ga6gmAfdr5H4pg28uxHpOh6RazM13lIezdOsE4Rk27i7nIprOJTuVg4&__tn__=%2CO%2CP-R) where we stood 2nd in India in the finals.
 
 ## Summing Up
 
@@ -72,7 +72,7 @@ A big part of what I got from SDSLabs are the amazing seniors and mentors who ar
 
 #### Not just work
 
-SDSLabs is not that *all-work-ultra-serious* place. We have our chill sessions where people play games, watch movies or just dance to music. For me, it's the ideal workspace and I spent more time in SDSLabs than anywhere else on campus (sometimes even sleeping over there)
+SDSLabs is not that *all-work-ultra-serious* place. We have our chill sessions where people play games, watch movies or just dance to music. For me, it's the ideal workspace and I spent more time in SDSLabs than anywhere else on campus (sometimes even sleeping over there). Minesweeper showdowns, minecraft adventures and struggling in Nioh is a regular occurence here
 
 #### Ultimate Geek Heaven
 
