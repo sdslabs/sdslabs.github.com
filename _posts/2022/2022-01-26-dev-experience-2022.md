@@ -21,17 +21,17 @@ A couple of weeks later, SDSLabs announced the __Syntax Error__ hackathon. It wa
 
 I ended up creating a 2D space shooter for my submission. Though I didn't make it in the top 10, It was still a great experience for me and is a fond memory (*My first hackathon*, first of many)
 
-Around this time I started developing an interest in Information Security and CTFs too. I attended some workshops by InfoSecIITR and found it very cool.
+Around this time I started developing an interest in Information Security and CTFs too. I attended some workshops by InfoSecIITR and found the field quite exciting.
 
 Fast Forward to...
 
 #### The Recruitments
 
-SDSLabs held many events for recruitments (Syntax Error, Makers, noobCTF) and a recruitment test. I attempted their recruitment test which was mostly problem solving and basic programming questions. There was a section on technological advancements and questions like *"Why do you think coding is a superpower?"*. I found this very interesting as this was not there in other groups' test and though this section carried no weightage, I attempted it (As it interested me).
+SDSLabs held many events for recruitments (Syntax Error, Makers, noobCTF) and a recruitment test. I attempted their recruitment test which was mostly problem solving and basic programming questions. There was a section on technological advancements and questions like *"Why do you think coding is a superpower?"*. I found this very interesting as this was not there in other groups' test and though this section carried no weightage, I attempted it (as it piqued my interest).
 
-A few days later, I got a call for interview. The interview was conducted in 2 parts. First one was basic problem solving, and we also discussed internet protocols and basic web vulnerabilities.
+A few days later, I got a call for interview. The interview was conducted in 2 parts. First one was basic problem solving, and we also discussed basic networking and webapp vulnerabilities.
 
-The 2nd round was based on my interests, how I would tackle a real world problem and any questions I would like to ask SDSLabs. I was asked to create the Tic-Tac-Toe game and a library management system. This was also a fanboy moment for me as Twarit Waikar was one of the interviewers (SDSLabs 2021 alumnus). He is a game developer and worked extensively on [Rubeus](https://github.com/sdslabs/Rubeus) and [Rootex](https://github.com/sdslabs/Rootex) game engines. I had read his blogs and looked at his games and the game engines and was pretty impressed by that (*Making a game engine seemed a very huge undertaking to me*). I asked them about game engines and game development and web security.
+The second round was based on my interests and my ability to tackle real world problems. I was asked to come up for high levels designs for Tic-Tac-Toe and a library management system. This was also a fanboy moment for me as one of the interviewers was Twarit Waikar (SDSLabs 2021 alumnus), a game developer who had worked extensively on SDSLabs's game engines Rubeus and Rootex. I had read his blogs and looked at his games and the game engines and was thoroughly impressed by his work (Making a game engine seemed like a very huge undertaking to me). At the end of this round, I was given time to let loose with any queries I had for SDSLabs, an opportunity I made good use of. I asked them about game engines, game development and web security.
 
 ## The Second Semester
 
@@ -39,9 +39,9 @@ The 2nd round was based on my interests, how I would tackle a real world problem
 
 I got a phone call informing me about my induction to SDSLabs. We had an intro chapo (online, coz covid) and got to know everyone there. We were added on the workspace apps and this got the cart rolling.
 
-The semester was filled with lectures on various subjects (Git, Bash scripting, Web development, Game development) and we has follow up assignments. The follow up assignments spurred me to learn about something new and implement it within a deadline.
+The semester was filled with lectures on various subjects (Git, Bash scripting, Web development, Game development) and corresponding assignments. The assignments spurred me to learn about something new and implement it within a deadline.
 
-After this, we were explained about all the apps and projects going on in SDSLabs. We were briefed about their status, what technology they are built upon, what problems they solve and what more work needs to be done.
+After the assignment season was concluded, we were introduced to the active apps and projects in SDSLabs. We were briefed on the status for each project and a received an overview of the tech stack, ongoing work, future issues and overall vision.
 
 #### Minors!!
 
@@ -60,19 +60,15 @@ After the minors, we had to choose our Majors: solving a large issue or implemen
 
 When a project comes to fruition and is ready to be open-sourced, everyone at SDSLabs is pretty excited about it. Seeing the hardwork of our members getting released ittruly a moment to be cherished. I witnessed the release of [ZapDB](https://github.com/sdslabs/zap-db) and [Studyportal](https://github.com/sdslabs/studyportal).
 
-#### Information Security in SDSLabs
+#### Not just Dev
 
-SDSLabs is not just about software development. Many of the members are passionate about information security and regularly participate in CTF competitions. We even host our own CTF, BackdoorCTF. I was a part of the SDSLabs CSAW team which stood 2nd in India, 6th among World UG teams and 16th globally in CSAW CTF Finals organised by NYU.
-
-#### Not just Code
-
-It's not always software that we work on. We also work on IoT projects to make our workspace smarter (like presence detection using computer vision, WiFi locks).
+It's not always software develpoment that we work on. We also work on IoT projects to make our workspace smarter (like presence detection using computer vision, WiFi locks). We have members passionate about information security and Data Science. We also have paper discussions in which we all read a research paper on related to CS and discuss it with other members.
 
 ## Summing Up
 
 #### Mentors
 
-A big part of what I got from SDSLabs are the amazing seniors and mentors who are ready to help me in every way possible. Be it some code blocker or real life problems, I know I can rely on them to help me out.
+A big part of what I got from SDSLabs are the amazing seniors and mentors who are ready to help me in every way possible. Be it some code blocker or real life problems, I know I can rely on them to help me out. There are people with diversified interests (Research, Information Security, Data Science to name a few) and there is always someone I can ask for help while exploring something new.
 
 #### Not just work
 
