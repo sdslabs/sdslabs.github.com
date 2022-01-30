@@ -20,14 +20,15 @@ You can think of pixel shaders as HTML5 canvas. You can manipulate the color of 
 
 ## **The UV coordinates**
 
-Pixel shaders coordinate system is [standard](https://docs.microsoft.com/en-us/windows/win32/direct3d9/texture-coordinates) coordinates are normalized to fit in interval {0,1} so that the pixel shader could scale for any random texture.
+Pixel shaders coordinate system is [standard](https://docs.microsoft.com/en-us/windows/win32/direct3d9/texture-coordinates) coordinates are normalized to fit in interval {0,1} so that the pixel shader could scale for any random texture, which is essentially a color map, i.e. it explains which pixel gets what color. 
+
+A pixel Shader can then take input of any texture irrespective of its size.
+
 ![](https://docs.microsoft.com/en-us/windows/win32/direct3d9/images/uvcoordinates.jpg)
 ![](https://docs.microsoft.com/en-us/windows/win32/direct3d9/images/texadr1.png)
 
 
 You can quickly write pixel shaders on [SHADERTOY](https://www.shadertoy.com/). You can focus on writing shaders as it handles the pipeline for you. You write the code in essentially GLSL; there are a few differences, but it’s nearly the same thing.
-
-  
 
   
 
@@ -152,17 +153,17 @@ So let’s make a Voronoi diagram and have the points move! Color it, and there 
 I decided to use Fractal Brownian Motion on simplex noise for this. Then I added a gradient and have `uv.y` continuously decreasing, giving the illusion that the fire is moving upwards. Yeah, it’s certainly complicated, so let’s go over them one by one. 
 
   
+**Noise** is just a pseudo-random number generator where the output is differentiable.
 
-**Simplex noise** is a type of noise, like Perlin noise. The function noise generates this.
-
+**Simplex noise** is a type of noise, like Perlin noise. The function `noise()` in the [fire shader](https://www.shadertoy.com/view/7tc3zs) generates this.
   
 
 **The Fractal Brownian Motion** combines multiple steps of Simplex Noise (or another similar noise function), each with a different frequency and amplitude.
 
- [Here is the result](https://www.shadertoy.com/view/7tc3zs) left is simplex noise and right is fractal brownian motion.
+ [Here is the result](https://www.shadertoy.com/view/NtGGRc) left is simplex noise, and right is Fractal Brownian Motion.
 <iframe src = "https://www.shadertoy.com/embed/NtGGRc" width="100%" height="360"></iframe>
 
-We color this and [we're done](https://www.shadertoy.com/view/7tc3zs).
+We color this and we're done.
 
 
   
@@ -171,9 +172,9 @@ We color this and [we're done](https://www.shadertoy.com/view/7tc3zs).
 
 ## Cel shader
 
-Playing Legend of Zelda is an experience. The graphics are aesthetically beautiful. It just feels different, but why is that? One can tell it is not going for realistic looks but rather making it cartoonish.
+Playing Legend of Zelda is an experience. The graphics are aesthetically beautiful. It just feels different, but why is that? One can tell it is not going for realistic looks but rather making it cartoonish. Graphics that don't aim to be realistic but try to achieve a style are referred to as stylized graphics.
 
-Let’s talk about shading a 3-d object. Most people use [Phong Shading](https://en.wikipedia.org/wiki/Phong_shading); normals are interpolated across polygon faces, and through interpolated normals, we now color the pixel using the new normal. This mathematical trick saves a lot of polygon count as now we can have a realistic-looking surface with a low poly count.
+But before that let’s talk about shading a 3-d object. Most people use [Phong Shading](https://en.wikipedia.org/wiki/Phong_shading); normals are interpolated across polygon faces, and through interpolated normals, we now color the pixel using the new normal. This mathematical trick saves a lot of polygon count as now we can have a realistic-looking surface with a low poly count.
 
   
 
@@ -227,3 +228,4 @@ We first run a gaussian blur to remove noises( can be achieved by a [Gaussian ke
   
 
 You can also apply [canny edge detection](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.420.3300&rep=rep1&type=pdf), which goes a step further.
+
