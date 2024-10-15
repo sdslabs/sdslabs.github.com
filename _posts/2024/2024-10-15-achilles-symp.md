@@ -1,7 +1,7 @@
 ---
  layout: post
  title: Symphony of Achilles
- excerpt: Namay's Syntax Error 2023 Experience
+ excerpt: Namay's Syntax Error X Experience
  author:
    name: Namay Rohatgi
    link: https://github.com/namay26
