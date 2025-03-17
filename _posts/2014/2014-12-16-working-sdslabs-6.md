@@ -4,7 +4,7 @@ title: Working at SDSLabs (6)
 excerpt: "Dhaval Kapil, aka vampire's experience as a member of SDSLabs"
 author:
   name: Dhaval Kapil
-  link: http://dhavalkapil.com
+  link: https://dhavalkapil.com
   bio: Developer, SDSLabs
   twitter: dhaval_kapil
   image: vampire.jpg

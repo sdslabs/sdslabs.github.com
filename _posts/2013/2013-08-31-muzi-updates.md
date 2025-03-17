@@ -20,7 +20,7 @@ Music is social, or say the plethora of startups in the music business. Sharing 
 
 ## New artist look (Top Tracks)
 
-With daily listens averaging around [2,000 per day](http://qr.ae/IEj4U), we have a *lot* of data for every artist. Being data nerds ourselves, we think it is so much better if you get to see the top tracks by an artist rather that their entire discography. Now, browsing to an artist via the left pane takes you to a brand new list of "Top Tracks" by that artist, showing the Play Count and Album to which those tracks belong. Now stop wasting your time and listen to good music!
+With daily listens averaging around [2,000 per day](https://qr.ae/IEj4U), we have a *lot* of data for every artist. Being data nerds ourselves, we think it is so much better if you get to see the top tracks by an artist rather that their entire discography. Now, browsing to an artist via the left pane takes you to a brand new list of "Top Tracks" by that artist, showing the Play Count and Album to which those tracks belong. Now stop wasting your time and listen to good music!
 
 ![The new Top Tracks Look](/images/posts/muzi/toptracks.jpg)
 
@@ -34,7 +34,7 @@ The Sherlock wannabes might have noticed that Muzi now changes the URL in the ad
 
 ## Technical Details
 
-- The downloads button is powered using the [HTML5 Download Attribute](http://davidwalsh.name/download-attribute) which allows us to rename the file being downloaded.
+- The downloads button is powered using the [HTML5 Download Attribute](https://davidwalsh.name/download-attribute) which allows us to rename the file being downloaded.
 - We are using JavaScript side routing for creating the shareable links and giving you a better browsing experience. The routing library we are using is called [Director](https://github.com/flatiron/director)
 - We run a Beta Version of muzi up at <https://beta.sdslabs.co.in/muzi/> where you can checkout the latest (possibly buggy) version with cool new features. Features appear on the beta version 1-2 weeks before we launch it on the production version.
 

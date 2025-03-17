@@ -8,7 +8,7 @@ We've been busy here at SDSLabs. The last week was marked by two new launches. F
 
 ## Filepanda
 
-Filepanda is now on the internet. It can be accessed at <http://filepanda.sdslabs.co>. from any computer outside the campus.  
+Filepanda is now on the internet. It can be accessed at <https://filepanda.sdslabs.co>. from any computer outside the campus.  
 Filepanda is the SDSLabs self updating software repository. 'Self Updating' because it's just that.  
 Filepanda automatically updates itself. Every piece of software on filepanda is the always the latest version. So next time you find yourself in need of an anti virus or a new media player, a quick search through the repository should give you the goods.
 

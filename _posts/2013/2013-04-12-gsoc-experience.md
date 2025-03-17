@@ -31,16 +31,16 @@ This proposal is a brief overview of what you intend to do to achieve your targe
 
 Coming back, what makes SoC different from what you may think of an internship is the fact the entire thing is done online. It doesn’t matter from where you work on as long as you can contribute on a regular basis. People from different parts of the globe with diverse backgrounds come together the fact that the chances are you will never physically meet your fellow developers or your mentor are quite high.
 
-This year 177 mentoring organizations have been accepted into the program, of which 40 organizations have been accepted for the first time. My mentor organization for last year was Statistics Online Computational Resource(SOCR) at UCLA. My project was to create a portable application that demonstrates the concepts of statistical resampling, randomization and probabilistic simulation. More details about my project can be found at <http://wiki.stat.ucla.edu/socr/index.php/SOCR_Resampling_HTML5_Project> . My project was more about application of fundamental statistical concepts. This is another speciality about this program that one gets an opportunity to work on wide range of topics from genetic engineering to kernel design. 
+This year 177 mentoring organizations have been accepted into the program, of which 40 organizations have been accepted for the first time. My mentor organization for last year was Statistics Online Computational Resource(SOCR) at UCLA. My project was to create a portable application that demonstrates the concepts of statistical resampling, randomization and probabilistic simulation. More details about my project can be found at <https://wiki.stat.ucla.edu/socr/index.php/SOCR_Resampling_HTML5_Project> . My project was more about application of fundamental statistical concepts. This is another speciality about this program that one gets an opportunity to work on wide range of topics from genetic engineering to kernel design. 
 
 Owing to the popularity of the Summer of Code program several other programs on similar lines have been initiated. [Outreach Program for Women in FOSS](https://live.gnome.org/OutreachProgramForWomen) is the most recent and intended to promote girl participation in Open Source Porgrams. 
 
 Some resources have been mentioned in the end which I believe will be useful if you are interested to apply this year.  If accepted, you are in for summer full of learning, collaborating with the best, a starry bullet in your resume and a fat paycheck. Are you game?
 
 Resources:  
-<http://www.google-melange.com/gsoc/homepage/google/gsoc2013> 
-<http://groups.google.com/group/google-summer-of-code-discuss> 
-<http://flossmanuals.net/GSoCStudentGuide/>  
-<http://blog.vmsplice.net/2011/03/advice-for-students-applying-to-google.html> 
-<http://developers.google.com/open-source/soc/> 
+<https://www.google-melange.com/gsoc/homepage/google/gsoc2013> 
+<https://groups.google.com/group/google-summer-of-code-discuss> 
+<https://flossmanuals.net/GSoCStudentGuide/>  
+<https://blog.vmsplice.net/2011/03/advice-for-students-applying-to-google.html> 
+<https://developers.google.com/open-source/soc/> 
 

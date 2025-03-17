@@ -82,6 +82,6 @@ We hope it will be useful to people looking to setup a queue system based around
 [bd15]: https://backdoor.sdslabs.co/competitions/backdoorctf15/ "Backdoor CTF 2015"
 [medusa]: https://backdoor.sdslabs.co/challenges/MEDUSA
 [jshunt]: https://backdoor.sdslabs.co/challenges/JSHUNT
-[phantom]: http://phantomjs.org
+[phantom]: https://phantomjs.org
 [npm]: https://www.npmjs.com/package/phantom-phoenix "Package on npm"
 [phoenix]: https://github.com/sdslabs/phoenix

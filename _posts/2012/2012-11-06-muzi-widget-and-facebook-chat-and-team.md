@@ -30,8 +30,8 @@ And we finally have our team page ready. The design is simple and every member's
 
 ### Muzi Widget
 
-All the animations are done using jQuery and CSS3 Transforms, and [SoundManager](http://www.schillmania.com/projects/soundmanager2/) is used to play audio, just like Muzi. It is a JavaScript API that uses HTML5 audio and falls back to Flash wherever needed, hence delivering reliable cross-platform audio.
+All the animations are done using jQuery and CSS3 Transforms, and [SoundManager](https://www.schillmania.com/projects/soundmanager2/) is used to play audio, just like Muzi. It is a JavaScript API that uses HTML5 audio and falls back to Flash wherever needed, hence delivering reliable cross-platform audio.
 
 ### Facebook Integration in Chat
 
-We have used [Websockets](https://developer.mozilla.org/en-US/docs/WebSockets) and [Node.JS](http://nodejs.org/) for chat. Websockets is a considerably new method which we have chosen over PHP long polling to make the process quick, uninterrupting and care-free.
+We have used [Websockets](https://developer.mozilla.org/en-US/docs/WebSockets) and [Node.JS](https://nodejs.org/) for chat. Websockets is a considerably new method which we have chosen over PHP long polling to make the process quick, uninterrupting and care-free.

@@ -4,7 +4,7 @@ title: Working at SDSLabs (10)
 excerpt: Harkirat Singh's experience as a member of SDSLabs
 author:
   name: Harkirat Singh
-  link: http://singhharkirat.com
+  link: https://singhharkirat.com
   bio: Developer, SDSLabs
   image: harkirat.jpg
 ---

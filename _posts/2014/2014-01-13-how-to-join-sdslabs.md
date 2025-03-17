@@ -7,7 +7,7 @@ Recruitment is one of the most important events that we conduct year-round. We t
 
 Yet, we understand that the process is not bullet-proof, and we often miss out on worthy candidates and it disappoints us. Recruitment is also conducted as a once-in-a-year event, and is open to first years only, thus increasing our plight.
 
-We pride ourselves as being an open group. We often talk about the [tools we use internally](/2012/12/how-does-sdslabs-work/), the tech behind our applications, our [involvement in open-source](http://github.com/sdslabs) and go as far as to conduct open lectures and meetups on every topic we discuss internally. As an extension of this open culture, we want to clarify that contrary to common belief, _we are always open to new members irrespective of year and branch_. Even if you are an awesome designer in your second year, or a kick-ass developer in your third year, we are always open to new additions to our group.  We look for self-motivated doers who have initiated and finished projects on their own.
+We pride ourselves as being an open group. We often talk about the [tools we use internally](/2012/12/how-does-sdslabs-work/), the tech behind our applications, our [involvement in open-source](https://github.com/sdslabs) and go as far as to conduct open lectures and meetups on every topic we discuss internally. As an extension of this open culture, we want to clarify that contrary to common belief, _we are always open to new members irrespective of year and branch_. Even if you are an awesome designer in your second year, or a kick-ass developer in your third year, we are always open to new additions to our group.  We look for self-motivated doers who have initiated and finished projects on their own.
 
 ## PROGRAMMERS
 

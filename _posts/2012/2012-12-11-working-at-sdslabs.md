@@ -6,11 +6,11 @@ author:
   gplus: +ShashankMehta
   name: Shashank Mehta
 ---
-_The first post on this topic can be read [here](http://blog.sdslabs.co.in/2012/01/work-at-the-sds/)_
+_The first post on this topic can be read [here](https://blog.sdslabs.co.in/2012/01/work-at-the-sds/)_
 
 <img src="/images/posts/working-sdslabs/sdslabs.jpg" style="float: right; margin: 5px 0px 20px 20px;">
 
-If you have ever spoken to me in real life or follow me on [twitter](http://twitter.com/leostatic) or 
+If you have ever spoken to me in real life or follow me on [twitter](https://twitter.com/leostatic) or 
 are in my friend list in facebook or instagram or ..... you get the point, then you must have seen my
 posts related to a certain something known as SDSLabs. It's been 11 months since I joined this student
 group in IITR and it has more or less become a part of my identity. Before I write anything more I 
@@ -45,7 +45,7 @@ for android development. It's more like a startup inside college with people eve
 inside lab! Anyways, looking beyond things that you can buy with a Mastercard, the best part of
 the lab is the people in there. A conversation with a senior leaves you with wealth of knowledge
 each time unless, of course, it is a bakkar conversation. SDSLabs was the first place where I could
-talk about [Hacker News](http://news.ycombinator.com/) without getting clueless looks. It was also 
+talk about [Hacker News](https://news.ycombinator.com/) without getting clueless looks. It was also 
 the first place where when I complained about unnecessary clicks on a website people actually understood 
 because it is in their system to create user friendly apps.
 
@@ -56,11 +56,11 @@ because it is in their system to create user friendly apps.
 After joining lab I was introduced to git(version control system), redmine(project management system), 
 php, js, ajax, sass, bash, jquery, node.js to name a few. Few people are also using ruby and scala. I 
 have since fallen in love with git and wherever I can use vcs, I do. As a result, I have also fallen 
-head over heels in love with [Github](http://github.com/), so much so that I queued up to avail their 
+head over heels in love with [Github](https://github.com/), so much so that I queued up to avail their 
 free student plan the moment I came to know about it (although nearly all my projects are in redmine 
 and gitolite combo). I have also moved to using Ubuntu full time since. I have seen 11.10 and 12.04 
 come and go. I have become fearless when it comes to partition tables and experiments. And all this
-happened over the last 11 months along with the load of regular college and other extra-curricular activities. I have also met some absolutely brilliant people like [Abhay Rana](http://captnemo.in), [Harshil Mathur](http://harshilmathur.in), Shobhit Singh. They are so brilliant that I could probably end up writing separate blog posts for each one of them and even then I doubt I would be able to do justice to their brilliance! All in all, it's safe to say that lab has become my home away from home with countless hours spent sitting on a bean bag with a laptop and arguing about the merits and demerits of various frameworks.
+happened over the last 11 months along with the load of regular college and other extra-curricular activities. I have also met some absolutely brilliant people like [Abhay Rana](https://captnemo.in), [Harshil Mathur](https://harshilmathur.in), Shobhit Singh. They are so brilliant that I could probably end up writing separate blog posts for each one of them and even then I doubt I would be able to do justice to their brilliance! All in all, it's safe to say that lab has become my home away from home with countless hours spent sitting on a bean bag with a laptop and arguing about the merits and demerits of various frameworks.
 
 ## The work
 
@@ -99,5 +99,5 @@ and are interested in joining SDSLabs then the next few lines are for you.
 --
 Shashank Mehta <br>
 IInd Year, ECE <br>
-[http://shashankmehta.in](http://shashankmehta.in) <br>
+[https://shashankmehta.in](https://shashankmehta.in) <br>
 _This post has been cross posted from the author's blog_

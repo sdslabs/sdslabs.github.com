@@ -12,10 +12,10 @@ Software development is not easy, especially when you have lots of different pro
 
 Comment anonymously or create private issues if it contains sensitive information, follow any issue to keep yourself updated via email notifications, upvote ideas and issues to help us prioritize tasks. Our new feedback application aims at providing all the required features so that you can easily state your ideas and convey the issues you face.
 
-**[Chat with SDSLabs](http://chat.sdslabs.co/)** is a simple chat service that lets you chat with SDSLabs members. You can drop in to say Hi, or to report a bug, or perhaps even to clarify some doubts on a problem in Erdős or CodeVillage. The application is anonymous; so as to allow you to chat more easily, and so that we can interact with users from around the world. Messages from the SDSLabs team are highlighted, so you can easily notice important messages.
+**[Chat with SDSLabs](https://chat.sdslabs.co/)** is a simple chat service that lets you chat with SDSLabs members. You can drop in to say Hi, or to report a bug, or perhaps even to clarify some doubts on a problem in Erdős or CodeVillage. The application is anonymous; so as to allow you to chat more easily, and so that we can interact with users from around the world. Messages from the SDSLabs team are highlighted, so you can easily notice important messages.
 
 We are always looking for feedback to make our products better, and there are more upcoming changes in the pipeline that will help us with that.
 
-You can check it out at [chat.sdslabs.co](http://chat.sdslabs.co). Just type a nickname, and you'll be ready to go. We look forward to talking with you.
+You can check it out at [chat.sdslabs.co](https://chat.sdslabs.co). Just type a nickname, and you'll be ready to go. We look forward to talking with you.
 
 Our feedback application is also live at [feedback.sdslabs.co.in](https://feedback.sdslabs.co.in/).

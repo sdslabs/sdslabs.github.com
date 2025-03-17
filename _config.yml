@@ -7,15 +7,15 @@ inc:
 
   # Company information
   company:      SDSLabs
-  url:          http://sdslabs.co/
+  url:          https://sdslabs.co/
   github:       sdslabs
   facebook:     sdslabs
   twitter:      sdslabs
   gplus:        '101733513430697982016'
-  team_link:    http://team.sdslabs.co/
+  team_link:    https://team.sdslabs.co/
 
   # Product Information
-  product_link: http://sdslabs.co.in/
+  product_link: https://sdslabs.co.in/
   tagline:      "Innovating at IIT Roorkee"
 
   # Comments
@@ -44,7 +44,7 @@ inc:
 
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         http://blog.sdslabs.co
+url:         https://blog.sdslabs.co
 source:      .
 destination: ./_site
 plugins:     [jekyll-paginate]

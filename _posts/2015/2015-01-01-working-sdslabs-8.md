@@ -40,5 +40,5 @@ At SDSLabs we have really diligent seniors who answer even the silliest of our q
 
 ## Recruitments
 
-If you feel that such an environment is what you long for, do sit for our recruitments coming January. I hope it'll be a pleasure for you going through the recruitment process, and an even greater pleasure if you join us. Visit [join.sdslabs.co](http://join.sdslabs.co/) for more details on the recruitment procedure and dates. 
+If you feel that such an environment is what you long for, do sit for our recruitments coming January. I hope it'll be a pleasure for you going through the recruitment process, and an even greater pleasure if you join us. Visit [join.sdslabs.co](https://join.sdslabs.co/) for more details on the recruitment procedure and dates. 
 

@@ -52,7 +52,7 @@
     this._$document.on('touchstart.zoom', $.proxy(this._touchStart, this))
 
     // we use a capturing phase here to prevent unintended js events
-    // sadly no useCapture in jquery api (http://bugs.jquery.com/ticket/14953)
+    // sadly no useCapture in jquery api (https://bugs.jquery.com/ticket/14953)
     if (document.addEventListener) {
       document.addEventListener('click', this._boundClick, true)
     } else {

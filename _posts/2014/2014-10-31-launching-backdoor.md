@@ -4,7 +4,7 @@ title: Launching Backdoor
 excerpt: SDSLabs launches backdoor
 author:
   name: Dhaval Kapil
-  link: http://dhavalkapil.com
+  link: https://dhavalkapil.com
   bio: Developer, SDSLabs
   twitter: dhaval_kapil
   image: vampire.jpg

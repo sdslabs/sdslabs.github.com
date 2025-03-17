@@ -227,5 +227,5 @@ We first run a gaussian blur to remove noises( can be achieved by a [Gaussian ke
 
   
 
-You can also apply [canny edge detection](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.420.3300&rep=rep1&type=pdf), which goes a step further.
+You can also apply [canny edge detection](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.420.3300&rep=rep1&type=pdf), which goes a step further.
 

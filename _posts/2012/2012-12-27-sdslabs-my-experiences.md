@@ -23,7 +23,7 @@ The code was a mess of php and inline html, and I have never looked upon it sinc
 , learning the in and outs of php (I was still to hear about ruby/python). At the end of my first year, I did a project
  management system under Kumar Shashank who taught me about MVC and the need of architecture in a software application. 
 
-At the very end of the project, a group called [SDSLabs](http://sdslabs.co/) was formed. Along with a few people 
+At the very end of the project, a group called [SDSLabs](https://sdslabs.co/) was formed. Along with a few people 
 Shobhit sir had found, we founded SDSLabs. Everyone in the group was passionate about building things.
 And somehow, magically, I was in it. And there began the most beautiful chapter of my life.. 
 
@@ -43,7 +43,7 @@ Everything I could ever ask, and he'd hand over a resource. Some of my most prod
 ### Recruitments
 
 After a single semester of work, we held our first recruitments. I wrote my
- [first blog post for the lab](http://blog.sdslabs.co/2011/09/recruitment-experience/) at the time noting 
+ [first blog post for the lab](https://blog.sdslabs.co/2011/09/recruitment-experience/) at the time noting 
 down my amazing reaction to the awesome people that had joined the lab.
 
 It is difficult to distil into words the awesome learning experience I had with all these people. Going to chapos, thinking 
@@ -58,13 +58,13 @@ And I started to work on [muzi](https://sdslabs.co.in/muzi/), which was to be _m
 
 ### Launch
 
-The next semester involved our [actual launch (11-11-11)](http://blog.sdslabs.co/2011/11/launch-and-beyond) of all our applications. 
+The next semester involved our [actual launch (11-11-11)](https://blog.sdslabs.co/2011/11/launch-and-beyond) of all our applications. 
 We had all converted into semi-breathing coding machines cum zombies by that time though. Sleepless and exhausted, we did prevail, 
 and launched a few hours early. The Launch was appreciably recieved in the campus, although I had to leave for the
- [Deloitte CCTC Contest](http://captnemo.in/blog/2011/11/20/cctc-blog/) the very same day(which we won!).
+ [Deloitte CCTC Contest](https://captnemo.in/blog/2011/11/20/cctc-blog/) the very same day(which we won!).
 
 I ended up doing a rewrite of Codematics (codename CodeBot) in node for the launch. It has a geeky, command line interface
-which was inspired by [goosh](http://goosh.org/) and [xkcd's unix interface](http://unix.xkcd.com). Along with that, Muzi was
+which was inspired by [goosh](https://goosh.org/) and [xkcd's unix interface](https://unix.xkcd.com). Along with that, Muzi was
 launched to huge appreciation as well.
 
 ### Recruitments Again
@@ -81,8 +81,8 @@ will be launched soon. I took lectures on far apart topics from
 ["Usability Designing"](https://speakerdeck.com/captn3m0/ux-and-usability-designing) to
  ["Software Development 101"](https://speakerdeck.com/captn3m0/software-development-101) I mostly
 worked on internal features, improving our API, and something called Presence. We also 
-[participated](http://captnemo.in/blog/2012/05/23/phonegap-blog-post/) in 
-[two hackathons](http://blog.sdslabs.co/2012/09/hacku),
+[participated](https://captnemo.in/blog/2012/05/23/phonegap-blog-post/) in 
+[two hackathons](https://blog.sdslabs.co/2012/09/hacku),
 and we won both of them.
 
 ## Where, now?

@@ -4,7 +4,7 @@ title: Launching Study Portal and Echo v2
 excerpt: SDSLabs is proud to announce a new application, Study Portal, and revamped version of Echo.
 ---
 
-Following on the heels of [Erdős and CodeBot](http://blog.sdslabs.co.in/2013/10/erdos-codebot/), SDSLabs is proud to announce [Study Portal](http://study.sdslabs.co.in), and a revamped version of [Echo](http://echo.sdslabs.co.in)
+Following on the heels of [Erdős and CodeBot](https://blog.sdslabs.co.in/2013/10/erdos-codebot/), SDSLabs is proud to announce [Study Portal](https://study.sdslabs.co.in), and a revamped version of [Echo](https://echo.sdslabs.co.in)
 
 
 ## Study Portal
@@ -15,17 +15,17 @@ IITs are supposed to be hubs of excellence and not boring repitition. So we deci
 
 ![Study Portal Home Page](/images/posts/sp-echo/sp1.png)
 
-[Study Portal](http://study.sdslabs.co.in) allows anyone to [upload](http://study.sdslabs.co.in/upload) files to courses that are taught in IITR. These files can be professor's handouts, practical manuals, tutorial solutions, class notes etc. And these files are going to outlast your tenure in the lands of IITR.
+[Study Portal](https://study.sdslabs.co.in) allows anyone to [upload](https://study.sdslabs.co.in/upload) files to courses that are taught in IITR. These files can be professor's handouts, practical manuals, tutorial solutions, class notes etc. And these files are going to outlast your tenure in the lands of IITR.
 
 ![Study Portal Department Page](/images/posts/sp-echo/sp2.png)
 
-If a course is not listed in the uploads page, you can [request](http://study.sdslabs.co.in/request) its addition. You can upload files to a course that you have requested as well as share the permalink to the course even before it is approved. Once it is approved by Team SDSLabs, it will be listed in the left bar.
+If a course is not listed in the uploads page, you can [request](https://study.sdslabs.co.in/request) its addition. You can upload files to a course that you have requested as well as share the permalink to the course even before it is approved. Once it is approved by Team SDSLabs, it will be listed in the left bar.
 
 ![Study Portal Course Page](/images/posts/sp-echo/sp3.png)
 
 While we have uploaded over 600 files to a multitude of courses for launch, the sole purpose of this app is to enable sharing. We hope that with user contribution, the app will soon be the knowledge base of IIT Roorkee.
 
-Check out the application at [Study Portal](http://study.sdslabs.co.in)
+Check out the application at [Study Portal](https://study.sdslabs.co.in)
 
 ## Echo
 
@@ -45,16 +45,16 @@ We'd also appreciate [contributions](https://echo.sdslabs.co.in/contribute) from
 
 We hope you have a great reading experience with Echo!
 
-Check out the application at [Echo](http://echo.sdslabs.co.in)
+Check out the application at [Echo](https://echo.sdslabs.co.in)
 
 ## Technical details
 
 ### Echo
 
-* [Apache Solr](http://lucene.apache.org/solr/) is used to maintain our index of books, and perform search queries.
-* This app uses [Limonade](http://limonade-php.github.io/) PHP framework
+* [Apache Solr](https://lucene.apache.org/solr/) is used to maintain our index of books, and perform search queries.
+* This app uses [Limonade](https://limonade-php.github.io/) PHP framework
 
 ### Study Portal
 
-* This app uses [Toro](http://toroweb.org/) PHP microframework.
-* The ajax layouts are generated using [Handlebars.js](http://handlebarsjs.com)
+* This app uses [Toro](https://toroweb.org/) PHP microframework.
+* The ajax layouts are generated using [Handlebars.js](https://handlebarsjs.com)
