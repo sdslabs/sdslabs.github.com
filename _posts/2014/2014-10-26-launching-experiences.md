@@ -4,7 +4,7 @@ title: Launching Experiences
 excerpt: Dive into experiences of IITR alumni
 author:
   name: Amanpreet Singh
-  link: http://apsdehal.in
+  link: https://apsdehal.in
   bio: Developer, SDSLabs
   twitter: apsdehal
   image: aps.jpg
@@ -18,7 +18,7 @@ Experiences features a simple functionality to fetch content from existing blog 
 
 We hope to see active participation from alumni as well as students to create a large pool of experiences that they had had at IIT Roorkee. If you want a post to be added to Experiences on your behalf, you can log in to Experiences and add one or you can mail us with a link to your blog post at contact@sdslabs.co.in.
 
-Experiences is live at [experiences.sdslabs.co](http://experiences.sdslabs.co) on the internet.
+Experiences is live at [experiences.sdslabs.co](https://experiences.sdslabs.co) on the internet.
 
 ## Screenshots
 

@@ -40,4 +40,4 @@ SDSLabs started primarily as a group of web developers who, over a period of two
 
 ## Recruitment
 
-Coming January, SDSLabs is recruiting. If you feel like you belong here, head over to [join.sdslabs.co](http://join.sdslabs.co/) to get started.
+Coming January, SDSLabs is recruiting. If you feel like you belong here, head over to [join.sdslabs.co](https://join.sdslabs.co/) to get started.

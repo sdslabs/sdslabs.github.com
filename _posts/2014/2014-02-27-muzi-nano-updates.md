@@ -32,7 +32,7 @@ Even though Muzi logs every song you listen to and shows it to you in tickr, the
 
 As a tiny improvement in how we make our awesome background even more engaging, artist backgrounds are now animated. This gives a mesmerizing effect to the viewer, and it looks totally awesome!
 
-![Muzi Background Gif](http://drp.io/files/530ef73549bad.gif)
+![Muzi Background Gif](https://drp.io/files/530ef73549bad.gif)
 
 ## Collection Play
 
@@ -48,7 +48,7 @@ This release also fixes some minor bugs such as an issue with the download butto
 
 ## Technical Details
 
-- We are using [k-means clustering](https://en.wikipedia.org/wiki/K-means_clustering) and [cosine similarity](http://shagunsodhani.in/recommendation-systems-i/) as the base for our recommendation engine, which is written in Python.
+- We are using [k-means clustering](https://en.wikipedia.org/wiki/K-means_clustering) and [cosine similarity](https://shagunsodhani.in/recommendation-systems-i/) as the base for our recommendation engine, which is written in Python.
 - We handle History playlists similar to the root user in linux. A special playlist id of 0 is used for the history playlist.
 - Our background animations are powered by css3-transforms and are functional in both Firefox and Chrome.
 - The minification process is based on grunt, which is an excellent tool for these kind of tasks.

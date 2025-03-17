@@ -29,7 +29,7 @@ Making a game engine is a complex task and this is why most casual developers ov
 
 # How to even start with making a game engine?
 
-The starting days of Rubeus in the month of May 2018 were full of reading sessions. The best websites to look up information on topics that we found were related to game development are probably [Gamedev.net](https://www.gamedev.net/) and [Gamasutra](http://gamasutra.com/). We also recommend following [r/gamedev](https://www.reddit.com/r/gamedev) on Reddit, which is a booming community of game developers from both indie and AAA studios.
+The starting days of Rubeus in the month of May 2018 were full of reading sessions. The best websites to look up information on topics that we found were related to game development are probably [Gamedev.net](https://www.gamedev.net/) and [Gamasutra](https://gamasutra.com/). We also recommend following [r/gamedev](https://www.reddit.com/r/gamedev) on Reddit, which is a booming community of game developers from both indie and AAA studios.
 
 # The beginning of something amazing
 
@@ -81,7 +81,7 @@ We were aware of the fact that even if we may not ever make Rubeus multithreaded
 
 Multithreaded programs are exactly what they sound like. They are able to follow more than 1 flow of execution of code at a certain moment in time. Beware that such systems can be incredibly hard to build because improper sharing of resources and also just overuse of threading will also give a negative hit to the performance of the engine.
 
-We have implemented a multithreaded messaging system inside Rubeus that we plan to release in v2.0. More information on this type of an architecture can be found in this [wonderful article about making different types of game engine architectures](http://www.gamasutra.com/blogs/MichaelKissner/20151027/257369/Writing_a_Game_Engine_from_Scratch__Part_1_Messaging.php).
+We have implemented a multithreaded messaging system inside Rubeus that we plan to release in v2.0. More information on this type of an architecture can be found in this [wonderful article about making different types of game engine architectures](https://www.gamasutra.com/blogs/MichaelKissner/20151027/257369/Writing_a_Game_Engine_from_Scratch__Part_1_Messaging.php).
 
 By the time we were done with the multithreading architecture and the Guerrilla renderer, it was already mid-July and we had started to realize that this project might take a while to get completed. Not because of any lack of development times but the sheer size of this project. It was about time we started to really speed things up or Rubeus would be seeing the light of the day not before 2019 or maybe even not at all.
 

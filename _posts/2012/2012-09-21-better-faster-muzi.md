@@ -54,17 +54,17 @@ We are continously improving our services, and are always open to feedback. As a
 
 ### Slow Connection Mode
 
-For the technically inclined, we are converting the music on-the-fly using [lame](http://lame.sourceforge.net/) using the following configuration:
+For the technically inclined, we are converting the music on-the-fly using [lame](https://lame.sourceforge.net/) using the following configuration:
 
     --vbr-new (Use the new vbr algorithm, which is much faster)
     -V 7 (convert at quality 7 on a scale of 0-9)
     -f (fast mode conversion)
     -B 96 (maximum bit-rate of 96 kbps)
 
-So as to avoid audio degradation, only files larger than 3MB are converted, since they are  (usually) already at a low enough bit-rate. M4A files are converted using [faad](http://www.audiocoding.com/faad2.html) to wav, which is processed by lame. Additionally, the audio file is stripped of all id3 tags causing a large size reduction in some cases (such as where the file includes 2 large cover arts).
+So as to avoid audio degradation, only files larger than 3MB are converted, since they are  (usually) already at a low enough bit-rate. M4A files are converted using [faad](https://www.audiocoding.com/faad2.html) to wav, which is processed by lame. Additionally, the audio file is stripped of all id3 tags causing a large size reduction in some cases (such as where the file includes 2 large cover arts).
 
 We are aware that this on-the-fly conversion causes audio quality to go down substantially, but this is a trade-off we are leaving to the users. You can enable/disable this feature any time you want, and muzi will remember you choice for the next time.
 
 ### Live Tickr
 
-We are using a new HTML5 API called [Event Source](http://www.w3.org/TR/eventsource/)/Server-Sent Events. This allows us to recieve events from the server on a large number of devices without resorting to other alternatives like long-polling or websockets. This also means that users of some browsers(for instance Opera &lt; 12) will be left out of this feature. We gracefully degrade in that case and remove the tickr button if that happens. 
+We are using a new HTML5 API called [Event Source](https://www.w3.org/TR/eventsource/)/Server-Sent Events. This allows us to recieve events from the server on a large number of devices without resorting to other alternatives like long-polling or websockets. This also means that users of some browsers(for instance Opera &lt; 12) will be left out of this feature. We gracefully degrade in that case and remove the tickr button if that happens. 

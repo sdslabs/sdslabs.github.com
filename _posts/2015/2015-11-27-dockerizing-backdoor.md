@@ -23,7 +23,7 @@ Then there is the third type where the challenge requires both types. Example: [
 
 ### Previous architecture:
 
-The public-type challenges were served by an Apache server running at `http://hack.bckdr.in`. The script-type challenges were run in `chroot` jails and served using the `xinetd` super-server. `chroot` operation is used to mimic the current directory as the root directory of the system ([change]root). More can be learned about this from [this post](https://dhavalkapil.com/blogs/Combining-chroot-and-xinetd/) by [Dhaval Kapil](https://twitter.com/dhaval_kapil).
+The public-type challenges were served by an Apache server running at `https://hack.bckdr.in`. The script-type challenges were run in `chroot` jails and served using the `xinetd` super-server. `chroot` operation is used to mimic the current directory as the root directory of the system ([change]root). More can be learned about this from [this post](https://dhavalkapil.com/blogs/Combining-chroot-and-xinetd/) by [Dhaval Kapil](https://twitter.com/dhaval_kapil).
 
 ### Problems with the previous architecture:
 

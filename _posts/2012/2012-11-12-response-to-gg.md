@@ -3,7 +3,7 @@ layout: post
 title: Response to security concerns raised by GeekGazette
 excerpt: "Some of you may have read the latest GeekGazette issue. It includes an article on 'Campus Surveillance', which errs on the side of being a FUD article."
 ---
-Some of you may have read the latest GeekGazette issue. It includes an article on "Campus Surveillance", which errs on the side of being a FUD article. If you haven't already, you can [read the article online](http://ge.tt/5BGx6SR/v/0). The article says, "Managing personal data gives immense power to the authorities and members of IMG and SDSLabs." Surely this warrants a response.
+Some of you may have read the latest GeekGazette issue. It includes an article on "Campus Surveillance", which errs on the side of being a FUD article. If you haven't already, you can [read the article online](https://ge.tt/5BGx6SR/v/0). The article says, "Managing personal data gives immense power to the authorities and members of IMG and SDSLabs." Surely this warrants a response.
  
 ## CCTV Cameras
 

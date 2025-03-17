@@ -10,7 +10,7 @@ final list. Sadly, we have limited vacancies and can only take in a limited
 number. But this is not the end of line for others, there's still a way to
 [join SDSLabs](/2014/01/how-to-join-sdslabs). We'll continue taking open
 lectures on variety of topics. Stay connected with us on our Facebook
-[page](http://facebook.com/sdslabs) for the updates regarding this.
+[page](https://facebook.com/sdslabs) for the updates regarding this.
 
 ## Programmers
 

@@ -4,7 +4,7 @@ title: Launching Hubble
 excerpt: SDSLabs launches Hubble
 author:
   name: Asutosh Palai
-  link: http://asutoshpalai.in
+  link: https://asutoshpalai.in
   bio: Developer, SDSLabs
   twitter: asupalai
   image: palai.jpg
@@ -42,6 +42,6 @@ The technologies used while building and in running Hubble are:
 - The backend is on PHP using Slim (a microframework)
 - The backend follows the MVC code architecture pattern.
 - We are using Twig as the html templating engine.
-- We are using [SCSS](http://sass-lang.com/) and hence made our CSS life a bit easier
-- We also delegate boring tasks to our faithful CLI tool [Grunt](http://gruntjs.com/).
-- We are using [Mailgun](http://www.mailgun.com/) for mailing.
+- We are using [SCSS](https://sass-lang.com/) and hence made our CSS life a bit easier
+- We also delegate boring tasks to our faithful CLI tool [Grunt](https://gruntjs.com/).
+- We are using [Mailgun](https://www.mailgun.com/) for mailing.

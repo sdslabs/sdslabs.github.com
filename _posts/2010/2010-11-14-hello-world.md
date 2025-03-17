@@ -16,13 +16,13 @@ We have  been holding regular lectures mainly among the students of first and  s
 This web portal has been developed by the SDS Labs as a small initiative to facilitate campus life of the students.
 
 
-**[Filepanda](http://sdslabs.co.in/filepanda)"**  is a self updating local software repository which contains most of the  daily use softwares. In essence, you dont need to download a software  from internet every time a new version is released. Currently it has  around 300 softwares but some plans for its expansion are in the  pipeline.
+**[Filepanda](https://sdslabs.co.in/filepanda)"**  is a self updating local software repository which contains most of the  daily use softwares. In essence, you dont need to download a software  from internet every time a new version is released. Currently it has  around 300 softwares but some plans for its expansion are in the  pipeline.
 
-**[Campus Omegle](http://sdslabs.co.in/campusomegle)** is a web application on the lines of the popular website omegle.com.  This app randomly pairs any two online people on the campus for the  chatting purpose. The chat is completely anonymous and we dont archive  your chats in any way!
+**[Campus Omegle](https://sdslabs.co.in/campusomegle)** is a web application on the lines of the popular website omegle.com.  This app randomly pairs any two online people on the campus for the  chatting purpose. The chat is completely anonymous and we dont archive  your chats in any way!
 
-**[Popcorn Movies](http://sdslabs.co.in/movies)**is a local movie repository which makes available the  download of recently released movies. Note that the purpose is not to  store all movies but only the recently popular ones. It has got some  really cool features. We hope that this will cause a reduction in the  effort by students to download new movies from internet thereby leading  to a decrease in the amount of bandwidth wasted for the purpose.
+**[Popcorn Movies](https://sdslabs.co.in/movies)**is a local movie repository which makes available the  download of recently released movies. Note that the purpose is not to  store all movies but only the recently popular ones. It has got some  really cool features. We hope that this will cause a reduction in the  effort by students to download new movies from internet thereby leading  to a decrease in the amount of bandwidth wasted for the purpose.
 
-**[Codevillage](http://sdslabs.co.in/codevillage)**" is a application promoting programming that automatically  compiles, executes and matches the output of submitted solutions hence  judging them as being wrong or correct and much more. Currently, it is a  little buggy and in beta phase but we hope to release a much better  version later.
+**[Codevillage](https://sdslabs.co.in/codevillage)**" is a application promoting programming that automatically  compiles, executes and matches the output of submitted solutions hence  judging them as being wrong or correct and much more. Currently, it is a  little buggy and in beta phase but we hope to release a much better  version later.
 
 Thats all folks! We hope that you enjoy the portal. If you have anything to say do drop us a mail at *<contact@sdslabs.co.in>*. We would love to hear from you.
 

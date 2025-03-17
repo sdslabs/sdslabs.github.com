@@ -27,13 +27,13 @@ above everything else. Go give it a try at <https://erdos.sdslabs.co.in> and
 
 Lots of exciting features such as gamification (badges), more analytics & visualizations, contests are in the pipeline and will be public soon!
 
-## [CodeBot](http://codebot.sdslabs.co.in/)
+## [CodeBot](https://codebot.sdslabs.co.in/)
 
 Many of you may have heard of [Project Euler](https://projecteuler.net), a 
 collection of various mathematical problems ranging in difficulty from easy
 to extremely hard. CodeBot is a stylized, terminal-style alternative interface
 to Project Euler. It is an online application, available for everyone at
-<http://codebot.sdslabs.co.in/>. You can create a new account and submit
+<https://codebot.sdslabs.co.in/>. You can create a new account and submit
 solutions to the Project Euler problems. The problems are re-used from Project
 Euler under a Creative Commons licence.
 
@@ -49,6 +49,6 @@ contests on Erdős, similar to the CodeBlitz contests we have on CodeVillage.
 over to iron the kinks before their public launch.
 - CodeBot uses node.js for the backend, and redis as the storage mechanism,
 while being hosted on Heroku.
-- [Programming and Algorithms Group](http://pag.sdslabs.co/) (PAG), IITR has
+- [Programming and Algorithms Group](https://pag.sdslabs.co/) (PAG), IITR has
 agreed to help us out in keeping Erdős updated with new problems.
 - Erdős uses Chart.js to generate all the awesome visualizations.

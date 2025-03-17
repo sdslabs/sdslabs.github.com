@@ -15,7 +15,7 @@ Last summer, we discussed the idea of converting Backdoor into a year round plat
 Things started to get interesting. We were excited to kickstart the project development.
 Before anything else, we knew that designing challenges around real world scenarios was critical for platform's success.
 
-Slack played a major role for discussing both design and structure of the code. An overview of the application's user experience design and interaction can be seen [here](http://vikalpgupta.com/projects/bckdr.html "Backdoor UX/UI"). By the end of October 2014, we had Backdoor deployed over the intranet of IIT Roorkee.
+Slack played a major role for discussing both design and structure of the code. An overview of the application's user experience design and interaction can be seen [here](https://vikalpgupta.com/projects/bckdr.html "Backdoor UX/UI"). By the end of October 2014, we had Backdoor deployed over the intranet of IIT Roorkee.
 
 The initial aim was to launch Backdoor over the internet. We want it to be accessible to any inquisitive mind. Following a major refactor of the codebase, to modularize its backend, we made Backdoor accessible over the internet starting **24th February 2015**.
 

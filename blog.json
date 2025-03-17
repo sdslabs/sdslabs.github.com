@@ -1,7 +1,7 @@
 ---
 ---
 {
-    "url_root":"http://blog.sdslabs.co.in",
+    "url_root":"https://blog.sdslabs.co.in",
     "posts":[
     {% for post in site.posts limit:10 %}
     {
